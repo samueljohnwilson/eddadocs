@@ -1,0 +1,22 @@
+<template>
+  <div>
+    <v-card-title>
+      Overview
+    </v-card-title>
+    <v-card-text>
+      Cerrunos and his brother, Ulat, were the second of the Urdor to be brought
+      forth. He resides in Eya alongside the other two Eyar, Othar and Eos.
+    </v-card-text>
+    <v-card-text>
+      After Eos began to populate the world with humanoid creations, Cerrunos
+      offered them his knowledge, acting as a civilizing force for the denizens
+      of Edda. For a time, he walked among the first men, serving as a guide and
+      leader. For this reason, he is remembered among humans as The First King.
+    </v-card-text>
+    <v-card-text>
+      Cerrunos is rarely roused to anger, but the justice he metes out can be
+      perceived as brutal. His devotees are known for their dispassionate
+      adherence to law.
+    </v-card-text>
+  </div>
+</template>
