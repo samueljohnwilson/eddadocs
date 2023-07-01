@@ -2,7 +2,6 @@ import { Gods } from '@/constants/gods';
 import MainComponent from './MainComponent.vue';
 import SidebarComponent from './SidebarComponent.vue';
 import type { BaseArticleData } from '@/types';
-import { shallowRef } from 'vue';
 import GodsDescription from '../GodsDescription.vue';
 
 export default {
@@ -18,7 +17,7 @@ export default {
     url: 'gods/ulat-main.png',
     title: 'An avatar of Ulat',
   },
-  content: shallowRef(MainComponent),
-  sidebar: shallowRef(SidebarComponent),
-  groupDescription: shallowRef(GodsDescription),
+  content: MainComponent,
+  sidebar: SidebarComponent,
+  groupDescription: GodsDescription,
 } as BaseArticleData;

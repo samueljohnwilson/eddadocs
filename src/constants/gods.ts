@@ -1,9 +1,11 @@
 export const Gods = {
   SURAD: 'surad',
+  AMURAN: 'amuran',
+  URA: 'URA',
+  THUL: 'thul',
   ENORETH: 'enoreth',
-  EOS: 'eos',
+  PO: 'po',
   ETH_KOREL: 'eth-korel',
   MALAK: 'malak',
-  OTHAR: 'othar',
   ULAT: 'ulat',
 } as const;

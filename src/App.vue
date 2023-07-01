@@ -85,6 +85,16 @@ h1 {
   }
 }
 
+.group-description {
+  & p {
+    padding-bottom: 1rem;
+  }
+  & a {
+    text-decoration: none;
+    color: rgb(var(--v-theme-secondary));
+  }
+}
+
 /* .sidebar {
   background-color: #b8c8d8 !important;
 }

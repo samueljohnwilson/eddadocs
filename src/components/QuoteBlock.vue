@@ -13,8 +13,8 @@ defineProps({
 
 <template>
   <div>
-    <v-card-text class="quote rounded-xl">
-      <blockquote v-html="quote" />
+    <v-card-text class="rounded-xl">
+      <blockquote v-html="quote" ></blockquote>
     </v-card-text>
     <p class="img-title" style="color: grey">{{ attribution }}</p>
   </div>
