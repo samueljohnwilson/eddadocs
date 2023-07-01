@@ -11,11 +11,10 @@
       <v-img
         class="rounded-xl"
         style="cursor: pointer"
+        cover
         :class="imageClassName"
         :src="getAsset(image)"
         :key="image"
-        :width="imageWidth"
-        :height="imageHeight"
         :lazy-src="blackBackground"
         @click="showLightbox"
       />
@@ -26,15 +25,6 @@
       style="color: grey"
       v-html="imageTitle"
     ></p>
-    <VueEasyLightbox
-      :teleport="imageClassName"
-      zoomDisabled
-      moveDisabled
-      :scrollDisabled="false"
-      :imgs="getAsset(image)"
-      :visible="isLightboxVisible"
-      @hide="hideLightbox"
-    />
   </div>
 </template>
 
@@ -51,14 +41,6 @@ defineProps({
   },
   imageClassName: {
     type: String,
-  },
-  imageHeight: {
-    type: String,
-    required: true,
-  },
-  imageWidth: {
-    type: String,
-    required: true,
   },
   imageTitle: {
     type: String,

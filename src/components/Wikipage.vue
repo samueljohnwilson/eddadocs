@@ -1,25 +1,27 @@
 <template>
-  <!-- <NavButton :data="articles" :active="activeArticle" :setActive="setActiveArticle" /> -->
-  <BaseArticle :data="activeArticle" />
+  <v-container class="main" fluid>
+    <NavBar :navElements="navElements" :parentPath="parentPath"/>
+    <BaseArticle :activeArticle="activeArticle"/>
+  </v-container>
 </template>
 
 <script setup lang="ts">
 import BaseArticle from '@/components/BaseArticle.vue';
-// import NavButton from '@/components/NavButton.vue';
-import { BaseArticleData } from '@/types';
-import { PropType } from 'vue';
+import NavBar from '@/components/NavBar.vue';
+import { type BaseArticleData } from '@/types';
+import { type PropType } from 'vue';
 
 defineProps({
-  articles: {
-    type: Object as PropType<Record<string, BaseArticleData>>,
+  navElements: {
+    type: Array as PropType<string[]>,
+    required: true,
+  },
+  parentPath: {
+    type: String,
     required: true,
   },
   activeArticle: {
     type: Object as PropType<BaseArticleData>,
-    required: true,
-  },
-  setActiveArticle: {
-    type: Function as PropType<(article: string) => void>,
     required: true,
   },
 });

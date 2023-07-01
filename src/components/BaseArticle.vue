@@ -1,50 +1,53 @@
 <template>
-  <v-container>
-    <h1>{{ data.title }}</h1>
-    <v-card class="base rounded-xl">
-      <v-row align="center" justify="center">
-        <v-col :cols="$vuetify.display.smAndDown ? 12 : 8">
-          <FadeImage
-            :image="data.image.url"
-            :imageTitle="data.image.title"
-            imageHeight="40rem"
-            imageWidth="40rem"
-          />
-        </v-col>
-        <v-col v-if="$vuetify.display.mdAndUp" cols="4">
-          <QuoteBlock
-            :quoteAttribution="data.quote.attribution"
-            :quote="data.quote"
-          />
-        </v-col>
-      </v-row>
-      <v-row v-if="$vuetify.display.smAndDown">
-        <v-col cols="12">
-          <QuoteBlock
-            :quoteAttribution="data.quote.attribution"
-            :quote="data.quote"
-          />
-        </v-col>
-      </v-row>
-      <v-row>
-        <v-col :cols="!data.sidebar || $vuetify.display.smAndDown ? 12 : 8">
-          <component v-bind:is="data.content" />
-        </v-col>
-        <v-col
-          v-if="data.sidebar"
-          :cols="$vuetify.display.smAndDown ? 12 : 4"
-        >
-          <v-card
-            class="sidebar rounded-xl"
-            style="padding: 1rem"
-            elevation="0"
-          >
-            <component v-bind:is="data.sidebar" />
-          </v-card>
-        </v-col>
-      </v-row>
-      <!-- <Foot /> -->
-    </v-card>
+  <v-container fluid>
+    <v-row>
+      <v-col cols="3" class="group-description">
+        <component v-bind:is="activeArticle.groupDescription" />
+      </v-col>
+      <v-col cols="9">
+        <v-card class="rounded-xl pa-6">
+          <v-card-title>
+            {{ activeArticle.title }}
+          </v-card-title>
+          <v-row align="center" justify="center">
+            <v-col :cols="$vuetify.display.smAndDown ? 12 : 8">
+              <FadeImage
+                :image="activeArticle.image.url"
+                :imageTitle="activeArticle.image.title"
+              />
+            </v-col>
+            <v-col v-if="$vuetify.display.mdAndUp" cols="4">
+              <QuoteBlock
+                :attribution="activeArticle.quote.attribution"
+                :quote="activeArticle.quote.text"
+              />
+            </v-col>
+          </v-row>
+          <v-row v-if="$vuetify.display.smAndDown">
+            <v-col cols="12">
+              <QuoteBlock
+                :attribution="activeArticle.quote.attribution"
+                :quote="activeArticle.quote.text"
+              />
+            </v-col>
+          </v-row>
+          <v-row>
+            <v-col :cols="!activeArticle.sidebar || $vuetify.display.smAndDown ? 12 : 8">
+              <component v-bind:is="activeArticle.content" />
+            </v-col>
+            <v-col
+              v-if="activeArticle.sidebar"
+              :cols="$vuetify.display.smAndDown ? 12 : 4"
+            >
+              <v-card elevation="0">
+                <component v-bind:is="activeArticle.sidebar" />
+              </v-card>
+            </v-col>
+          </v-row>
+          <!-- <Foot /> -->
+        </v-card>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
@@ -52,9 +55,10 @@
 import { type BaseArticleData } from '@/types';
 import { type PropType } from 'vue';
 import FadeImage from './FadeImage.vue';
+import QuoteBlock from './QuoteBlock.vue';
 
 defineProps({
-  data: {
+  activeArticle: {
     type: Object as PropType<BaseArticleData>,
     required: true,
   },

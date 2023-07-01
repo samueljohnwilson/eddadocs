@@ -1,20 +1,24 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import gods from './gods';
 
-const router = createRouter({
+export default createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
-      name: 'home',
-      component: HomeView
-    },
-    {
       path: '/gods',
       name: 'gods',
-      component: () => import('../views/Gods.vue')
+      redirect: gods[0].path,
+      children: gods
+    },
+    {
+      path: '/races',
+      name: 'races',
+      component: () => import('../views/GodsView.vue')
+    },
+    {
+      path: '/maps',
+      name: 'maps',
+      component: () => import('../views/GodsView.vue')
     }
   ]
-})
-
-export default router
+});

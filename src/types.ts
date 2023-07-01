@@ -12,4 +12,5 @@ export interface BaseArticleData {
     attribution: string;
   };
   sidebar?: any;
+  groupDescription?: any;
 }

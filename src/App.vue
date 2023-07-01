@@ -1,85 +1,99 @@
 <script setup lang="ts">
+import 'animate.css';
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/gods">Gods</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+  <v-app>
+    <v-main>
+      <v-container fluid id="main-container">
+        <v-row class="navbar">
+          <RouterLink to="/gods">GODS</RouterLink>
+          <RouterLink to="/races">RACES</RouterLink>
+          <RouterLink to="/maps">MAPS</RouterLink>
+        </v-row>
+        <v-row>
+          <RouterView />
+        </v-row>
+      </v-container>
+    </v-main>
+  </v-app>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
+<style>
+html,
+body {
+  font-size: 16px;
+  margin: 0;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+.v-main {
+  background-color: rgb(var(--v-theme-primary));
+  color: rgb(var(--v-theme-white));
+  font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
+#main-container {
+  width: 85%;
 }
 
-nav a.router-link-exact-active {
-  color: var(--color-text);
+.v-img {
+  margin: 0 auto;
+  border: 1px black solid;
 }
 
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
+p.group-description {
+  padding-top: 3rem;
 }
 
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+.v-card-subtitle {
+  font-size: 1.25rem;
+  padding: 0 0 0.5rem;
 }
 
-nav a:first-of-type {
-  border: 0;
+.v-card-title {
+  font-size: 2rem;
+  padding: 0 0 1rem;
 }
 
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+.v-card-text {
+  font-size: 1rem;
+  padding: 0 0 0.5rem;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 0 0 1.5rem;
+}
+
+.navbar {
+  padding: 1rem;
+  font-weight: bold;
+  justify-content: center;
+  
+  & a {
+    font-size: 1.25rem;
+    padding: 0 0.5rem 0;
+    text-decoration: none;
+    color: rgb(var(--v-theme-white));
+
+    &.router-link-active {
+      color: rgb(var(--v-theme-secondary));
+    }
   }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
 }
+
+/* .sidebar {
+  background-color: #b8c8d8 !important;
+}
+
+.animate__animated.view {
+  --animate-duration: 1s;
+} */
+
+/* .leaflet-control-attribution {
+  display: none !important;
+} */
 </style>
