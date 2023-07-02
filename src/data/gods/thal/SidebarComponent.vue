@@ -7,7 +7,7 @@ import FadeImage from '@/components/FadeImage.vue';
     Alignment
   </v-card-subtitle>
   <v-card-text>
-    Lawful Good
+    Chaotic Neutral
   </v-card-text>
   <v-card-text>
   </v-card-text>
@@ -23,21 +23,19 @@ import FadeImage from '@/components/FadeImage.vue';
     Associations
   </v-card-subtitle>
   <v-card-text>
-    Justice<br />
-    Order<br />
-    Agriculture<br />
-    Craftsmen<br />
+    Weather<br />
+    Wind<br />
   </v-card-text>
   <FadeImage
-    image="gods/surad-sidebar-1.png"
-    imageTitle="Surad first appears atop Mount Therod"
+    image="gods/thal-sidebar-1.webp"
+    imageTitle="Member of the Argenguard"
   />
   <FadeImage
-    image="gods/surad-sidebar-2.png"
-    imageTitle="A priest attending to an orphan"
+    image="gods/thal-sidebar-2.webp"
+    imageTitle="A Dal windlistener"
   />
   <FadeImage
-    image="gods/surad-sidebar-3.png"
-    imageTitle="A Paragon"
+    image="gods/thal-sidebar-3.webp"
+    imageTitle="A pair of skremling"
   />
 </template>

@@ -85,6 +85,10 @@ h1 {
   }
 }
 
+.sidebar .fade-image {
+  padding-bottom: 1rem;
+}
+
 .group-description {
   & p {
     padding-bottom: 1rem;

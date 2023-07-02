@@ -1,7 +1,8 @@
+import type { DefineComponent } from "vue";
+
 export interface BaseArticleData {
   id: string;
   className?: string;
-  content: any;
   image: {
     url: string;
     title: string;
@@ -11,6 +12,7 @@ export interface BaseArticleData {
     text: string;
     attribution: string;
   };
-  sidebar?: any;
-  groupDescription?: any;
+  content: DefineComponent;
+  sidebar?: DefineComponent;
+  groupDescription?: DefineComponent;
 }

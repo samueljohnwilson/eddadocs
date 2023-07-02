@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="fade-image">
     <!-- Adds transitions to images -->
     <!-- See https://animate.style/ -->
     <transition
@@ -9,7 +9,7 @@
       leave-active-class="animate__animated animate__fadeOut img"
     >
       <v-img
-        class="rounded-xl"
+        class="rounded-0"
         style="cursor: pointer"
         cover
         :class="imageClassName"

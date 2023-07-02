@@ -5,7 +5,7 @@
         <component v-bind:is="activeArticle.groupDescription" />
       </v-col>
       <v-col cols="9">
-        <v-card class="rounded-xl pa-6">
+        <v-card class="rounded-0 pa-6">
           <v-card-title>
             {{ activeArticle.title }}
           </v-card-title>
@@ -39,8 +39,8 @@
               v-if="activeArticle.sidebar"
               :cols="$vuetify.display.smAndDown ? 12 : 4"
             >
-              <v-card elevation="0">
-                <component v-bind:is="activeArticle.sidebar" />
+              <v-card elevation="0" class="sidebar">
+                <component v-bind:is="activeArticle.sidebar"/>
               </v-card>
             </v-col>
           </v-row>

@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import FadeImage from '@/components/FadeImage.vue';
+</script>
+
 <template>
   <v-card-subtitle>
     Known As
@@ -18,4 +22,16 @@
     Agriculture<br />
     Craftsmen<br />
   </v-card-text>
+  <FadeImage
+    image="gods/ulat-sidebar-1.png"
+    imageTitle="The Scourging of Ithra"
+  />
+  <FadeImage
+    image="gods/ulat-sidebar-2.webp"
+    imageTitle="Orc shaman"
+  />
+  <FadeImage
+    image="gods/ulat-sidebar-3.webp"
+    imageTitle="The Hu'rak"
+  />
 </template>

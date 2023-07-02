@@ -10,13 +10,14 @@ import VueEasyLightbox from 'vue-easy-lightbox';
 import App from './App.vue';
 import router from './router';
 
+const colors = {
+  primary: '#2c3e50',
+  secondary: '#db4500',
+  white: '#fdf7ef',
+};
 const defaultTheme: ThemeDefinition = {
   dark: false,
-  colors: {
-    primary: '#2c3e50',
-    secondary: '#db4500',
-    white: '#fdf7ef',
-  },
+  colors,
 };
 const vuetify = createVuetify({
   components,
@@ -24,8 +25,8 @@ const vuetify = createVuetify({
   blueprint: md3,
   defaults: {
     VCard: {
-      // @ts-ignore
-      color: defaultTheme.colors.white, 
+      color: colors.white,
+      rounded: 0,
     }
   },
   theme: {
