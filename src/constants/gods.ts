@@ -1,7 +1,7 @@
 export const Gods = {
   SURAD: 'surad',
   AGORUS: 'agorus',
-  URA: 'URA',
+  URA: 'ura',
   THAL: 'thal',
   ENORETH: 'enoreth',
   PO: 'po',

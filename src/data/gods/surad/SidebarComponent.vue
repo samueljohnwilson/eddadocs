@@ -30,7 +30,7 @@ import FadeImage from '@/components/FadeImage.vue';
   </v-card-text>
   <FadeImage
     image="gods/surad-sidebar-1.png"
-    imageTitle="Surad first appears atop Mount Therod"
+    imageTitle="Surad first appears atop Mount Jova"
   />
   <FadeImage
     image="gods/surad-sidebar-2.png"

@@ -32,10 +32,10 @@ import FadeImage from '@/components/FadeImage.vue';
   />
   <FadeImage
     image="gods/thal-sidebar-2.webp"
-    imageTitle="A Dal windlistener"
+    imageTitle="An Arbiter addresses the mob"
   />
   <FadeImage
     image="gods/thal-sidebar-3.webp"
-    imageTitle="A pair of skremling"
+    imageTitle="A faithful golem awaits"
   />
 </template>

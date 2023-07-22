@@ -2,7 +2,7 @@
   <v-container fluid>
     <v-row>
       <v-col cols="3" class="group-description">
-        <component v-bind:is="activeArticle.groupDescription" />
+        <component v-bind:is="activeArticle.groupDescription!" />
       </v-col>
       <v-col cols="9">
         <v-card class="rounded-0 pa-6">

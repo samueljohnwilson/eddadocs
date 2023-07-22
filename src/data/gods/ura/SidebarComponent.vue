@@ -4,20 +4,14 @@ import FadeImage from '@/components/FadeImage.vue';
 
 <template>
   <v-card-subtitle>
-    Alignment
-  </v-card-subtitle>
-  <v-card-text>
-    Lawful Good
-  </v-card-text>
-  <v-card-text>
-  </v-card-text>
-  <v-card-subtitle>
     Known As
   </v-card-subtitle>
   <v-card-text>
+    Surad (Elvish)<br />
+    Surad (Dwarvish)<br />
+    Skoshga (Orcish)<br />
     The First King<br />
-    The Father<br />
-    The Lawgiver<br />
+    The Arbiter
   </v-card-text>
   <v-card-subtitle>
     Associations
@@ -29,15 +23,15 @@ import FadeImage from '@/components/FadeImage.vue';
     Craftsmen<br />
   </v-card-text>
   <FadeImage
-    image="gods/agorus-sidebar-1.webp"
-    imageTitle="One of the Gates of Agorus"
+    image="gods/ura-sidebar-1.webp"
+    imageTitle="The first men awaken"
   />
   <FadeImage
-    image="gods/agorus-sidebar-2.webp"
-    imageTitle="A student at the Acumenium"
+    image="gods/ura-sidebar-2.webp"
+    imageTitle="Orc shaman"
   />
   <FadeImage
-    image="gods/agorus-sidebar-3.webp"
-    imageTitle="A Strix"
+    image="gods/ura-sidebar-3.webp"
+    imageTitle="The Hu'rak"
   />
 </template>
