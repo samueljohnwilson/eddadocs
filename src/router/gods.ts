@@ -1,8 +1,10 @@
 import type { RouteRecordRaw } from "vue-router";
 import agorus from '@/data/gods/agorus/data';
 import enoreth from '@/data/gods/enoreth/data';
-import surad from '@/data/gods/surad/data';
+import ethKorel from '@/data/gods/eth-korel/data';
+import malak from '@/data/gods/malak/data';
 import po from '@/data/gods/po/data';
+import surad from '@/data/gods/surad/data';
 import thal from '@/data/gods/thal/data';
 import ulat from '@/data/gods/ulat/data';
 import ura from '@/data/gods/ura/data';
@@ -42,12 +44,12 @@ export default [
   },
   {
     path: `/${Routes.GODS}/${Gods.ETH_KOREL}`,
-    props: { activeGod: po },
+    props: { activeGod: ethKorel },
     component: () => import('../views/GodsView.vue'),
   },
   {
     path: `/${Routes.GODS}/${Gods.MALAK}`,
-    props: { activeGod: po },
+    props: { activeGod: malak },
     component: () => import('../views/GodsView.vue'),
   },
   {
