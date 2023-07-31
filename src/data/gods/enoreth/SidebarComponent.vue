@@ -30,7 +30,7 @@ import FadeImage from '@/components/FadeImage.vue';
   </v-card-text>
   <FadeImage
     image="gods/enoreth-sidebar-1.webp"
-    imageTitle="One of the Gates of Agorus"
+    imageTitle="Enoreth appears at the Godsdeath"
   />
   <FadeImage
     image="gods/enoreth-sidebar-2.webp"
@@ -38,6 +38,6 @@ import FadeImage from '@/components/FadeImage.vue';
   />
   <FadeImage
     image="gods/enoreth-sidebar-3.webp"
-    imageTitle="Elementals"
+    imageTitle="Elementals of Astra"
   />
 </template>

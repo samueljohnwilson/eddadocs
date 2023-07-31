@@ -29,15 +29,15 @@ import FadeImage from '@/components/FadeImage.vue';
     Craftsmen<br />
   </v-card-text>
   <FadeImage
-    image="gods/surad-sidebar-1.png"
+    image="gods/surad-sidebar-1.webp"
     imageTitle="Surad first appears atop Mount Jova"
   />
   <FadeImage
-    image="gods/surad-sidebar-2.png"
+    image="gods/surad-sidebar-2.webp"
     imageTitle="A priest attending to an orphan"
   />
   <FadeImage
-    image="gods/surad-sidebar-3.png"
+    image="gods/surad-sidebar-3.webp"
     imageTitle="A Paragon"
   />
 </template>

@@ -29,15 +29,15 @@ import FadeImage from '@/components/FadeImage.vue';
     Craftsmen<br />
   </v-card-text>
   <FadeImage
-    image="gods/enoreth-sidebar-1.webp"
-    imageTitle="One of the Gates of Agorus"
+    image="gods/malak-sidebar-1.webp"
+    imageTitle="Adunmon, The World-Eater"
   />
   <FadeImage
-    image="gods/enoreth-sidebar-2.webp"
+    image="gods/malak-sidebar-2.webp"
     imageTitle="A druid"
   />
   <FadeImage
-    image="gods/enoreth-sidebar-3.webp"
+    image="gods/malak-sidebar-3.webp"
     imageTitle="Elementals"
   />
 </template>
