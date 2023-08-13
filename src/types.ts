@@ -2,7 +2,6 @@ import type { DefineComponent } from "vue";
 
 export interface BaseArticleData {
   id: string;
-  className?: string;
   image: {
     url: string;
     title: string;

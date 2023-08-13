@@ -7,7 +7,6 @@ import GodsDescription from '../GodsDescription.vue';
 export default {
   id: Gods.MALAK,
   title: Gods.MALAK.toUpperCase(),
-  className: 'my-class',
   quote: {
     text:
       'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',

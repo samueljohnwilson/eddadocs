@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import gods from './gods';
+import races from './races';
 
 export default createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -13,7 +14,8 @@ export default createRouter({
     {
       path: '/races',
       name: 'races',
-      component: () => import('../views/GodsView.vue')
+      redirect: races[0].path,
+      children: races
     },
     {
       path: '/maps',

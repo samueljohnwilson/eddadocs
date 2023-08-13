@@ -12,7 +12,6 @@
         class="rounded-0"
         style="cursor: pointer"
         cover
-        :class="imageClassName"
         :src="getAsset(image)"
         :key="image"
         :lazy-src="blackBackground"
@@ -38,9 +37,6 @@ defineProps({
   image: {
     type: String,
     required: true,
-  },
-  imageClassName: {
-    type: String,
   },
   imageTitle: {
     type: String,

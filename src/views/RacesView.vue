@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import Wikipage from '@/components/WikiPage.vue';
-import { Gods } from '@/constants/gods';
+import { Races } from '@/constants/races';
 import { Routes } from '@/constants/routes';
 import type { BaseArticleData } from '@/types';
 import type { PropType } from 'vue';
 
 defineProps({
-  activeGod: {
+  activeRace: {
     type: Object as PropType<BaseArticleData>,
     required: true,
   },
@@ -14,5 +14,5 @@ defineProps({
 </script>
 
 <template>
-  <Wikipage :navElements="Object.values(Gods)" :parentPath="Routes.GODS" :activeArticle="activeGod"/>
+  <Wikipage :navElements="Object.values(Races)" :parentPath="Routes.RACES" :activeArticle="activeRace"/>
 </template>
