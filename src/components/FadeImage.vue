@@ -80,7 +80,7 @@ onMounted(() => {
 
 <style>
 .animate__animated.img {
-  --animate-duration: 2s;
+  --animate-duration: 1s;
 }
 
 .vel-toolbar {
