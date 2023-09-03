@@ -1,10 +1,9 @@
 import type { RouteRecordRaw } from "vue-router";
 import { Routes } from '@/enums/routes';
-import { Gods } from '@/constants/gods';
 import data from '@/data/gods/data';
-import type { ValueOf } from '@/utils/valueOf';
+import { Gods } from "@/enums/gods";
 
-const routeFactory = (god: ValueOf<typeof Gods>) => ({
+const routeFactory = (god: Gods) => ({
   path: `/${Routes.GODS}/${god}`,
   props: { activeGod: data[god] },
   component: () => import('../views/GodsView.vue')

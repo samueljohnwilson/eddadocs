@@ -6,6 +6,7 @@ import human from './human/data';
 import halfElf from './half-elf/data';
 import halfOrc from './half-orc/data';
 import halfling from './halfling/data';
+import type { BaseArticleData } from '@/types';
 
 export default {
   [Races.DWARF]: dwarf,
@@ -15,4 +16,4 @@ export default {
   [Races.HALF_ELF]: halfElf,
   [Races.HALF_ORC]: halfOrc,
   [Races.HALFLING]: halfling,
-} as const;
+} as Record<Races, BaseArticleData>;

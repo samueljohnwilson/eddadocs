@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Wikipage from '@/components/WikiPage.vue';
+import WikiPage from '@/components/WikiPage.vue';
 import { Lands } from '@/enums/lands';
 import { Routes } from '@/enums/routes';
 import type { BaseArticleData } from '@/types';
@@ -14,5 +14,5 @@ defineProps({
 </script>
 
 <template>
-  <Wikipage :navElements="Object.values(Lands)" :parentPath="Routes.LANDS" :activeArticle="activeLand"/>
+  <WikiPage :navElements="Object.values(Lands)" :parentPath="Routes.LANDS" :activeArticle="activeLand"/>
 </template>

@@ -1,4 +1,4 @@
-import { Gods } from '@/constants/gods';
+import { Gods } from '@/enums/gods';
 import agorus from './agorus/data';
 import enoreth from './enoreth/data';
 import ethKorel from './eth-korel/data';
@@ -8,6 +8,7 @@ import surad from './surad/data';
 import thal from './thal/data';
 import ulat from './ulat/data';
 import ura from './ura/data';
+import type { BaseArticleData } from '@/types';
 
 export default {
   [Gods.AGORUS]: agorus,
@@ -19,4 +20,4 @@ export default {
   [Gods.THAL]: thal,
   [Gods.ULAT]: ulat,
   [Gods.URA]: ura,
-} as const;
+} as Record<Gods, BaseArticleData>;
