@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Wikipage from '@/components/WikiPage.vue';
-import { Races } from '@/constants/races';
+import { Races } from '@/enums/races';
 import { Routes } from '@/enums/routes';
 import type { BaseArticleData } from '@/types';
 import type { PropType } from 'vue';

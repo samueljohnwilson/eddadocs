@@ -1,48 +1,12 @@
-import type { RouteRecordRaw } from "vue-router";
+import type { RouteRecordRaw } from 'vue-router';
+import data from '@/data/races/data';
 import { Routes } from '@/enums/routes';
-import { Races } from "@/constants/races";
-import dwarf from '@/data/races/dwarf/data';
-import elf from '@/data/races/elf/data';
-import halfElf from '@/data/races/half-elf/data';
-import halfOrc from '@/data/races/half-orc/data';
-import halfling from '@/data/races/halfling/data';
-import human from '@/data/races/human/data';
-import firbolg from '@/data/races/firbolg/data';
+import { Races } from '@/enums/races';
 
-export default [
-  {
-    path: `/${Routes.RACES}/${Races.DWARF}`,
-    props: { activeRace: dwarf },
-    component: () => import('../views/RacesView.vue'),
-  },
-  {
-    path: `/${Routes.RACES}/${Races.ELF}`,
-    props: { activeRace: elf },
-    component: () => import('../views/RacesView.vue'),
-  },
-  {
-    path: `/${Routes.RACES}/${Races.HUMAN}`,
-    props: { activeRace: human },
-    component: () => import('../views/RacesView.vue'),
-  },
-  {
-    path: `/${Routes.RACES}/${Races.HALF_ELF}`,
-    props: { activeRace: halfElf },
-    component: () => import('../views/RacesView.vue'),
-  },
-  {
-    path: `/${Routes.RACES}/${Races.HALF_ORC}`,
-    props: { activeRace: halfOrc },
-    component: () => import('../views/RacesView.vue'),
-  },
-  {
-    path: `/${Routes.RACES}/${Races.HALFLING}`,
-    props: { activeRace: halfling },
-    component: () => import('../views/RacesView.vue'),
-  },
-  {
-    path: `/${Routes.RACES}/${Races.FIRBOLG}`,
-    props: { activeRace: firbolg },
-    component: () => import('../views/RacesView.vue'),
-  }
-] as RouteRecordRaw[];
+const routeFactory = (race: Races) => ({
+  path: `/${Routes.RACES}/${race}`,
+  props: { activeRace: data[race] },
+  component: () => import('../views/RacesView.vue')
+});
+
+export default Object.values(Races).map((race) => routeFactory(race)) as RouteRecordRaw[];

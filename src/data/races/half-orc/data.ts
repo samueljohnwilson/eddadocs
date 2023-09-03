@@ -1,4 +1,4 @@
-import { Races } from '@/constants/races';
+import { Races } from '@/enums/races';
 import MainComponent from './MainComponent.vue';
 import SidebarComponent from './SidebarComponent.vue';
 import type { BaseArticleData } from '@/types';
