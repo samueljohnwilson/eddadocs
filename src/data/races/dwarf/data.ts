@@ -1,8 +1,8 @@
 import { Races } from '@/enums/races';
-import MainComponent from './MainComponent.vue';
-import SidebarComponent from './SidebarComponent.vue';
 import type { BaseArticleData } from '@/types';
 import RacesDescription from '../RacesDescription.vue';
+import MainComponent from './MainComponent.vue';
+import SidebarComponent from './SidebarComponent.vue';
 
 export default {
   id: Races.DWARF,

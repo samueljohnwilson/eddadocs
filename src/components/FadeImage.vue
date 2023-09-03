@@ -29,9 +29,9 @@
 
 <script setup lang="ts">
 import 'animate.css';
+import { onMounted } from 'vue';
 import blackBackground from '@/assets/black-background.jpg';
 import { getAsset } from '@/utils/getAsset';
-import { onMounted } from 'vue';
 
 defineProps({
   image: {

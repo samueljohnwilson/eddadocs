@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
-import gods from './gods';
-import races from './races';
-import lands from './lands';
 import { Routes } from '@/enums/routes';
+import gods from './gods';
+import lands from './lands';
+import races from './races';
 
 const routes: Record<Routes, RouteRecordRaw[] | null> = {
   [Routes.GODS]: gods,

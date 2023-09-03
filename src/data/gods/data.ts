@@ -1,4 +1,5 @@
 import { Gods } from '@/enums/gods';
+import type { BaseArticleData } from '@/types';
 import agorus from './agorus/data';
 import enoreth from './enoreth/data';
 import ethKorel from './eth-korel/data';
@@ -8,7 +9,6 @@ import surad from './surad/data';
 import thal from './thal/data';
 import ulat from './ulat/data';
 import ura from './ura/data';
-import type { BaseArticleData } from '@/types';
 
 export default {
   [Gods.AGORUS]: agorus,

@@ -1,7 +1,7 @@
-import type { RouteRecordRaw } from "vue-router";
-import { Routes } from '@/enums/routes';
+import type { RouteRecordRaw } from 'vue-router';
 import data from '@/data/gods/data';
-import { Gods } from "@/enums/gods";
+import { Gods } from '@/enums/gods';
+import { Routes } from '@/enums/routes';
 
 const routeFactory = (god: Gods) => ({
   path: `/${Routes.GODS}/${god}`,

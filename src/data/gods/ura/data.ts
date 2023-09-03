@@ -1,8 +1,8 @@
 import { Gods } from '@/enums/gods';
-import MainComponent from './MainComponent.vue';
-import SidebarComponent from './SidebarComponent.vue';
 import type { BaseArticleData } from '@/types';
 import GodsDescription from '../GodsDescription.vue';
+import MainComponent from './MainComponent.vue';
+import SidebarComponent from './SidebarComponent.vue';
 
 export default {
   id: Gods.URA,

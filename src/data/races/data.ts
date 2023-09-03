@@ -1,12 +1,12 @@
 import { Races } from '@/enums/races';
+import type { BaseArticleData } from '@/types';
 import dwarf from './dwarf/data';
 import elf from './elf/data';
 import firbolg from './firbolg/data';
-import human from './human/data';
 import halfElf from './half-elf/data';
 import halfOrc from './half-orc/data';
 import halfling from './halfling/data';
-import type { BaseArticleData } from '@/types';
+import human from './human/data';
 
 export default {
   [Races.DWARF]: dwarf,

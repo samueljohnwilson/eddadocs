@@ -1,8 +1,8 @@
 import { Lands } from '@/enums/lands';
-import MainComponent from './MainComponent.vue';
-import SidebarComponent from './SidebarComponent.vue';
 import type { BaseArticleData } from '@/types';
 import LandsDescription from '../LandsDescription.vue';
+import MainComponent from './MainComponent.vue';
+import SidebarComponent from './SidebarComponent.vue';
 
 export default {
   id: Lands.ALBIA,

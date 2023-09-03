@@ -12,7 +12,13 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest'
   },
+  plugins: ['simple-import-sort'],
   rules: {
     'eol-last': ['error', 'always'],
+    'quotes': ['error', 'single'],
+    'simple-import-sort/imports': ['error', {
+      groups: [['^\\u0000', '^node:', '^@?\\w', '^', '^\\.']],
+    }],
+    'simple-import-sort/exports': 'error',
   }
 }

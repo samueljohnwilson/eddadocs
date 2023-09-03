@@ -1,6 +1,6 @@
+import { Lands } from '@/enums/lands';
 import type { BaseArticleData } from '@/types';
 import albia from './albia/data';
-import { Lands } from '@/enums/lands';
 
 export default {
   [Lands.ALBIA]: albia,

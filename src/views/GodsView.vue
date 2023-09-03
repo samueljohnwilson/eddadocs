@@ -1,9 +1,9 @@
 <script setup lang="ts">
+import type { PropType } from 'vue';
 import WikiPage from '@/components/WikiPage.vue';
 import { Gods } from '@/enums/gods';
 import { Routes } from '@/enums/routes';
 import type { BaseArticleData } from '@/types';
-import type { PropType } from 'vue';
 
 defineProps({
   activeGod: {

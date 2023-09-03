@@ -1,7 +1,7 @@
 import type { RouteRecordRaw } from 'vue-router';
 import data from '@/data/races/data';
-import { Routes } from '@/enums/routes';
 import { Races } from '@/enums/races';
+import { Routes } from '@/enums/routes';
 
 const routeFactory = (race: Races) => ({
   path: `/${Routes.RACES}/${race}`,

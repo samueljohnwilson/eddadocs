@@ -1,7 +1,7 @@
-import type { RouteRecordRaw } from "vue-router";
-import { Routes } from '@/enums/routes';
-import { Lands } from '@/enums/lands';
+import type { RouteRecordRaw } from 'vue-router';
 import data from '@/data/lands/data';
+import { Lands } from '@/enums/lands';
+import { Routes } from '@/enums/routes';
 
 const routeFactory = (land: Lands) => ({
   path: `/${Routes.LANDS}/${land}`,

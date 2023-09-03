@@ -52,8 +52,8 @@
 </template>
 
 <script setup lang="ts">
-import { type BaseArticleData } from '@/types';
 import { type PropType } from 'vue';
+import { type BaseArticleData } from '@/types';
 import FadeImage from './FadeImage.vue';
 import QuoteBlock from './QuoteBlock.vue';
 
