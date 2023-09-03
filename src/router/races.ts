@@ -1,5 +1,5 @@
 import type { RouteRecordRaw } from "vue-router";
-import { Routes } from '@/constants/routes';
+import { Routes } from '@/enums/routes';
 import { Races } from "@/constants/races";
 import dwarf from '@/data/races/dwarf/data';
 import elf from '@/data/races/elf/data';

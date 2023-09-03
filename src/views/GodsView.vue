@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Wikipage from '@/components/WikiPage.vue';
 import { Gods } from '@/constants/gods';
-import { Routes } from '@/constants/routes';
+import { Routes } from '@/enums/routes';
 import type { BaseArticleData } from '@/types';
 import type { PropType } from 'vue';
 

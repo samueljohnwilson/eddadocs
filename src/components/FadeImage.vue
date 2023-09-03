@@ -87,4 +87,3 @@ onMounted(() => {
   display: none !important;
 }
 </style>
-@/utils/getAsset

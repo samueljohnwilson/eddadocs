@@ -1,5 +1,6 @@
+import type { BaseArticleData } from '@/types';
 import albia from './albia/data';
-import { Lands } from '@/constants/lands';
+import { Lands } from '@/enums/lands';
 
 export default {
   [Lands.ALBIA]: albia,
@@ -11,4 +12,4 @@ export default {
   [Lands.NEYWYLL]: albia,
   [Lands.RAJAPUN]: albia,
   [Lands.WYDMYN]: albia,
-} as const;
+} as Record<Lands, BaseArticleData>;

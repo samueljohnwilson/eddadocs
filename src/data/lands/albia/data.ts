@@ -1,4 +1,4 @@
-import { Lands } from '@/constants/lands';
+import { Lands } from '@/enums/lands';
 import MainComponent from './MainComponent.vue';
 import SidebarComponent from './SidebarComponent.vue';
 import type { BaseArticleData } from '@/types';

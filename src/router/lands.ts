@@ -1,10 +1,9 @@
 import type { RouteRecordRaw } from "vue-router";
-import { Routes } from '@/constants/routes';
-import { Lands } from '@/constants/lands';
+import { Routes } from '@/enums/routes';
+import { Lands } from '@/enums/lands';
 import data from '@/data/lands/data';
-import type { ValueOf } from '@/utils/valueOf';
 
-const routeFactory = (land: ValueOf<typeof Lands>) => ({
+const routeFactory = (land: Lands) => ({
   path: `/${Routes.LANDS}/${land}`,
   props: { activeLand: data[land] },
   component: () => import('../views/LandsView.vue')
