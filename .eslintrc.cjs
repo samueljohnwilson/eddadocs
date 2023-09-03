@@ -11,5 +11,8 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest'
+  },
+  rules: {
+    'eol-last': ['error', 'always'],
   }
 }
