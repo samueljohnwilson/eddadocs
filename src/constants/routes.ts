@@ -1,4 +1,6 @@
 export const Routes = {
-  GODS: 'gods',
+  LANDS: 'lands',
   RACES: 'races',
+  GODS: 'gods',
+  MAPS: 'maps',
 } as const;

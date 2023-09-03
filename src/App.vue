@@ -8,8 +8,9 @@ import { RouterLink, RouterView } from 'vue-router'
     <v-main>
       <v-container fluid id="main-container">
         <v-row class="navbar">
-          <RouterLink to="/gods">GODS</RouterLink>
           <RouterLink to="/races">RACES</RouterLink>
+          <RouterLink to="/lands">LANDS</RouterLink>
+          <RouterLink to="/gods">GODS</RouterLink>
           <RouterLink to="/maps">MAPS</RouterLink>
         </v-row>
         <v-row>
