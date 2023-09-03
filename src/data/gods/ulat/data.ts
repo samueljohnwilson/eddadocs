@@ -13,7 +13,7 @@ export default {
     attribution: 'Sir Lunder, magistrate of the Even Hand',
   },
   image: {
-    url: 'gods/ulat-main.png',
+    url: 'gods/ulat-main.webp',
     title: 'An avatar of Ulat',
   },
   content: MainComponent,
