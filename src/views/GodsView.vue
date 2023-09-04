@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { PropType } from 'vue';
+import NavBar from '@/components/NavBar.vue';
 import WikiPage from '@/components/WikiPage.vue';
 import { Gods } from '@/enums/gods';
 import { Routes } from '@/enums/routes';
@@ -14,5 +15,8 @@ defineProps({
 </script>
 
 <template>
-  <WikiPage :navElements="Object.values(Gods)" :parentPath="Routes.GODS" :activeArticle="activeGod"/>
+  <v-container class="main">
+    <NavBar :navElements="Object.values(Gods)" :parentPath="Routes.GODS"/>
+    <WikiPage :activeArticle="activeGod"/>
+  </v-container>
 </template>

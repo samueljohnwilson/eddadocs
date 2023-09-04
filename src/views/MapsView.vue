@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { PropType } from 'vue';
 import MapPage from '@/components/MapPage.vue';
+import NavBar from '@/components/NavBar.vue';
 import { Maps } from '@/enums/maps';
 import { Routes } from '@/enums/routes';
 import type { MapData } from '@/types';
@@ -14,5 +15,8 @@ defineProps({
 </script>
 
 <template>
-  <MapPage :navElements="Object.values(Maps)" :parentPath="Routes.MAPS" :activeMap="activeMap"/>
+  <v-container class="main">
+    <NavBar :navElements="Object.values(Maps)" :parentPath="Routes.MAPS"/>
+    <MapPage :activeMap="activeMap"/>
+  </v-container> 
 </template>
