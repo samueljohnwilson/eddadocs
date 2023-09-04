@@ -3,10 +3,11 @@ import data from '@/data/gods/data';
 import { Gods } from '@/enums/gods';
 import { Routes } from '@/enums/routes';
 
-const routeFactory = (god: Gods) => ({
+const routeFactory = (god: Gods): RouteRecordRaw => ({
   path: `/${Routes.GODS}/${god}`,
   props: { activeGod: data[god] },
   component: () => import('../views/GodsView.vue')
 });
+const routes: RouteRecordRaw[] = Object.values(Gods).map((god) => routeFactory(god));
 
-export default Object.values(Gods).map((god) => routeFactory(god)) as RouteRecordRaw[];
+export default routes;

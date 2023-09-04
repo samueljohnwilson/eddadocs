@@ -10,7 +10,7 @@ import thal from './thal/data';
 import ulat from './ulat/data';
 import ura from './ura/data';
 
-export default {
+const data: Record<Gods, BaseArticleData> = {
   [Gods.AGORUS]: agorus,
   [Gods.ENORETH]: enoreth,
   [Gods.ETH_KOREL]: ethKorel,
@@ -20,4 +20,6 @@ export default {
   [Gods.THAL]: thal,
   [Gods.ULAT]: ulat,
   [Gods.URA]: ura,
-} as Record<Gods, BaseArticleData>;
+};
+
+export default data;

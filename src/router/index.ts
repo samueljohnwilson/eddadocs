@@ -4,20 +4,21 @@ import gods from './gods';
 import lands from './lands';
 import races from './races';
 
-const routes: Record<Routes, RouteRecordRaw[] | null> = {
+const routes: Record<Routes, RouteRecordRaw[]> = {
   [Routes.GODS]: gods,
   [Routes.RACES]: races,
   [Routes.LANDS]: lands,
-  [Routes.MAPS]: null,
+  [Routes.MAPS]: [],
 };
-const routeFactory = (route: Routes, redirect: RouteRecordRaw[] | null) => ({
+const routeFactory = (route: Routes, redirect: RouteRecordRaw[]): RouteRecordRaw => ({
   path: `/${route}`,
   name: route,
-  redirect: redirect && redirect.length ? redirect[0].path : null,
+  redirect: redirect && redirect.length ? redirect[0].path : undefined,
   children: redirect,
 });
-
-export default createRouter({
+const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: Object.entries(routes).map(([route, redirect]) => routeFactory(route as Routes, redirect)) as RouteRecordRaw[],
+  routes: Object.entries(routes).map(([route, redirect]) => routeFactory(route as Routes, redirect)),
 });
+
+export default router;

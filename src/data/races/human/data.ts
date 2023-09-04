@@ -4,7 +4,7 @@ import RacesDescription from '../RacesDescription.vue';
 import MainComponent from './MainComponent.vue';
 import SidebarComponent from './SidebarComponent.vue';
 
-export default {
+const data: BaseArticleData = {
   id: Races.HUMAN,
   title: Races.HUMAN.toUpperCase(),
   quote: {
@@ -21,4 +21,6 @@ export default {
   content: MainComponent,
   sidebar: SidebarComponent,
   groupDescription: RacesDescription,
-} as BaseArticleData;
+};
+
+export default data;

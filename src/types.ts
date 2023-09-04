@@ -1,4 +1,4 @@
-import type { DefineComponent } from 'vue';
+import type { Component } from 'vue';
 
 export interface BaseArticleData {
   id: string;
@@ -11,7 +11,7 @@ export interface BaseArticleData {
     text: string;
     attribution: string;
   };
-  content: DefineComponent;
-  sidebar?: DefineComponent;
-  groupDescription?: DefineComponent;
+  content: Component;
+  sidebar?: Component;
+  groupDescription?: Component;
 }

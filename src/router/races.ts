@@ -8,5 +8,6 @@ const routeFactory = (race: Races) => ({
   props: { activeRace: data[race] },
   component: () => import('../views/RacesView.vue')
 });
+const routes: RouteRecordRaw[] = Object.values(Races).map((race) => routeFactory(race));
 
-export default Object.values(Races).map((race) => routeFactory(race)) as RouteRecordRaw[];
+export default routes;

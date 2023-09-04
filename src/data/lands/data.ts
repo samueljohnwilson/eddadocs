@@ -12,7 +12,7 @@ import rajapun from './rajapun/data';
 import unterlund from './unterlund/data';
 import wydmyn from './wydmyn/data';
 
-export default {
+const data: Record<Lands, BaseArticleData> = {
   [Lands.ALBIA]: albia,
   [Lands.BJORDLUND]: bjordlund,
   [Lands.HETHESKEIN]: hetheskein,
@@ -24,4 +24,6 @@ export default {
   [Lands.RAJAPUN]: rajapun,
   [Lands.UNTERLUND]: unterlund,
   [Lands.WYDMYN]: wydmyn,
-} as Record<Lands, BaseArticleData>;
+};
+
+export default data;

@@ -4,7 +4,7 @@ import LandsDescription from '../LandsDescription.vue';
 import MainComponent from './MainComponent.vue';
 import SidebarComponent from './SidebarComponent.vue';
 
-export default {
+const data: BaseArticleData = {
   id: Lands.ITHRA,
   title: Lands.ITHRA.toUpperCase(),
   quote: {
@@ -19,4 +19,6 @@ export default {
   content: MainComponent,
   sidebar: SidebarComponent,
   groupDescription: LandsDescription,
-} as BaseArticleData;
+};
+
+export default data;

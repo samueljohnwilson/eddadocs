@@ -8,7 +8,7 @@ import halfOrc from './half-orc/data';
 import halfling from './halfling/data';
 import human from './human/data';
 
-export default {
+const data: Record<Races, BaseArticleData> = {
   [Races.DWARF]: dwarf,
   [Races.ELF]: elf,
   [Races.FIRBOLG]: firbolg,
@@ -16,4 +16,6 @@ export default {
   [Races.HALF_ELF]: halfElf,
   [Races.HALF_ORC]: halfOrc,
   [Races.HALFLING]: halfling,
-} as Record<Races, BaseArticleData>;
+};
+
+export default data;

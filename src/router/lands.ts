@@ -8,5 +8,6 @@ const routeFactory = (land: Lands) => ({
   props: { activeLand: data[land] },
   component: () => import('../views/LandsView.vue')
 });
+const routes: RouteRecordRaw[] = Object.values(Lands).map((land) => routeFactory(land));
 
-export default Object.values(Lands).map((land) => routeFactory(land)) as RouteRecordRaw[];
+export default routes;

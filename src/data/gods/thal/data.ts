@@ -4,7 +4,7 @@ import GodsDescription from '../GodsDescription.vue';
 import MainComponent from './MainComponent.vue';
 import SidebarComponent from './SidebarComponent.vue';
 
-export default {
+const data: BaseArticleData = {
   id: Gods.THAL,
   title: Gods.THAL.toUpperCase(),
   quote: {
@@ -19,4 +19,6 @@ export default {
   content: MainComponent,
   sidebar: SidebarComponent,
   groupDescription: GodsDescription,
-} as BaseArticleData;
+};
+
+export default data;
