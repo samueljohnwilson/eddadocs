@@ -6,10 +6,10 @@
 </template>
 
 <script setup lang="ts">
-import { type PropType } from 'vue';
+import type { PropType } from 'vue';
 import BaseArticle from '@/components/BaseArticle.vue';
 import NavBar from '@/components/NavBar.vue';
-import { type BaseArticleData } from '@/types';
+import type { BaseArticleData } from '@/types';
 
 defineProps({
   navElements: {

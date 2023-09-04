@@ -1,4 +1,5 @@
 import type { Component } from 'vue';
+import type { Maps } from './enums/maps';
 
 export interface BaseArticleData {
   id: string;
@@ -15,3 +16,20 @@ export interface BaseArticleData {
   sidebar?: Component;
   groupDescription?: Component;
 }
+
+export interface MapConfig {
+  bounds: number[][];
+  minZoom: number;
+  maxZoom: number;
+  zoom: number;
+  center: number[];
+  url: string;
+}
+
+export interface MapData {
+  name: string;
+  value: Maps;
+  config: MapConfig;
+}
+
+export type MapList = Record<Maps, MapData>;

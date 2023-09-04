@@ -2,13 +2,14 @@ import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
 import { Routes } from '@/enums/routes';
 import gods from './gods';
 import lands from './lands';
+import maps from './maps';
 import races from './races';
 
 const routes: Record<Routes, RouteRecordRaw[]> = {
   [Routes.GODS]: gods,
   [Routes.RACES]: races,
   [Routes.LANDS]: lands,
-  [Routes.MAPS]: [],
+  [Routes.MAPS]: maps,
 };
 const routeFactory = (route: Routes, redirect: RouteRecordRaw[]): RouteRecordRaw => ({
   path: `/${route}`,
