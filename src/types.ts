@@ -17,13 +17,20 @@ export interface BaseArticleData {
   groupDescription?: Component;
 }
 
+export interface MapMarker {
+  name: string;
+  coords: [number, number];
+  slot?: Component;
+}
+
 export interface MapConfig {
-  bounds: number[][];
+  bounds: [number, number][];
   minZoom: number;
   maxZoom: number;
   zoom: number;
-  center: number[];
+  center: [number, number];
   url: string;
+  markers?: MapMarker[];
 }
 
 export interface MapData {
