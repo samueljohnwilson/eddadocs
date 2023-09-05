@@ -20,7 +20,7 @@ export interface BaseArticleData {
 export interface MapMarker {
   name: string;
   coords: [number, number];
-  slot?: Component;
+  component: Component;
 }
 
 export interface MapConfig {
