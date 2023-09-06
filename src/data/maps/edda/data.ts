@@ -1,7 +1,7 @@
-import { Lands } from '@/enums/lands';
 import { Maps } from '@/enums/maps';
 import type { MapData } from '@/types';
-import UnterlundIcon from './icons/UnterlundIcon.vue';
+import jutlund from './markers/jutlund/data';
+import unterlund from './markers/unterlund/data';
 
 const data: MapData = {
   name: 'Edda',
@@ -17,13 +17,7 @@ const data: MapData = {
     center: [1024, 768],
     url:
       'https://cdn.discordapp.com/attachments/1008048169621393458/1148389274828427445/Wardenfall.jpg',
-    markers: [
-      {
-        name: Lands.UNTERLUND.toUpperCase(),
-        coords: [785, 520],
-        component: UnterlundIcon,
-      }
-    ],
+    markers: [jutlund, unterlund],
   },
 };
 

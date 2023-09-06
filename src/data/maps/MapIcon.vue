@@ -10,7 +10,7 @@ defineProps({
 
 <template>
   <v-card-subtitle>
-    {{ title }}
+    {{ title.toUpperCase() }}
   </v-card-subtitle>
   <slot></slot>
 </template>
