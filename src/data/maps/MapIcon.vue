@@ -3,14 +3,24 @@ defineProps({
   title: {
     type: String,
     required: true,
-  }
+  },
+  description: {
+    type: String,
+    required: false,
+  },
+  link: {
+    type: String,
+    required: false,
+  },
 });
-
 </script>
 
 <template>
   <v-card-subtitle>
     {{ title.toUpperCase() }}
   </v-card-subtitle>
-  <slot></slot>
+  <v-card-text v-if="description">
+    {{ description }}
+  </v-card-text>
+  <router-link v-if="link" to="/lands/bjordlund" target="_blank">Information</router-link>
 </template>

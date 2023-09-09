@@ -43,9 +43,7 @@ const icon = new Icon({
       :icon="icon"
     >
       <LPopup :keepInView="true">
-        <MapIcon :title="marker.name">
-          <component v-bind:is="marker.component" />
-        </MapIcon>
+        <MapIcon :title="marker.name" :description="marker.description" :link="marker.link" />
       </LPopup>
     </LMarker>
   </LMap>

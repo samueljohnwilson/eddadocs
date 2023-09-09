@@ -20,7 +20,8 @@ export interface BaseArticleData {
 export interface MapMarker {
   name: string;
   coords: [number, number];
-  component: Component;
+  description?: string;
+  link?: string;
 }
 
 export interface MapConfig {

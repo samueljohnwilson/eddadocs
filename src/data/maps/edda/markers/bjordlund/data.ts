@@ -2,10 +2,10 @@ import { Lands } from '@/enums/lands';
 import type { MapMarker } from '@/types';
 
 const data: MapMarker = {
-  name: Lands.JUTLUND,
-  coords: [1045, 260],
-  description: 'The realm of the wild men',
-  link: '/lands/jutlund',
+  name: Lands.BJORDLUND,
+  coords: [1090, 690],
+  description: 'The realm of the vikings',
+  link: '/lands/bjordlund',
 };
 
 export default data;
