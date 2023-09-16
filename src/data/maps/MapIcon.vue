@@ -22,5 +22,5 @@ defineProps({
   <v-card-text v-if="description">
     {{ description }}
   </v-card-text>
-  <router-link v-if="link" to="/lands/bjordlund" target="_blank">Information</router-link>
+  <router-link v-if="link" :to=link target="_blank">Information</router-link>
 </template>
