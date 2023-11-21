@@ -1,3 +1,60 @@
+<script setup lang="ts">
+import 'animate.css';
+import { defineComponent, onMounted } from 'vue';
+import { ref } from 'vue';
+import VueEasyLightbox from 'vue-easy-lightbox'
+import blackBackground from '@/assets/black-background.jpg';
+import { getAsset } from '@/utils/getAsset';
+
+defineComponent({
+  components: {
+    VueEasyLightbox
+  },
+});
+
+defineProps({
+  image: {
+    type: String,
+    required: true,
+  },
+  imageTitle: {
+    type: String,
+    required: false,
+  },
+});
+
+let isLightboxVisible = ref(false);
+
+function hideLightbox(): void {
+  isLightboxVisible.value = false;
+}
+
+function showLightbox(): void {
+  isLightboxVisible.value = true;
+}
+
+function preventKeydown(e: KeyboardEvent): void {
+  if (isLightboxVisible.value) {
+    if (e.code && (e.code == 'ArrowUp' || e.code == 'ArrowDown')) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+  }
+}
+
+function preventScroll(e: Event): void {
+  if (isLightboxVisible.value) {
+    e.preventDefault();
+    e.stopPropagation();
+  }
+}
+
+onMounted(() => {
+  window.addEventListener('keydown', preventKeydown);
+  window.addEventListener('wheel', preventScroll, { passive: false });
+});
+</script>
+
 <template>
   <div class="fade-image">
     <!-- Adds transitions to images -->
@@ -15,7 +72,7 @@
         :src="getAsset(image)"
         :key="image"
         :lazy-src="blackBackground"
-        @click="showLightbox"
+        @click=showLightbox
       />
     </transition>
     <p
@@ -25,58 +82,14 @@
       v-html="imageTitle"
     ></p>
   </div>
+  <VueEasyLightbox
+    :visible="isLightboxVisible"
+    :imgs="getAsset(image)"
+    @hide="hideLightbox"
+    zoom-disabled
+    move-disabled
+  />
 </template>
-
-<script setup lang="ts">
-import 'animate.css';
-import { onMounted } from 'vue';
-import blackBackground from '@/assets/black-background.jpg';
-import { getAsset } from '@/utils/getAsset';
-
-defineProps({
-  image: {
-    type: String,
-    required: true,
-  },
-  imageTitle: {
-    type: String,
-    required: false,
-  },
-});
-
-
-let isLightboxVisible = false;
-
-function hideLightbox() {
-  isLightboxVisible = false;
-}
-
-function showLightbox() {
-  isLightboxVisible = true;
-}
-
-function preventKeydown(e: KeyboardEvent) {
-  if (isLightboxVisible) {
-    if (e.code && (e.code == 'ArrowUp' || e.code == 'ArrowDown')) {
-      e.preventDefault();
-      e.stopPropagation();
-    }
-  }
-}
-
-function preventScroll(e: Event): void {
-  if (isLightboxVisible) {
-    e.preventDefault();
-    e.stopPropagation();
-  }
-}
-
-onMounted(() => {
-  window.addEventListener('keydown', preventKeydown);
-  window.addEventListener('wheel', preventScroll, { passive: false });
-});
-
-</script>
 
 <style>
 .animate__animated.img {

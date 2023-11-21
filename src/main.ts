@@ -1,4 +1,5 @@
 import 'vuetify/styles';
+import 'vue-easy-lightbox/dist/external-css/vue-easy-lightbox.css'
 import { createPinia } from 'pinia';
 import { createApp } from 'vue';
 import VueEasyLightbox from 'vue-easy-lightbox';
