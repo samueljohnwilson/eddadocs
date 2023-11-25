@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import 'animate.css';
-import { defineComponent, onMounted } from 'vue';
+import { defineComponent, onMounted, onUnmounted } from 'vue';
 import { ref } from 'vue';
 import VueEasyLightbox from 'vue-easy-lightbox'
 import blackBackground from '@/assets/black-background.jpg';
@@ -52,6 +52,11 @@ function preventScroll(e: Event): void {
 onMounted(() => {
   window.addEventListener('keydown', preventKeydown);
   window.addEventListener('wheel', preventScroll, { passive: false });
+});
+
+onUnmounted(() => {
+  window.removeEventListener('keydown', preventKeydown);
+  window.removeEventListener('wheel', preventScroll);
 });
 </script>
 
