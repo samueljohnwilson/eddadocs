@@ -14,7 +14,7 @@ const routes: Record<Routes, RouteRecordRaw[]> = {
 const routeFactory = (route: Routes, redirect: RouteRecordRaw[]): RouteRecordRaw => ({
   path: `/${route}`,
   name: route,
-  redirect: redirect && redirect.length ? redirect[0].path : undefined,
+  redirect: redirect?.length ? redirect[0].path : undefined,
   children: redirect,
 });
 const router = createRouter({
