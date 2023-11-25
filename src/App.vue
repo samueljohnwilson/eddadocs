@@ -34,10 +34,6 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
-#main-container {
-  width: 85%;
-}
-
 .v-img {
   margin: 0 auto;
   border: 1px black solid;
