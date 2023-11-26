@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import 'animate.css';
 import { RouterLink, RouterView } from 'vue-router'
+import ReturnToTopButton from '@/components/ReturnToTopButton.vue';
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <v-row>
           <RouterView />
         </v-row>
+        <ReturnToTopButton />
       </v-container>
     </v-main>
   </v-app>

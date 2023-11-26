@@ -68,7 +68,6 @@ defineProps({
               </v-card>
             </v-col>
           </v-row>
-          <!-- <Foot /> -->
         </v-card>
       </v-col>
     </v-row>

@@ -1,8 +1,12 @@
 import 'vuetify/styles';
 import 'vue-easy-lightbox/dist/external-css/vue-easy-lightbox.css'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { createPinia } from 'pinia';
 import { createApp } from 'vue';
 import VueEasyLightbox from 'vue-easy-lightbox';
+import VueScrollTo from 'vue-scrollto';
 import { createVuetify, type ThemeDefinition } from 'vuetify';
 import { md3 } from 'vuetify/blueprints'
 import * as components from 'vuetify/components';
@@ -37,9 +41,13 @@ const vuetify = createVuetify({
   },
 });
 
+library.add(faArrowUp);
+
 createApp(App)
   .use(createPinia())
   .use(router)
   .use(vuetify)
   .use(VueEasyLightbox)
+  .use(VueScrollTo)
+  .component('FontAwesomeIcon', FontAwesomeIcon)
   .mount('#app');
