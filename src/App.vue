@@ -41,10 +41,6 @@ body {
   border: 1px black solid;
 }
 
-p.group-description {
-  padding-top: 3rem;
-}
-
 .v-card-subtitle {
   font-size: 1.25rem;
   padding: 0 0 0.5rem;
@@ -83,30 +79,4 @@ h1 {
     }
   }
 }
-
-.sidebar .fade-image {
-  padding-bottom: 1rem;
-}
-
-.group-description {
-  & p {
-    padding-bottom: 1rem;
-  }
-  & a {
-    text-decoration: none;
-    color: rgb(var(--v-theme-secondary));
-  }
-}
-
-/* .sidebar {
-  background-color: #b8c8d8 !important;
-}
-
-.animate__animated.view {
-  --animate-duration: 1s;
-} */
-
-/* .leaflet-control-attribution {
-  display: none !important;
-} */
 </style>

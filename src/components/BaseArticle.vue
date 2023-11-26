@@ -73,3 +73,20 @@ defineProps({
     </v-row>
   </v-container>
 </template>
+
+<style>
+.group-description {
+  & p {
+    padding-bottom: 1rem;
+  }
+  & a {
+    text-decoration: none;
+    color: rgb(var(--v-theme-secondary));
+  }
+}
+
+.sidebar .fade-image {
+  padding-bottom: 1rem;
+}  
+</style>
+
