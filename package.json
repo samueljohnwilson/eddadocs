@@ -23,6 +23,7 @@
     "vue": "^3.3.4",
     "vue-easy-lightbox": "^1.16.0",
     "vue-router": "^4.2.2",
+    "vue-scrollto": "^2.20.0",
     "vuetify": "^3.3.5"
   },
   "devDependencies": {
