@@ -13,6 +13,9 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/vue-fontawesome": "^3.0.5",
     "@vue-leaflet/vue-leaflet": "^0.10.1",
     "animate.css": "^4.1.1",
     "leaflet": "^1.9.4",
