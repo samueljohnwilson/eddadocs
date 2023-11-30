@@ -36,6 +36,11 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
+
+.main {
+  max-width: 90%;
+}
+
 .v-img {
   margin: 0 auto;
   border: 1px black solid;
