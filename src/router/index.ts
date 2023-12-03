@@ -5,7 +5,11 @@ import lands from './lands';
 import maps from './maps';
 import races from './races';
 
-const routes: Record<Routes, RouteRecordRaw[]> = {
+const homeRoute: RouteRecordRaw = {
+  path: '/',
+  component: () => import('../views/HomeView.vue'),
+};
+const routeData: Record<Routes, RouteRecordRaw[]> = {
   [Routes.GODS]: gods,
   [Routes.RACES]: races,
   [Routes.LANDS]: lands,
@@ -19,7 +23,7 @@ const routeFactory = (route: Routes, redirect: RouteRecordRaw[]): RouteRecordRaw
 });
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: Object.entries(routes).map(([route, redirect]) => routeFactory(route as Routes, redirect)),
+  routes: Object.entries(routeData).map(([route, redirect]) => routeFactory(route as Routes, redirect)).concat(homeRoute),
 });
 
 export default router;
