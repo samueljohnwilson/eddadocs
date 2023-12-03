@@ -81,7 +81,6 @@ onUnmounted(() => {
       />
     </transition>
     <p
-      class="img-title"
       v-if="imageTitle"
       style="color: grey"
       v-html="imageTitle"
@@ -101,6 +100,7 @@ onUnmounted(() => {
   --animate-duration: 1s;
 }
 
+/* Don't want to show the vue-easy-lightbox toolbar */
 .vel-toolbar {
   display: none !important;
 }

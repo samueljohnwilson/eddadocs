@@ -7,7 +7,7 @@ import ReturnToTopButton from '@/components/ReturnToTopButton.vue';
 <template>
   <v-app>
     <v-main>
-      <v-container fluid id="main-container">
+      <v-container fluid>
         <v-row class="navbar">
           <RouterLink to="/races">RACES</RouterLink>
           <RouterLink to="/lands">LANDS</RouterLink>
@@ -36,7 +36,6 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
-
 .main {
   max-width: 90%;
 }
@@ -59,13 +58,6 @@ body {
 .v-card-text {
   font-size: 1rem;
   padding: 0 0 0.5rem;
-}
-
-h1 {
-  display: flex;
-  justify-content: center;
-  font-size: 2rem;
-  margin: 0 0 1.5rem;
 }
 
 .navbar {
