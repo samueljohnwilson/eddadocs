@@ -42,7 +42,6 @@ body {
 
 .v-img {
   margin: 0 auto;
-  border: 1px black solid;
 }
 
 .v-card-subtitle {

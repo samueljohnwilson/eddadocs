@@ -20,7 +20,7 @@ defineProps({
         <component v-bind:is="activeArticle.groupDescription!" />
       </v-col>
       <v-col :cols="$vuetify.display.mdAndUp ? 9 : 12">
-        <v-card class="rounded-0 pa-6">
+        <v-card class="pa-6">
           <v-card-title>
             {{ activeArticle.title }}
           </v-card-title>
