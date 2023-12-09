@@ -6,6 +6,7 @@ import { Routes } from '@/enums/routes';
 const routeFactory = (map: Maps) => ({
   path: `/${Routes.MAPS}/${map}`,
   props: { activeMap: data[map] },
+  name: map,
   component: () => import('../views/MapsView.vue')
 });
 const routes: RouteRecordRaw[] = Object.values(Maps).map((map) => routeFactory(map));
