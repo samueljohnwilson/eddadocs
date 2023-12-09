@@ -3,9 +3,9 @@ import 'leaflet/dist/leaflet.css';
 import { LImageOverlay,LMap, LMarker, LPopup } from '@vue-leaflet/vue-leaflet';
 import { CRS, Icon } from 'leaflet';
 import type { PropType } from 'vue';
+import positionMarker from '@/assets/icons/position-marker.png';
 import MapIcon from '@/data/maps/MapIcon.vue';
 import type { MapData } from '@/types';
-import { getAsset } from '@/utils/getAsset';
 
 defineProps({
   activeMap: {
@@ -15,7 +15,7 @@ defineProps({
 });
 
 const icon = new Icon({
-  iconUrl: getAsset('icons/position-marker.png'),
+  iconUrl: positionMarker,
   iconSize: [48, 48],
   iconAnchor: [24, 48],
 });

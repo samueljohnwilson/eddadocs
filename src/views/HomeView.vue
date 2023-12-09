@@ -1,20 +1,11 @@
 <script setup lang="ts">
-import type { PropType } from 'vue';
-import type { BaseArticleData } from '@/types';
-import { getAsset } from '@/utils/getAsset';
-
-defineProps({
-  activeGod: {
-    type: Object as PropType<BaseArticleData>,
-    required: true,
-  },
-});
+import tome from '@/assets/tome.webp';
 </script>
 
 <template>
   <v-container class="main">
     <v-card elevation="0" :max-width="$vuetify.display.smAndDown ? '100%' : '60%'">
-      <v-img :src="getAsset('tome.webp')" :lazy-src="blackBackground"></v-img>
+      <v-img :src="tome"></v-img>
       <v-card-title>
         CODEX EDDA
       </v-card-title>
