@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="325px" height="325px" viewBox="0 0 325 325" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="play/ic_launcher_APP" transform="translate(-94.000000, -94.000000)">
+            <g id="Group-2" transform="translate(94.000000, 94.000000)">
+                <g id="Group">
+                    <circle id="Oval" stroke="#DB4500" stroke-width="6" fill="#DB4500" cx="162.5" cy="162.5" r="159.5"></circle>
+                    <path id="Line" d="M99.5738067,51.8689739 L209.546,111.295 L221.907717,88.4216396 L263,147 L191.481942,144.72681 L203.842,121.852 L93.8689739,62.4261933 L99.5738067,51.8689739 Z" fill="#FDF7EF" fill-rule="nonzero"></path>
+                    <path id="Line" d="M114.573807,127.868974 L224.546,187.295 L236.907717,164.42164 L278,223 L206.481942,220.72681 L218.842,197.852 L108.868974,138.426193 L114.573807,127.868974 Z" fill="#FDF7EF" fill-rule="nonzero"></path>
+                    <path id="Line" d="M39.5738067,155.868974 L149.546,215.295 L161.907717,192.42164 L203,251 L131.481942,248.72681 L143.842,225.852 L33.8689739,166.426193 L39.5738067,155.868974 Z" fill="#FDF7EF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -2,11 +2,15 @@
 import 'animate.css';
 import { RouterLink, RouterView } from 'vue-router'
 import ReturnToTopButton from '@/components/ReturnToTopButton.vue';
+import { getAsset } from '@/utils/getAsset';
 </script>
 
 <template>
   <v-app>
     <v-main>
+      <RouterLink to="/">
+        <img :src="getAsset('logo.png')" class="logo" alt="logo" hre />
+      </RouterLink>
       <v-container fluid>
         <v-row class="navbar">
           <RouterLink to="/races">RACES</RouterLink>
@@ -74,5 +78,13 @@ body {
       color: rgb(var(--v-theme-secondary));
     }
   }
+}
+
+.logo {
+  position: fixed;
+  top: 0px;
+  left: 2px;
+  z-index: 1000;
+  width: 110px;
 }
 </style>
