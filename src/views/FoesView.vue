@@ -2,12 +2,12 @@
 import type { PropType } from 'vue';
 import NavBar from '@/components/NavBar.vue';
 import WikiPage from '@/components/WikiPage.vue';
-import { Lands } from '@/enums/lands';
+import { Foes } from '@/enums/foes';
 import { Routes } from '@/enums/routes';
 import type { BaseArticleData } from '@/types';
 
 defineProps({
-  activeLand: {
+  activeFoe: {
     type: Object as PropType<BaseArticleData>,
     required: true,
   },
@@ -15,6 +15,6 @@ defineProps({
 </script>
 
 <template>
-  <NavBar :navElements="Object.values(Lands)" :parentPath="Routes.LANDS"/>
-  <WikiPage  :activeArticle="activeLand"/>
+  <NavBar :navElements="Object.values(Foes)" :parentPath="Routes.FOES"/>
+  <WikiPage :activeArticle="activeFoe"/>
 </template>

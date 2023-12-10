@@ -15,8 +15,6 @@ defineProps({
 </script>
 
 <template>
-  <v-container class="main">
-    <NavBar :navElements="Object.values(Gods)" :parentPath="Routes.GODS"/>
-    <WikiPage :activeArticle="activeGod"/>
-  </v-container>
+  <NavBar :navElements="Object.values(Gods)" :parentPath="Routes.GODS"/>
+  <WikiPage :activeArticle="activeGod"/>
 </template>

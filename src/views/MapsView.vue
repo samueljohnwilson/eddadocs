@@ -15,8 +15,6 @@ defineProps({
 </script>
 
 <template>
-  <v-container class="main">
-    <NavBar :navElements="Object.values(Maps)" :parentPath="Routes.MAPS"/>
-    <MapPage :activeMap="activeMap"/>
-  </v-container> 
+  <NavBar :navElements="Object.values(Maps)" :parentPath="Routes.MAPS"/>
+  <MapPage :activeMap="activeMap"/>
 </template>
