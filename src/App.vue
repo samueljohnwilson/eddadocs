@@ -16,10 +16,13 @@ import { getAsset } from '@/utils/getAsset';
           <RouterLink to="/races">RACES</RouterLink>
           <RouterLink to="/lands">LANDS</RouterLink>
           <RouterLink to="/gods">GODS</RouterLink>
+          <RouterLink to="/foes">FOES</RouterLink>
           <RouterLink to="/maps">MAPS</RouterLink>
         </v-row>
         <v-row>
-          <RouterView />
+          <v-container class="main">
+            <RouterView />
+          </v-container>
         </v-row>
         <ReturnToTopButton />
       </v-container>
