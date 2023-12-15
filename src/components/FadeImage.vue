@@ -71,7 +71,6 @@ onUnmounted(() => {
       leave-active-class="animate__animated animate__fadeOut img"
     >
       <v-img
-        class="rounded-0"
         style="cursor: pointer"
         cover
         :src="getAsset(image)"

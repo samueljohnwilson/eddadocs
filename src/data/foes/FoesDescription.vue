@@ -52,4 +52,3 @@
     would continue to unfold throughout eternity.
   </p>
   </template>
-  

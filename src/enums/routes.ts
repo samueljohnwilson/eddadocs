@@ -4,4 +4,5 @@ export enum Routes {
   GODS = 'gods',
   FOES = 'foes',
   MAPS = 'maps',
+  HISTORY = 'history',
 };

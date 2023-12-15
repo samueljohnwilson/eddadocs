@@ -1,23 +1,26 @@
 <script setup lang="ts">
 import 'animate.css';
 import { RouterLink, RouterView } from 'vue-router'
+import logo from '@/assets/logo.png';
 import ReturnToTopButton from '@/components/ReturnToTopButton.vue';
-import { getAsset } from '@/utils/getAsset';
+import { Routes } from './enums/routes';
 </script>
 
 <template>
   <v-app>
     <v-main>
       <RouterLink to="/">
-        <img :src="getAsset('logo.png')" class="logo" alt="logo" hre />
+        <img :src="logo" class="logo" alt="logo" />
       </RouterLink>
       <v-container fluid>
         <v-row class="navbar">
-          <RouterLink to="/races">RACES</RouterLink>
-          <RouterLink to="/lands">LANDS</RouterLink>
-          <RouterLink to="/gods">GODS</RouterLink>
-          <RouterLink to="/foes">FOES</RouterLink>
-          <RouterLink to="/maps">MAPS</RouterLink>
+          <RouterLink
+            v-for="route in Object.values(Routes)"
+            :to="`/${route}`"
+            :key="route"
+          >
+            {{ route.toUpperCase() }}
+          </RouterLink>
         </v-row>
         <v-row>
           <v-container class="main">
@@ -88,6 +91,6 @@ body {
   top: 0px;
   left: 2px;
   z-index: 1000;
-  width: 110px;
+  width: 6rem;
 }
 </style>
