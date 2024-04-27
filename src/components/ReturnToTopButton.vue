@@ -11,9 +11,8 @@
 <style scoped>
 .scroll-btn {
   position: fixed;
-  bottom: 20px;
-  left: 20px;
-  z-index: 1000;
+  bottom: 16px;
+  left: 32px;
 
   & button {
     border-width: 2px;   

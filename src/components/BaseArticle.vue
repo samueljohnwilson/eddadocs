@@ -16,8 +16,12 @@ defineProps({
   <v-container fluid>
     <v-row>
       <!-- Hide the group description on mobile -->
-      <v-col v-if="$vuetify.display.mdAndUp" cols="3" class="group-description">
-        <component v-bind:is="activeArticle.groupDescription!" />
+      <v-col
+        v-if="$vuetify.display.mdAndUp && activeArticle.groupDescription"
+        cols="3"
+        class="group-description"
+      >
+        <component v-bind:is="activeArticle.groupDescription" />
       </v-col>
       <v-col :cols="$vuetify.display.mdAndUp ? 9 : 12">
         <v-card class="pa-6">

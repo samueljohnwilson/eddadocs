@@ -5,16 +5,15 @@ import MainComponent from './MainComponent.vue';
 import SidebarComponent from './SidebarComponent.vue';
 
 const data: BaseArticleData = {
-  id: Foes.JOTUNN,
-  title: Foes.JOTUNN.toUpperCase(),
+  id: Foes.TROLL,
+  title: Foes.TROLL.toUpperCase(),
   quote: {
-    text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+    text: 'They say the trolls were the Einar\'s first creation. Wish the gods had the sense to call it a loss and be rid of \'em, so we weren\'t stuck dealing with the lot.',
+    attribution: 'Yan Freeman, Jut trapper',
   },
   image: {
-    url: 'foes/jotunn-main.webp',
-    title: 'A klagan, or hill giant',
+    url: 'foes/troll-main.webp',
+    title: 'A forest troll',
   },
   content: MainComponent,
   sidebar: SidebarComponent,

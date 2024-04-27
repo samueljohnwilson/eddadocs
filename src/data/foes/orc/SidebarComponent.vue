@@ -29,15 +29,15 @@ import FadeImage from '@/components/FadeImage.vue';
     Craftsmen<br />
   </v-card-text>
   <FadeImage
-    image="foes/jotunn-sidebar-1.webp"
-    imageTitle="A hrind, or frost giant"
+    image="foes/orc-sidebar-1.webp"
+    imageTitle="One of the Gates of Agorus"
   />
   <FadeImage
-    image="foes/jotunn-sidebar-2.webp"
-    imageTitle="A rungir, or stone giant"
+    image="foes/orc-sidebar-2.webp"
+    imageTitle="A student at the Acumenium"
   />
   <FadeImage
-    image="foes/jotunn-sidebar-3.webp"
-    imageTitle="A thrym, or storm giant"
+    image="foes/orc-sidebar-3.webp"
+    imageTitle="A Strix"
   />
 </template>

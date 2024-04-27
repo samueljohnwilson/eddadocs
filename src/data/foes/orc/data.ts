@@ -5,16 +5,16 @@ import MainComponent from './MainComponent.vue';
 import SidebarComponent from './SidebarComponent.vue';
 
 const data: BaseArticleData = {
-  id: Foes.JOTUNN,
-  title: Foes.JOTUNN.toUpperCase(),
+  id: Foes.ORC,
+  title: Foes.ORC.toUpperCase(),
   quote: {
     text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
+      'Without a doubt, the foulest race to blight our realm. I\'ve heard said they were once kin to elves.',
     attribution: 'Sir Lunder, magistrate of the Even Hand',
   },
   image: {
-    url: 'foes/jotunn-main.webp',
-    title: 'A klagan, or hill giant',
+    url: 'foes/orc-main.webp',
+    title: 'An orc warrior',
   },
   content: MainComponent,
   sidebar: SidebarComponent,
