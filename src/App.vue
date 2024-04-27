@@ -48,6 +48,7 @@ body {
 
 .main {
   max-width: 90%;
+  margin: 0 96px;
 }
 
 .v-img {
@@ -89,8 +90,7 @@ body {
 .logo {
   position: fixed;
   top: 0px;
-  left: 2px;
-  z-index: 1000;
-  width: 6rem;
+  left: 16px;
+  width: 96px;
 }
 </style>
