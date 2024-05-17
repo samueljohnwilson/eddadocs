@@ -5,15 +5,15 @@ import MainComponent from './MainComponent.vue';
 import SidebarComponent from './SidebarComponent.vue';
 
 const data: BaseArticleData = {
-  id: Foes.JOTUNN,
-  title: Foes.JOTUNN.toUpperCase(),
+  id: Foes.ANGEL,
+  title: Foes.ANGEL.toUpperCase(),
   quote: {
     text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+      'In the light of dawn, we find our purpose. Trust in the First King, and let his will guide our actions towards righteousness.',
+    attribution: 'High Priest Elandor, keeper of the Eternal Flame',
   },
   image: {
-    url: 'foes/jotunn-main.webp',
+    url: 'foes/angel-main.webp',
     title: 'A klagan, or hill giant',
   },
   content: MainComponent,

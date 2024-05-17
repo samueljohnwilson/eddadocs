@@ -1,9 +1,14 @@
 export enum Foes {
   ORC = 'orc',
-  KODO = 'kodo',
   TROLL = 'troll',
   JOTUNN = 'jotunn',
-  DEMON = 'demon',
-  ANGEL = 'angel',
+  KODO = 'kodo',
+  BEAST = 'beast',
+  ANGEL = 'celestial',
   FEY = 'fey',
+  DEMON = 'demon',
+  ELEMENTAL = 'elemental',
+  DRAGON = 'dragon',
+  UNDEAD = 'undead',
+  ABERRATION = 'aberration',
 };

@@ -67,6 +67,7 @@ body {
 
 .v-card-text {
   font-size: 1rem;
+  line-height: 1.5rem !important;
   padding: 0 0 0.5rem;
 }
 
