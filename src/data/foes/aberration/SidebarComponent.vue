@@ -7,7 +7,7 @@ import FadeImage from '@/components/FadeImage.vue';
     Alignment
   </v-card-subtitle>
   <v-card-text>
-    Chaotic Neutral
+    Lawful Good
   </v-card-text>
   <v-card-text>
   </v-card-text>
@@ -23,19 +23,21 @@ import FadeImage from '@/components/FadeImage.vue';
     Associations
   </v-card-subtitle>
   <v-card-text>
-    Weather<br />
-    Wind<br />
+    Justice<br />
+    Order<br />
+    Agriculture<br />
+    Craftsmen<br />
   </v-card-text>
   <FadeImage
-    image="gods/thal-sidebar-1.webp"
-    imageTitle="Member of the Argenguard"
+    image="foes/angel-sidebar-1.webp"
+    imageTitle="A hrind, or frost giant"
   />
   <FadeImage
-    image="gods/thal-sidebar-2.webp"
-    imageTitle="An Arbiter addresses the mob"
+    image="foes/angel-sidebar-2.webp"
+    imageTitle="A rungir, or stone giant"
   />
   <FadeImage
-    image="gods/thal-sidebar-3.webp"
-    imageTitle="A sentinel"
+    image="foes/angel-sidebar-3.webp"
+    imageTitle="A thrym, or storm giant"
   />
 </template>
