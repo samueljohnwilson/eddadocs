@@ -7,7 +7,7 @@ import FadeImage from '@/components/FadeImage.vue';
     Alignment
   </v-card-subtitle>
   <v-card-text>
-    Lawful Good
+    Neutral Good
   </v-card-text>
   <v-card-text>
   </v-card-text>
@@ -15,18 +15,17 @@ import FadeImage from '@/components/FadeImage.vue';
     Known As
   </v-card-subtitle>
   <v-card-text>
-    The First King<br />
-    The Father<br />
-    The Lawgiver<br />
+    The All-Seer<br />
+    The Wizened One<br />
+    The Great Eye<br />
   </v-card-text>
   <v-card-subtitle>
     Associations
   </v-card-subtitle>
   <v-card-text>
-    Justice<br />
-    Order<br />
-    Agriculture<br />
-    Craftsmen<br />
+    Knowledge<br />
+    Magic<br />
+    Truth<br />
   </v-card-text>
   <FadeImage
     image="gods/agorus-sidebar-1.webp"

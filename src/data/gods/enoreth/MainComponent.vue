@@ -4,7 +4,7 @@
     Enoreth, the Great Weaver, is the primordial force that existed before the dawn of time, the
     essence from which all creation sprang forth. In the ancient tongues of Edda, Enoreth is revered
     as the eternal and omnipresent deity, a being of infinite wisdom and boundless power. It is said
-    that Enoreth’s very essence permeates the fabric of the universe, weaving the intricate patterns
+    that Enoreth's very essence permeates the fabric of the universe, weaving the intricate patterns
     of existence and infusing all that is with its divine presence.
   </v-card-text>
   <v-card-text>
@@ -36,28 +36,48 @@
     they are the <strong>Urdor</strong>. The balance of their constructive and destructive forces
     allowed for the cycles of nature and the existence of life.
   </v-card-text>
-  <v-card-subtitle> The World Today </v-card-subtitle>
+  <v-card-text>
+    Throughout the annals of time, Enoreth has maintained a stance of divine impartiality, not
+    intervening directly in mortal affairs. However, history records two instances where Enoreth's
+    hand reached into the realm of mortals. The first occurred during the War of the Schism when the
+    Illyum were cast away from Ulwyll, their ancestral home, as a means to restore balance to the
+    world. Millennia later, at the culmination of the Great War, Enoreth enacted a momentous decree
+    known as the Godsdeath. In this act, the Urdor were banished from the mortal realm, their
+    influence waning as they were cast into the depths of the cosmos. These rare interventions serve
+    as stark reminders of Enoreth's omnipotence and the delicate equilibrium it seeks to preserve
+    within the tapestry of existence.
+  </v-card-text>
   <v-card-text>
     Though Enoreth divided itself to create the Urdor, it remains ever-present in the world of Edda.
     Its essence flows through every living being, every stone, every breath of wind. Those attuned
     to the mystical arts can sense the presence of Enoreth in the world around them, drawing upon
     its infinite wisdom and power to shape the world and commune with the divine.
   </v-card-text>
+  <v-card-subtitle> Worshippers </v-card-subtitle>
   <v-card-text>
-    In Edda, Enoreth is revered above all other deities by only a select few. Temples dedicated to
-    the Great Weaver are rare and hidden from the eyes of most, adorned with intricate tapestries
-    and mosaics that depict the creation of the world and the divine balance maintained by the
-    Urdor. Few are aware of Enoreth's true nature; only elves, druids, and ancient creatures
-    remember the primordial deity in their prayers. Druids, referred to amongst themselves as
-    Weavers, are elusive figures who dedicate their lives to understanding and preserving the
-    intricate patterns of existence woven by their deity. They serve as intermediaries between the
-    mortal realm and the divine, guiding the faithful few in their quest for harmony and
-    enlightenment.
+    In Edda, only a select few revere Enoreth, as most cultures have long forgotten the ancient
+    creator. Temples dedicated to the Great Weaver are rare and hidden from the eyes of most,
+    adorned with intricate tapestries and mosaics that depict the creation of the world and the
+    divine balance maintained by the Urdor. Few are aware of Enoreth's true nature; only elves,
+    druids, and ancient creatures remember the primordial deity in their prayers. Druids, referred
+    to amongst themselves as Weavers, are elusive figures who dedicate their lives to understanding
+    and preserving the intricate patterns of existence woven by their deity. They serve as
+    intermediaries between the mortal realm and the divine, guiding the faithful few in their quest
+    for harmony and enlightenment.
   </v-card-text>
   <v-card-text>
     Enoreth's story is one of infinite creation, a reminder that all things are interconnected, and
     that the essence of the divine flows through the very fabric of reality. In the world of Edda,
     the legacy of the Great Weaver endures, an eternal testament to the power of creation and the
     enduring balance of the cosmos.
+  </v-card-text>
+  <v-card-subtitle> The Elementals </v-card-subtitle>
+  <v-card-text>
+    In the cosmology of Edda, the elemental beings that inhabit the plane of
+    <strong>Astra</strong> are seen by some as being directly linked to Enoreth. These ethereal
+    entities, embodiments of the primal forces of nature, are believed to be manifestations of
+    Enoreth's divine essence, shaped by its will and infused with its power. From fiery beings that
+    dance amidst flames to serene entities that ride currents of air, each elemental being reflects
+    a facet of Enoreth's boundless creativity and unfathomable wisdom.
   </v-card-text>
 </template>
