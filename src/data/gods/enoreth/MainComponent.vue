@@ -27,7 +27,7 @@
     <RouterLink to="/gods/surad">Surad, the First King</RouterLink>, and
     <RouterLink to="/gods/ulat">Ulat Banor, the Maelstrom</RouterLink>. From the second part came
     <RouterLink to="/gods/agorus">Agorus, the All-Seer</RouterLink>, and
-    <RouterLink to="/gods/malak">Malak, the Devourer</RouterLink>. From the third part came
+    <RouterLink to="/gods/malak">Malak, the Lord of Lies</RouterLink>. From the third part came
     <RouterLink to="/gods/ura">Ura, the Dawnbringer</RouterLink>, and
     <RouterLink to="/gods/eth-korel">Eth-Korel, the Duskfall</RouterLink>. From the fourth came
     <RouterLink to="/gods/thal">Thal, the Arbiter</RouterLink>, and

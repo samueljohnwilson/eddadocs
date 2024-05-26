@@ -21,7 +21,7 @@ const history = {
       paragraphs: [
         `To fill the world with life, <strong>Enoreth</strong> separated three parts from
         itself; each parts was then split in two. From the first part were
-        born <strong>Othar, The Oldfather</strong>, and <strong>Malak, The Devourer</strong>. From the second
+        born <strong>Othar, The Oldfather</strong>, and <strong>Malak, The Lord of Lies</strong>. From the second
         part came <strong>Cerunnos, The Arbiter</strong>, and <strong>Ulat Banor, The Maelstrom</strong>. From
         the last came <strong>Eos, The Dawnbringer</strong>, and <strong>Eth Korel, The Duskfall</strong>.
         Separately, the benevolent powers are known as the <strong>Eyar</strong>, and the
@@ -91,7 +91,7 @@ const history = {
       paragraphs: [
         `Upon their arrival in the west, the Urdor wandered the lands of
         Edda. As Eos traveled the world, she filled it with living things,
-        among them the races of halflings, men, dwarves, and the jötnar.
+        among them the races of halflings, men, dwarves, and the jotnar.
         The Urdor enjoyed the adulation of the mortal races, and for a time,
         the balance held in Edda. Knowledge is shared among the races.`,
       ],
@@ -111,7 +111,7 @@ const history = {
       paragraphs: [
         `Eventually, war became inevitable. The dwarves remained loyal to
         Othar and took up arms alongside the elves of Neywyll, while most
-        jötnar swore loyalty to the Malor. The orcs emerged from the depths
+        jotnar swore loyalty to the Malor. The orcs emerged from the depths
         of the mountains to serve their dark masters in battle. Men were
         divided in their loyalties; nations and families alike were torn
         apart. The Great War would be fought by the pawns of the Eyar and

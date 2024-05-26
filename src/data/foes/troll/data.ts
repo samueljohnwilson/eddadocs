@@ -8,7 +8,7 @@ const data: BaseArticleData = {
   id: Foes.TROLL,
   title: Foes.TROLL.toUpperCase(),
   quote: {
-    text: 'They say the trolls were the Einar\'s first creation. Wish the gods had the sense to call it a loss and be rid of \'em, so we weren\'t stuck dealing with the lot.',
+    text: 'They say the trolls were Ura\'s first creation. Wish the gods had the sense to call it a loss and start again.',
     attribution: 'Yan Freeman, Jut trapper',
   },
   image: {

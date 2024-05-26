@@ -20,11 +20,10 @@
   </v-card-text>
   <v-card-text>
     However, Agorus' relationship with his brother Malak has always been fraught with tension. While
-    Agorus embodies enlightenment and the pursuit of truth, Malak, the Devourer, represents
-    destruction and chaos. Their conflicting natures have led to numerous clashes throughout the
-    ages, with Agorus striving to counteract Malak's malevolent influence. Despite these struggles,
-    Agorus remains steadfast in his mission to illuminate the minds of mortals and protect the
-    sanctity of knowledge.
+    Agorus embodies enlightenment and the pursuit of truth, Malak seeks to obscure and deceive.
+    Their conflicting natures have led to numerous clashes throughout the ages, with Agorus striving
+    to counteract Malak's malevolent influence. Despite these struggles, Agorus remains steadfast in
+    his mission to illuminate the minds of mortals and protect the sanctity of knowledge.
   </v-card-text>
   <v-card-text>
     Since the Godsdeath, when Enoreth banished the Urdor from the mortal realm, Agorus has resided

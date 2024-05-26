@@ -30,11 +30,11 @@ import FadeImage from '@/components/FadeImage.vue';
   </v-card-text>
   <FadeImage
     image="gods/malak-sidebar-1.webp"
-    imageTitle="Adunmon, The World-Eater"
+    imageTitle="The corruption of King Alaric"
   />
   <FadeImage
     image="gods/malak-sidebar-2.webp"
-    imageTitle="A druid"
+    imageTitle="A disciple of Oth-Malak"
   />
   <FadeImage
     image="gods/malak-sidebar-3.webp"

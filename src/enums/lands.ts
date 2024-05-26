@@ -9,5 +9,5 @@ export enum Lands {
   ALBIA = 'albia',
   ITHRA = 'ithra',
   RAJAPUN = 'rajapun',
-  IQUAT = 'iquat',
+  QUAT = 'quat',
 };

@@ -8,7 +8,7 @@
     the diverse landscapes of Edda.
   </v-card-text>
   <v-card-text>
-    She created the mighty trolls and towering jötunn, beings of immense strength to roam the rugged
+    She created the mighty trolls and towering jotunn, beings of immense strength to roam the rugged
     mountains and wild forests. The resilient dwarves, skilled in craftsmanship and mining, were
     fashioned to inhabit the depths of the earth, uncovering its hidden treasures. She created the
     halflings, a race marked by their cheerful demeanor and close-knit communities, flourishing in
