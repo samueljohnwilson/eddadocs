@@ -9,8 +9,8 @@ const data: BaseArticleData = {
   title: Gods.ULAT.toUpperCase(),
   quote: {
     text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+      'Die smiling! Ulat awaits!',
+    attribution: 'Orc saying',
   },
   image: {
     url: 'gods/ulat-main.webp',

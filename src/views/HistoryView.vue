@@ -24,7 +24,7 @@ const history = {
         born <strong>Othar, The Oldfather</strong>, and <strong>Malak, The Lord of Lies</strong>. From the second
         part came <strong>Cerunnos, The Arbiter</strong>, and <strong>Ulat Banor, The Maelstrom</strong>. From
         the last came <strong>Eos, The Dawnbringer</strong>, and <strong>Eth Korel, The Duskfall</strong>.
-        Separately, the benevolent powers are known as the <strong>Eyar</strong>, and the
+        Separately, the benevolent powers are known as the <strong>Asier</strong>, and the
         malevolent as the <strong>Malor</strong>. Together, they are the <strong>Urdor</strong>. The balance
         of their constructive and destructive forces allowed for the cycles
         of nature and the existence of life.`,
@@ -48,15 +48,15 @@ const history = {
       date: '41,032 First Age',
       icon: 'crossed-swords.png',
       paragraphs: [
-        `Over millennia, the Eyar and the Malor sought to compel the Illyum
+        `Over millennia, the Asier and the Malor sought to compel the Illyum
         into their service. Over the ages, the Illyum became divided and
         eventually set upon one another in war. The War of the Schism raged
-        in Ulwyll for nearly a thousand years, and the Eyar and Malor
+        in Ulwyll for nearly a thousand years, and the Asier and Malor
         brought forth beings from Eya and Mora to wage war alongside the
         ranks of the Illyum. As the years passed, each faction was changed
         by proximity to the power it served. Those that worshipped the Malor
         were fouled and their descendants are the orcs. Those that
-        worshipped the Eyar were blessed and their descendants are the
+        worshipped the Asier were blessed and their descendants are the
         elves.`,
       ],
     },
@@ -72,7 +72,7 @@ const history = {
         from the First Tree, forced into exile from their ancient home, and
         they set across the sea to the west. Upon their arrival in Edda,
         those fouled by the Malor settled in the mountains of the far north;
-        those blessed by the Eyar settled in a forest in the farthest west,
+        those blessed by the Asier settled in a forest in the farthest west,
         which they call Neywyll, the Young Forest.`,
         `The passing of the elves and orcs from Ulwyll marks the end of the
         First Age. During this time, the Urdor were also banished from
@@ -114,7 +114,7 @@ const history = {
         jotnar swore loyalty to the Malor. The orcs emerged from the depths
         of the mountains to serve their dark masters in battle. Men were
         divided in their loyalties; nations and families alike were torn
-        apart. The Great War would be fought by the pawns of the Eyar and
+        apart. The Great War would be fought by the pawns of the Asier and
         Malor for two centuries. During this time, many of the empires of
         men would be wiped from existence and the land itself was razed.`,
       ],

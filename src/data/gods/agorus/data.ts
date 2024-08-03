@@ -9,8 +9,8 @@ const data: BaseArticleData = {
   title: Gods.AGORUS.toUpperCase(),
   quote: {
     text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+      'Nothing escapes the All-Seer\'s gaze.',
+    attribution: 'Overheard at the Acumenium',
   },
   image: {
     url: 'gods/agorus-main.webp',

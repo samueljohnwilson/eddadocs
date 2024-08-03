@@ -16,7 +16,7 @@ const data: BaseArticleData = {
   },
   image: {
     url: 'races/elf-main.webp',
-    title: 'A dwarf',
+    title: 'A Neydan elf',
   },
   content: MainComponent,
   sidebar: SidebarComponent,

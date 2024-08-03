@@ -16,8 +16,8 @@ import FadeImage from '@/components/FadeImage.vue';
   </v-card-subtitle>
   <v-card-text>
     The All-Seer<br />
-    The Wizened One<br />
-    The Great Eye<br />
+    The Great Sage<br />
+    The Watching One<br />
   </v-card-text>
   <v-card-subtitle>
     Associations
