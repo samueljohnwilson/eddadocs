@@ -1,26 +1,25 @@
-import { Races } from '@/enums/races';
-import type { BaseArticleData } from '@/types';
-import RacesDescription from '../RacesDescription.vue';
-import MainComponent from './MainComponent.vue';
-import SidebarComponent from './SidebarComponent.vue';
+import { Races } from '@/enums/races'
+import type { BaseArticleData } from '@/types'
+import RacesDescription from '../RacesDescription.vue'
+import MainComponent from './MainComponent.vue'
+import SidebarComponent from './SidebarComponent.vue'
 
 const data: BaseArticleData = {
   id: Races.HALFLING,
   title: Races.HALFLING.toUpperCase(),
   quote: {
-    text: `While the ambition of men is their strength, it is also their weakness.
-    That which drives them to achieve is the same
-    which compels them to corruption. Few things rival the great heights
-    and foul depths of the human spirit.`,
-    attribution: 'Calaith Aowen, elven sage',
+    text: `In the countryside, there are few as trustworthy
+    as the halflings; in the cities, you can trust them
+    too—so long as you've got coins to offer.`,
+    attribution: 'Haven Thorne, trader',
   },
   image: {
     url: 'races/halfling-main.webp',
-    title: 'A dwarf',
+    title: 'A dwarf'
   },
   content: MainComponent,
   sidebar: SidebarComponent,
-  groupDescription: RacesDescription,
-};
+  groupDescription: RacesDescription
+}
 
-export default data;
+export default data

@@ -1,84 +1,59 @@
 <template>
   <div>
-    <v-card-subtitle>
-      Overview
-    </v-card-subtitle>
+    <v-card-subtitle> Overview </v-card-subtitle>
     <v-card-text>
-      The dwarves inhabit Hethskein, the northernmost reach of Edda. There are
-      two groups of dwarves: those of the <strong>mountain</strong> and those of
-      the <strong>tundra</strong>.
+      Halflings are a small and nimble race known for their love of peace and simple pleasures. They
+      primarily inhabit the rolling hills and fertile valleys of the Unterlund, though they do live
+      in the other southern nations; a few have even ventured so far as Bjordlund, but the cold does
+      not suit their tastes, nor their proclivity for going about without shoes. They live in
+      tight-knit communities centered around farming and trade. Their villages are often hidden from
+      sight, nestled within the landscape, with homes built into hillsides and covered with lush
+      greenery. In the country, the <strong>fieldfolk</strong> tend to live in separate communities,
+      though often directly neighbouring human settlements. In the city, the
+      <strong>cityfolk</strong> either manage in an oversized world or carve out their own small
+      neighbourhoods, which are better equipped to accommodate their diminutive size.
     </v-card-text>
     <v-card-text>
-      The <strong>mountain dwarves</strong> live within Hethe, the great volcano
-      that towers above all other peaks in Edda. The dwarves have tunnelled deep
-      into its depths and the winding, labyrinthine shafts are home to many
-      dwarven communities. Near the mountain's top stands the fortress,
-      Hethedun, which is the seat of the dwarfish king and the site of a great
-      forge, powered by the very magma that flows from the earth below.
+      The <strong>fieldfolk</strong> are known as simple and good-hearted people, if a little naive.
+      Most of them are content to tend their gardens, smoke their pipe-weed, and while away their
+      days in peace and quiet. However, in times of trouble, they have proven themselves to be brave
+      and loyal citizens of the kingdoms in which they dwell. There are few men that have spent time
+      among the fieldfolk and come away with a harsh word on their lips. Their lifestyle is deeply
+      rooted in agriculture and craftsmanship. They are renowned for their skill in cultivating
+      crops, particularly those that yield fruits and grains. Their markets are vibrant and lively,
+      attracting traders from far and wide. Halflings have a keen eye for quality and are known to
+      barter with shrewdness and wit, ensuring their communities thrive economically.
     </v-card-text>
     <v-card-text>
-      The <strong>tundra dwarves</strong> live scattered across Hetheskein.
-      Their ancestors left the mountain long ago, following a religious schism
-      that divided the dwarves of Hethe. They believe that the teachings of
-      Othar entreat his followers to choose freedom above all else, so they live
-      in loose-knit tribes with little distinct hierarchy. Though they do roam
-      the tundra, hunting and foraging, they have not forsaken the underground
-      entirely: they often use glacial caverns as their residence, sometimes
-      occupying the same site for months or years before moving on. Though the
-      dwarves maintain respectful relations, the mountain dwarves tend to look
-      upon the tundra dwarves as coarse and barbaric, and the tundra dwarves see
-      their mountain-dwelling kin as rigid and prudish.
-    </v-card-text>
-    <v-card-subtitle>
-      Culture
-    </v-card-subtitle>
-    <v-card-text>
-      The <strong>mountain dwarves</strong> prize education, the development of
-      practical skills, and the dignity of physical labour. Their studious and
-      hard-working culture tends to produce knowledgable and skilled citizens.
+      In many cases, the <strong>cityfolk</strong> have inhabited the cities they call home for many
+      generations. They have cultures that reflect the human society around them, while still
+      retaining some of the characteristics and heritage of their halfling roots. In order to
+      provide value to the human societies they inhabit, they have learned to embrace certain roles,
+      including merchants, moneylenders, librarians, scholars, and jurists. Through their long lives
+      and strong familial connections, they have a tendency to possess greater education and
+      material wealth than many of the humans the live alongside. This can occasionally lead to
+      unfortunate resentments or stereotypes being attributed to cityfolk, but overall, they are
+      well-regarded and accepted members of society.
     </v-card-text>
     <v-card-text>
-      The <strong>tundra dwarves</strong> value experiences above possessions,
-      revelling in the dramatic northern sunsets or in watching the caribou
-      herds stampede across the landscape. They are attuned to the pulse of
-      their land and to the natural world at large.
-    </v-card-text>
-    <v-card-subtitle>
-      Religion
-    </v-card-subtitle>
-    <v-card-text>
-      All dwarves worship Othar, though in their own ways.
+      Culturally, halflings place a strong emphasis on community and family bonds. Their societies
+      are built on mutual support and cooperation, with decisions often made collectively through
+      village councils. Storytelling and music are central to their social life, with gatherings
+      around the hearth to share tales and songs being a cherished tradition. Halflings have a rich
+      oral history, with legends and folklore passed down through generations. They take great pride
+      in their heritage and are adept at using humor and cleverness to navigate challenges. This
+      cultural resilience has enabled them to endure and thrive amidst the changing tides of
+      history.
     </v-card-text>
     <v-card-text>
-      The <strong>mountain dwarves</strong> consider productivity, diligence,
-      and patience to be the core values of a good life. Their church is known
-      as the House of Othar, but in conversations among dwarves, they simply
-      refer to it as the House. The head of the order is known as the Raester
-      <span class="translate">(Dwarvish: Forgemaster)</span>. Traditionally a
-      male, he is chosen for the role based on his adherence to the religion's
-      values, his standing in the community, and his skill as a smith. Though
-      any dwarf can become the Raester, it has long been common for high
-      families to enroll their second-born sons in the priesthood to become
-      candidates; the Raester takes no wife, but the the position is second only
-      to the king in its political power. Worship is centred around the Great
-      Forge of Hethedun, which is powered by the magma that flows out from the
-      volcano below. When not studying scripture, the priests of the order spend
-      much of their time working at the forge.
-    </v-card-text>
-    <v-card-text>
-      In the middle of the Second Age, a dwarf named Inga Ethwred ascended to
-      the role of Raester and upended the religious establishment with his
-      proclamations regarding the will of Othar; this eventually lead to a
-      religious schism known as the Sunder. Following the split, Ethwred led his
-      followers into the tundra, where they established a less-restrictive way
-      of worshipping Othar. The <strong>tundra dwarves</strong> call themselves
-      the Wethwen <span class="translate">(Dwarvish: True Sons)</span> and their
-      worship centres on the freedom that Othar gave his creations. They believe
-      that they honour him by casting aside comfort and living a life without
-      restraint. As a result of the Sunder, a common curse among the mountain
-      dwarves is 'wen wey Inga'
-      <span class="translate">(Dwarvish: son of Inga)</span>, which is roughly
-      equivalent to 'son of a bitch' or 'bastard'.
+      Though halflings generally prefer a peaceful existence, they are not without their own form of
+      heroism. Many halflings have ventured beyond their tranquil villages to explore the wider
+      world, driven by a curiosity and wanderlust that belies their homebound reputation. These
+      adventurers are known for their resourcefulness and bravery, often relying on their wit and
+      agility to overcome obstacles. Halflings are also skilled in the use of slings and throwing
+      weapons, which they wield with surprising accuracy. While they may not seek out conflict, they
+      are fiercely protective of their homes and will defend them with unwavering determination if
+      threatened.
     </v-card-text>
   </div>
 </template>

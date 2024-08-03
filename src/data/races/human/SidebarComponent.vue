@@ -6,7 +6,7 @@ import FadeImage from '@/components/FadeImage.vue';
   <div>
     <FadeImage
       image="races/human-sidebar-1.webp"
-      imageTitle="Ithran mercenary"
+      imageTitle="Bjord alderman"
     />
     <v-card-text>
       Few in number, and even more elusive than those numbers would suggest, the
@@ -29,7 +29,7 @@ import FadeImage from '@/components/FadeImage.vue';
     </v-card-text>
     <FadeImage
       image="races/human-sidebar-3.webp"
-      imageTitle="Garradi war queen"
+      imageTitle="Iquat hunter"
     />
     <v-card-text>
       Their kingdom, Vahran, was greatest in the early days of the Second Age.
