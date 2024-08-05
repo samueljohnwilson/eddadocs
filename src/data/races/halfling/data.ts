@@ -8,7 +8,7 @@ const data: BaseArticleData = {
   id: Races.HALFLING,
   title: Races.HALFLING.toUpperCase(),
   quote: {
-    text: `In the countryside, there are few as trustworthy
+    text: `In the countryside, there are none as trustworthy
     as the halflings; in the cities, you can trust them
     too—so long as you've got coins to offer.`,
     attribution: 'Haven Thorne, trader',
