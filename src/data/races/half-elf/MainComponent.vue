@@ -2,9 +2,9 @@
   <div>
     <v-card-subtitle> Overview </v-card-subtitle>
     <v-card-text>
-      The half-elves, or in Elvish, have their origin in early part of the Second Age, when the men
-      of Wydmyn formed close ties to the elves of Neywyll. The human race was still new to the world
-      then and the elves took great pleasure in their companionship. Through their close relations
+      The half-elves, or ethlyn in Elvish, originated in the early part of the Second Age, when the
+      men of Wydmyn formed close ties to the elves of Neywyll. The human race was still new to the
+      world then and the elves took pleasure in their companionship. Through their close relations
       with the elves, the men of Wydmyn gained knowledge and wealth far greater than other men could
       imagine. Eventually, some were even welcomed into the ancient elven houses. When the Great War
       descended upon Edda, the men of Wydmyn fought valiantly alongside their elven brethren;

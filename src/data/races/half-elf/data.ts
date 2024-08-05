@@ -1,26 +1,25 @@
-import { Races } from '@/enums/races';
-import type { BaseArticleData } from '@/types';
-import RacesDescription from '../RacesDescription.vue';
-import MainComponent from './MainComponent.vue';
-import SidebarComponent from './SidebarComponent.vue';
+import { Races } from '@/enums/races'
+import type { BaseArticleData } from '@/types'
+import RacesDescription from '../RacesDescription.vue'
+import MainComponent from './MainComponent.vue'
+import SidebarComponent from './SidebarComponent.vue'
 
 const data: BaseArticleData = {
   id: Races.HALF_ELF,
   title: Races.HALF_ELF.toUpperCase(),
   quote: {
-    text: `While the ambition of men is their strength, it is also their weakness.
-    That which drives them to achieve is the same
-    which compels them to corruption. Few things rival the great heights
-    and foul depths of the human spirit.`,
-    attribution: 'Calaith Aowen, elven sage',
+    text: `Ethlyn walk the line between worlds,
+    heirs to both the wisdom of the forestfolk and the
+    boldness of men.`,
+    attribution: 'Wai Galud, Farsir tomekeeper'
   },
   image: {
     url: 'races/half-elf-main.webp',
-    title: 'A dwarf',
+    title: 'A half-elf of Wydmyn'
   },
   content: MainComponent,
   sidebar: SidebarComponent,
-  groupDescription: RacesDescription,
-};
+  groupDescription: RacesDescription
+}
 
-export default data;
+export default data

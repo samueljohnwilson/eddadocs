@@ -1,84 +1,56 @@
 <template>
   <div>
-    <v-card-subtitle>
-      Overview
-    </v-card-subtitle>
+    <v-card-subtitle> Overview </v-card-subtitle>
     <v-card-text>
-      The dwarves inhabit Hethskein, the northernmost reach of Edda. There are
-      two groups of dwarves: those of the <strong>mountain</strong> and those of
-      the <strong>tundra</strong>.
+      Among the furthest depths of Neywyll, the firbolg dwell as ancient guardians of the forest. To
+      the men of Edda, the elves are figures of legend, but to the elves themselves, the firbolg are
+      enshrouded in even greater mystery. These enigmatic beings are seldom seen, and their solitary
+      nature fuels the myths that surround them. Leading lives of seclusion, they wander the forest
+      alone, often spending months or even years in silent contemplation. With lifespans that
+      stretch across many centuries, most firbolg alive today carry the memories of the Second Age,
+      though they rarely share their knowledge with outsiders.
     </v-card-text>
     <v-card-text>
-      The <strong>mountain dwarves</strong> live within Hethe, the great volcano
-      that towers above all other peaks in Edda. The dwarves have tunnelled deep
-      into its depths and the winding, labyrinthine shafts are home to many
-      dwarven communities. Near the mountain's top stands the fortress,
-      Hethedun, which is the seat of the dwarfish king and the site of a great
-      forge, powered by the very magma that flows from the earth below.
+      The appearance of the firbolg is both striking and imposing. They resemble enormous humans,
+      standing tall with long, pointed ears that mark their otherworldly heritage. Their skin is
+      slightly grey, and their hair, often left uncut and their beards untrimmed, flows in a unkempt
+      cascade. However, fibolg possess the ability to take on the physical characteristics of elves
+      and humans, allowing them to pass among those groups when the need arises.
     </v-card-text>
     <v-card-text>
-      The <strong>tundra dwarves</strong> live scattered across Hetheskein.
-      Their ancestors left the mountain long ago, following a religious schism
-      that divided the dwarves of Hethe. They believe that the teachings of
-      Othar entreat his followers to choose freedom above all else, so they live
-      in loose-knit tribes with little distinct hierarchy. Though they do roam
-      the tundra, hunting and foraging, they have not forsaken the underground
-      entirely: they often use glacial caverns as their residence, sometimes
-      occupying the same site for months or years before moving on. Though the
-      dwarves maintain respectful relations, the mountain dwarves tend to look
-      upon the tundra dwarves as coarse and barbaric, and the tundra dwarves see
-      their mountain-dwelling kin as rigid and prudish.
-    </v-card-text>
-    <v-card-subtitle>
-      Culture
-    </v-card-subtitle>
-    <v-card-text>
-      The <strong>mountain dwarves</strong> prize education, the development of
-      practical skills, and the dignity of physical labour. Their studious and
-      hard-working culture tends to produce knowledgable and skilled citizens.
+      Residing in Neywyll long before the elves set foot in its verdant realm, the firbolg are seen
+      as ancient custodians of the forest. They exist in a state of profound solitude, eschewing the
+      trappings of civilization and living in harmony with the natural world. Their lives are deeply
+      intertwined with the rhythms of the forest, and they are said to possess an intimate
+      understanding of its secrets, communicating with the trees and creatures in a language only
+      they comprehend.
     </v-card-text>
     <v-card-text>
-      The <strong>tundra dwarves</strong> value experiences above possessions,
-      revelling in the dramatic northern sunsets or in watching the caribou
-      herds stampede across the landscape. They are attuned to the pulse of
-      their land and to the natural world at large.
-    </v-card-text>
-    <v-card-subtitle>
-      Religion
-    </v-card-subtitle>
-    <v-card-text>
-      All dwarves worship Othar, though in their own ways.
+      The spiritual beliefs of the firbolg revolve around Enoreth, whom they reverently call
+      'Laeth,' meaning 'That Which Is' in the Sylvan tongue. Their worship is not
+      structured in rituals or temples but is instead a deep, personal connection to the divine
+      essence they perceive in the world around them. To the firbolg, Enoreth is the embodiment of
+      all that exists, a presence that permeates every leaf and stone within Neywyll. Their devotion
+      is reflected in their role as protectors of the forest, ensuring its continued flourishing in
+      the face of time's passage.
     </v-card-text>
     <v-card-text>
-      The <strong>mountain dwarves</strong> consider productivity, diligence,
-      and patience to be the core values of a good life. Their church is known
-      as the House of Othar, but in conversations among dwarves, they simply
-      refer to it as the House. The head of the order is known as the Raester
-      <span class="translate">(Dwarvish: Forgemaster)</span>. Traditionally a
-      male, he is chosen for the role based on his adherence to the religion's
-      values, his standing in the community, and his skill as a smith. Though
-      any dwarf can become the Raester, it has long been common for high
-      families to enroll their second-born sons in the priesthood to become
-      candidates; the Raester takes no wife, but the the position is second only
-      to the king in its political power. Worship is centred around the Great
-      Forge of Hethedun, which is powered by the magma that flows out from the
-      volcano below. When not studying scripture, the priests of the order spend
-      much of their time working at the forge.
+      As stewards of Neywyll, the firbolg hold a unique position within the forest's delicate
+      ecosystem. It is said that when elves reach the end of their long lives, they travel
+      deep into the most ancient forests of Neywyll to seek out a
+      firbolg. What transpires during these encounters remains a
+      closely guarded secret, but it is believed that the firbolg aid the elves in transitioning to
+      whatever lies beyond. This ritual underscores the deep bond between the elves and firbolg, a
+      connection forged in mutual respect and understanding of the natural world.
     </v-card-text>
     <v-card-text>
-      In the middle of the Second Age, a dwarf named Inga Ethwred ascended to
-      the role of Raester and upended the religious establishment with his
-      proclamations regarding the will of Othar; this eventually lead to a
-      religious schism known as the Sunder. Following the split, Ethwred led his
-      followers into the tundra, where they established a less-restrictive way
-      of worshipping Othar. The <strong>tundra dwarves</strong> call themselves
-      the Wethwen <span class="translate">(Dwarvish: True Sons)</span> and their
-      worship centres on the freedom that Othar gave his creations. They believe
-      that they honour him by casting aside comfort and living a life without
-      restraint. As a result of the Sunder, a common curse among the mountain
-      dwarves is 'wen wey Inga'
-      <span class="translate">(Dwarvish: son of Inga)</span>, which is roughly
-      equivalent to 'son of a bitch' or 'bastard'.
+      The firbolg's existence remains a testament to the enduring power of nature and the ancient
+      ties that bind the inhabitants of Neywyll. Though they are few in number, their presence looms
+      large in the hearts of those who know of them. To the elves and the forest creatures alike,
+      the firbolg are more than mere guardians; they are living embodiments of Neywyll's spirit,
+      steadfast in their duty and unwavering in their connection to Enoreth's timeless will. Through
+      their solitary vigil, the firbolg ensure that the mysteries of Neywyll endure, untouched by
+      the ravages of time.
     </v-card-text>
   </div>
 </template>

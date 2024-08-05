@@ -1,84 +1,58 @@
 <template>
   <div>
-    <v-card-subtitle>
-      Overview
-    </v-card-subtitle>
+    <v-card-subtitle> Overview </v-card-subtitle>
     <v-card-text>
-      The dwarves inhabit Hethskein, the northernmost reach of Edda. There are
-      two groups of dwarves: those of the <strong>mountain</strong> and those of
-      the <strong>tundra</strong>.
+      Half-orcs in Edda inhabit a world where they are constantly reminded of their dual heritage,
+      one that casts a long shadow over their existence. Born from the often-violent encounters
+      between orc raiders and human settlements in the north, half-orcs are frequently stigmatized
+      and shunned by both parent races. This social alienation defines much of their lives, as they
+      struggle to find acceptance and belonging in a world that views them with suspicion and fear.
+      Despite the prejudice they face, many half-orcs are resilient and determined to carve out
+      their own place in society, often developing a tough exterior to shield themselves from the
+      harsh judgments of others.
     </v-card-text>
     <v-card-text>
-      The <strong>mountain dwarves</strong> live within Hethe, the great volcano
-      that towers above all other peaks in Edda. The dwarves have tunnelled deep
-      into its depths and the winding, labyrinthine shafts are home to many
-      dwarven communities. Near the mountain's top stands the fortress,
-      Hethedun, which is the seat of the dwarfish king and the site of a great
-      forge, powered by the very magma that flows from the earth below.
+      Physically, half-orcs inherit traits from both humans and orcs, resulting in a striking and
+      often intimidating appearance. They typically possess the muscular build and prominent
+      features of their orcish ancestry, including greenish or grey skin and pronounced brows, and
+      sometimes even tusks, while retaining some of the more delicate features of their human
+      lineage. This unique combination can make them stand out uncomfortably in both human and orc
+      communities. Yet, their physical prowess and resilience are undeniable, often making them
+      formidable warriors and laborers, capable of enduring hardships that might break others.
     </v-card-text>
     <v-card-text>
-      The <strong>tundra dwarves</strong> live scattered across Hetheskein.
-      Their ancestors left the mountain long ago, following a religious schism
-      that divided the dwarves of Hethe. They believe that the teachings of
-      Othar entreat his followers to choose freedom above all else, so they live
-      in loose-knit tribes with little distinct hierarchy. Though they do roam
-      the tundra, hunting and foraging, they have not forsaken the underground
-      entirely: they often use glacial caverns as their residence, sometimes
-      occupying the same site for months or years before moving on. Though the
-      dwarves maintain respectful relations, the mountain dwarves tend to look
-      upon the tundra dwarves as coarse and barbaric, and the tundra dwarves see
-      their mountain-dwelling kin as rigid and prudish.
-    </v-card-text>
-    <v-card-subtitle>
-      Culture
-    </v-card-subtitle>
-    <v-card-text>
-      The <strong>mountain dwarves</strong> prize education, the development of
-      practical skills, and the dignity of physical labour. Their studious and
-      hard-working culture tends to produce knowledgable and skilled citizens.
+      Socially, half-orcs face a difficult journey. In human settlements, they are often treated
+      with suspicion and disdain, viewed as reminders of past traumas and ongoing threats. The
+      orcish tribes, meanwhile, typically regard them as weak or inferior due to their human blood.
+      This dual rejection forces many half-orcs to live on the fringes of society, often
+      among bands of outlaws or mercenaries. Within these groups, they find some solidarity and
+      understanding, creating a unique culture that values strength, loyalty, and perseverance in
+      the face of adversity.
     </v-card-text>
     <v-card-text>
-      The <strong>tundra dwarves</strong> value experiences above possessions,
-      revelling in the dramatic northern sunsets or in watching the caribou
-      herds stampede across the landscape. They are attuned to the pulse of
-      their land and to the natural world at large.
-    </v-card-text>
-    <v-card-subtitle>
-      Religion
-    </v-card-subtitle>
-    <v-card-text>
-      All dwarves worship Othar, though in their own ways.
+      The psychological impact of being born from violence and rejection shapes the identity of many
+      half-orcs. Some wrestle with anger and resentment, struggling to reconcile the darker aspects
+      of their origins. Others channel their experiences into positive pursuits, becoming champions
+      of the downtrodden and defenders of justice. Their mixed heritage often grants them unique
+      perspectives, allowing them to bridge cultural divides and mediate conflicts between humans
+      and orcs, though such roles are challenging to navigate given the deep-seated biases they must
+      confront.
     </v-card-text>
     <v-card-text>
-      The <strong>mountain dwarves</strong> consider productivity, diligence,
-      and patience to be the core values of a good life. Their church is known
-      as the House of Othar, but in conversations among dwarves, they simply
-      refer to it as the House. The head of the order is known as the Raester
-      <span class="translate">(Dwarvish: Forgemaster)</span>. Traditionally a
-      male, he is chosen for the role based on his adherence to the religion's
-      values, his standing in the community, and his skill as a smith. Though
-      any dwarf can become the Raester, it has long been common for high
-      families to enroll their second-born sons in the priesthood to become
-      candidates; the Raester takes no wife, but the the position is second only
-      to the king in its political power. Worship is centred around the Great
-      Forge of Hethedun, which is powered by the magma that flows out from the
-      volcano below. When not studying scripture, the priests of the order spend
-      much of their time working at the forge.
+      Despite the hardships they face, many half-orcs exhibit a remarkable ability to adapt and
+      thrive. Their lives are defined by a constant struggle for acceptance and purpose, which can
+      lead to impressive achievements in various fields. Some become renowned warriors, mercenaries,
+      or adventurers, using their physical prowess to carve out reputations that command respect.
+      Others find roles as diplomats, guides, or traders, utilizing their understanding of both
+      human and orcish societies to foster cooperation and trade between the two races.
     </v-card-text>
     <v-card-text>
-      In the middle of the Second Age, a dwarf named Inga Ethwred ascended to
-      the role of Raester and upended the religious establishment with his
-      proclamations regarding the will of Othar; this eventually lead to a
-      religious schism known as the Sunder. Following the split, Ethwred led his
-      followers into the tundra, where they established a less-restrictive way
-      of worshipping Othar. The <strong>tundra dwarves</strong> call themselves
-      the Wethwen <span class="translate">(Dwarvish: True Sons)</span> and their
-      worship centres on the freedom that Othar gave his creations. They believe
-      that they honour him by casting aside comfort and living a life without
-      restraint. As a result of the Sunder, a common curse among the mountain
-      dwarves is 'wen wey Inga'
-      <span class="translate">(Dwarvish: son of Inga)</span>, which is roughly
-      equivalent to 'son of a bitch' or 'bastard'.
+      Ultimately, the story of the half-orcs in Edda is one of resilience and defiance in the face
+      of prejudice and adversity. Their existence challenges the established norms and forces the
+      people of Edda to confront uncomfortable truths about identity, heritage, and acceptance.
+      Through their perseverance, half-orcs carve out a niche for themselves, proving that they are
+      more than the sum of their origins. In doing so, they contribute to the rich tapestry of
+      Edda's cultures, offering lessons in strength, survival, and the quest for belonging.
     </v-card-text>
   </div>
 </template>
