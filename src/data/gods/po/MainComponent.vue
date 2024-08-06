@@ -18,7 +18,7 @@
   </v-card-text>
   <v-card-text>
     Despite her reputation for chaos and unpredictability, the Tempest is not solely a destructive
-    force. In her capriciousness, she also brings moments of joy, excitement, and spontaneity to the
+    force. In her capriciousness, she also brings moments of great joy, excitement, and spontaneity to the
     planes. Her influence can be seen in the vibrant colors of a rainbow after a storm, in the
     thrill of a winning streak, and in the enchanting beauty of a moonlit dance under the stars. Po
     embodies the duality of chaos, both destructive and creative, reminding mortals that life is a

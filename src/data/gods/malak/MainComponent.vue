@@ -1,13 +1,13 @@
 <template>
   <v-card-subtitle> Overview </v-card-subtitle>
   <v-card-text>
-    Malak, the Lord of Lies, is a deity whose very essence is intertwined with deception, betrayal,
-    and selfishness. His influence permeates the darkest corners of the mortal realm and beyond,
-    weaving a web of lies and deceit that ensnares the unsuspecting. Malak thrives on the discord
-    sown by treachery, reveling in the downfall of those who trust too easily. He is a master
-    manipulator, able to twist words and bend truths to suit his sinister purposes. In his realm
-    within Mora, the plane of the Malor, his power is absolute, and his word is law, though it is a
-    law built on falsehoods and treachery.
+    <strong>Malak, the Lord of Lies</strong>, is a deity whose very essence is intertwined with
+    deception, betrayal, and selfishness. His influence permeates the darkest corners of the mortal
+    realm and beyond, weaving a web of lies and deceit that ensnares the unsuspecting. Malak thrives
+    on the discord sown by treachery, reveling in the downfall of those who trust too easily. He is
+    a master manipulator, able to twist words and bend truths to suit his sinister purposes. In his
+    realm within Mora, the plane of the Malor, his power is absolute, and his word is law, though it
+    is a law built on falsehoods and treachery.
   </v-card-text>
   <v-card-text>
     The realm of Malak is a shifting labyrinth of shadows and illusions, where nothing is as it
