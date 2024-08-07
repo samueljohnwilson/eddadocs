@@ -44,13 +44,13 @@ const history = {
     },
     {
       id: 'war-of-schism',
-      title: 'The War of the Schism',
+      title: 'The Schism',
       date: '41,032 First Age',
       icon: 'crossed-swords.png',
       paragraphs: [
         `Over millennia, the Asier and the Malor sought to compel the Illyum
         into their service. Over the ages, the Illyum became divided and
-        eventually set upon one another in war. The War of the Schism raged
+        eventually set upon one another in war. The Schism raged
         in Ulwyll for nearly a thousand years, and the Asier and Malor
         brought forth beings from Eya and Mora to wage war alongside the
         ranks of the Illyum. As the years passed, each faction was changed

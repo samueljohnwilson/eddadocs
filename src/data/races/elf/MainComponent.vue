@@ -14,7 +14,7 @@
       blessed, their descendants becoming the elves.
     </v-card-text>
     <v-card-text>
-      The War of the Schism continued for nearly 1000 years, prompting Enoreth to intervene directly
+      The Schism continued for nearly 1000 years, prompting Enoreth to intervene directly
       for the first time. To restore balance to Ulwyll, Enoreth cast the Illyum away from the First
       Tree, forcing them into exile from their ancient home. The exiles traveled across the sea to
       the west, arriving in Edda. Enoreth's intervention not only ended the prolonged war but also

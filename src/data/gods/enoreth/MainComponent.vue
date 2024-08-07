@@ -39,7 +39,7 @@
   <v-card-text>
     Throughout the annals of time, Enoreth has maintained a stance of divine impartiality, not
     intervening directly in mortal affairs. However, history records two instances where Enoreth's
-    hand reached into the realm of mortals. The first occurred during the War of the Schism when the
+    hand reached into the realm of mortals. The first occurred during the Schism when the
     Illyum were cast away from Ulwyll, their ancestral home, as a means to restore balance to the
     world. Millennia later, at the culmination of the Great War, Enoreth enacted a momentous decree
     known as the Godsdeath. In this act, the Urdor were banished from the mortal realm, their
