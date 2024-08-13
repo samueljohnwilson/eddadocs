@@ -27,21 +27,21 @@
     </v-card-text>
     <v-card-text>
       The spiritual beliefs of the firbolg revolve around Enoreth, whom they reverently call
-      'Laeth,' meaning 'That Which Is' in the Sylvan tongue. Their worship is not
-      structured in rituals or temples but is instead a deep, personal connection to the divine
-      essence they perceive in the world around them. To the firbolg, Enoreth is the embodiment of
-      all that exists, a presence that permeates every leaf and stone within Neywyll. Their devotion
-      is reflected in their role as protectors of the forest, ensuring its continued flourishing in
-      the face of time's passage.
+      'Laeth,' meaning 'That Which Is' in the Sylvan tongue. Their worship is not structured in
+      rituals or temples but is instead a deep, personal connection to the divine essence they
+      perceive in the world around them. To the firbolg, Enoreth is the embodiment of all that
+      exists, a presence that permeates every leaf and stone within Neywyll. Their devotion is
+      reflected in their role as protectors of the forest, ensuring its continued flourishing in the
+      face of time's passage.
     </v-card-text>
     <v-card-text>
       As stewards of Neywyll, the firbolg hold a unique position within the forest's delicate
-      ecosystem. It is said that when elves reach the end of their long lives, they travel
-      deep into the most ancient forests of Neywyll to seek out a
-      firbolg. What transpires during these encounters remains a
-      closely guarded secret, but it is believed that the firbolg aid the elves in transitioning to
-      whatever lies beyond. This ritual underscores the deep bond between the elves and firbolg, a
-      connection forged in mutual respect and understanding of the natural world.
+      ecosystem. It is said that when elves reach the end of their long lives, they travel deep into
+      the most ancient forests of Neywyll to seek out a firbolg. What transpires during these
+      encounters is not known, even to the elves, but it is believed that the firbolg aid them
+      in transitioning to whatever lies beyond. This ritual underscores the deep bond between the
+      elves and firbolg, a connection forged in mutual respect and understanding of the natural
+      world.
     </v-card-text>
     <v-card-text>
       The firbolg's existence remains a testament to the enduring power of nature and the ancient

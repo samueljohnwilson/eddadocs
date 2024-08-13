@@ -69,7 +69,7 @@
     honored the cycles of nature and the memory of their ancient homeland.
   </v-card-text>
   <v-card-text>
-    Upon their arrival in Albia, the elves faced a major rift in opinion about how to move
+    However, upon their arrival in Albia, the elves faced a major rift in opinion about how to move
     forward from their exile. Some elves, deeply rooted in their memories of Ulwyll, felt a strong
     desire to remain as close to their ancient home as possible, both physically and spiritually.
     These elves, the ancestors of the Albian, believed that by preserving their traditional ways and
