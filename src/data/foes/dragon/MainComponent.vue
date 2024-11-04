@@ -1,7 +1,7 @@
 <template>
   <v-card-subtitle> Overview </v-card-subtitle>
   <v-card-text>
-    Dragons are among the most ancient and powerful beings ever to exist. Created by Enoreth
+    Dragons are among the most ancient and powerful beings ever to exist. Created by Anoreth
     during the First Age, these magnificent creatures were designed to embody the very essence of
     elemental power and balance. Each dragon was a force of nature unto itself, possessing immense
     strength, intelligence, and magical abilities. Only thirteen dragons were ever created, making

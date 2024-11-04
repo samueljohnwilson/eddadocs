@@ -2,7 +2,7 @@
   <v-card-subtitle> Overview </v-card-subtitle>
   <v-card-text>
     Elementals are beings of pure cosmic energy, inhabiting Astra, the primordial plane from which
-    all other planes draw their essence. Created at the dawn of time by Enoreth, these beings are
+    all other planes draw their essence. Created at the dawn of time by Anoreth, these beings are
     embodiments of the fundamental forces of nature: fire, water, earth, and air. Each elemental is
     a manifestation of its respective element, possessing immense power and a form that reflects its
     nature. In Astra, they exist in a state of perpetual flux, embodying the balance and chaos

@@ -18,3 +18,10 @@ defineProps({
   <NavBar :navElements="Object.values(Gods)" :parentPath="Routes.GODS"/>
   <WikiPage :activeArticle="activeGod"/>
 </template>
+
+<style>
+.alignment-icon {
+  max-width: 60%;
+  max-height: 60%;
+}
+</style>

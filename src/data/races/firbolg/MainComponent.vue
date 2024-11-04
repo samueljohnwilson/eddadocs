@@ -26,10 +26,10 @@
       they comprehend.
     </v-card-text>
     <v-card-text>
-      The spiritual beliefs of the firbolg revolve around Enoreth, whom they reverently call
+      The spiritual beliefs of the firbolg revolve around Anoreth, whom they reverently call
       'Laeth,' meaning 'That Which Is' in the Sylvan tongue. Their worship is not structured in
       rituals or temples but is instead a deep, personal connection to the divine essence they
-      perceive in the world around them. To the firbolg, Enoreth is the embodiment of all that
+      perceive in the world around them. To the firbolg, Anoreth is the embodiment of all that
       exists, a presence that permeates every leaf and stone within Neywyll. Their devotion is
       reflected in their role as protectors of the forest, ensuring its continued flourishing in the
       face of time's passage.
@@ -48,7 +48,7 @@
       ties that bind the inhabitants of Neywyll. Though they are few in number, their presence looms
       large in the hearts of those who know of them. To the elves and the forest creatures alike,
       the firbolg are more than mere guardians; they are living embodiments of Neywyll's spirit,
-      steadfast in their duty and unwavering in their connection to Enoreth's timeless will. Through
+      steadfast in their duty and unwavering in their connection to Anoreth's timeless will. Through
       their solitary vigil, the firbolg ensure that the mysteries of Neywyll endure, untouched by
       the ravages of time.
     </v-card-text>

@@ -6,9 +6,7 @@ import FadeImage from '@/components/FadeImage.vue';
   <v-card-subtitle>
     Alignment
   </v-card-subtitle>
-  <v-card-text>
-    Neutral Good
-  </v-card-text>
+  <img src="../../../assets/ng.png" class="alignment-icon" />
   <v-card-text>
   </v-card-text>
   <v-card-subtitle>

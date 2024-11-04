@@ -1,11 +1,11 @@
 export enum Gods {
-  SURAD = 'surad',
+  ANORETH = 'anoreth',
   AGORUS = 'agorus',
-  URA = 'ura',
-  THAL = 'thal',
-  ENORETH = 'enoreth',
-  PO = 'po',
   ETH_KOREL = 'eth-korel',
   MALAK = 'malak',
+  PO = 'po',
+  SURAD = 'surad',
+  THAL = 'thal',
   ULAT = 'ulat',
+  URA = 'ura',
 };

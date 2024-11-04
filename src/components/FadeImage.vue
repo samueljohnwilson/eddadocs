@@ -21,6 +21,10 @@ defineProps({
     type: String,
     required: false,
   },
+  className: {
+    type: String,
+    required: false,
+  },
 });
 
 let isLightboxVisible = ref(false);
@@ -76,6 +80,7 @@ onUnmounted(() => {
         :src="getAsset(image)"
         :key="image"
         :lazy-src="blackBackground"
+        :class="className"
         @click=showLightbox
       />
     </transition>

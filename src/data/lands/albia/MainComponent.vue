@@ -74,28 +74,28 @@
     desire to remain as close to their ancient home as possible, both physically and spiritually.
     These elves, the ancestors of the Albian, believed that by preserving their traditional ways and
     remaining true to the ancient customs of the Illyum, they might one day earn the favor of
-    Enoreth and be allowed to return to Ulwyll. They focused on maintaining a way of life that
+    Anoreth and be allowed to return to Ulwyll. They focused on maintaining a way of life that
     mirrored their past, deeply committed to upholding the traditions and rituals that had defined
     their existence in the Old Forest.
   </v-card-text>
   <v-card-subtitle> Religion </v-card-subtitle>
   <v-card-text>
-    Religion in Albia is deeply rooted in the reverence for Enoreth, reflecting the elves' desire to
+    Religion in Albia is deeply rooted in the reverence for Anoreth, reflecting the elves' desire to
     maintain a connection to their ancient Illyum heritage. As the original creator of the elves,
-    Enoreth embodies the balance and harmony they strive to achieve, and their worship is
+    Anoreth embodies the balance and harmony they strive to achieve, and their worship is
     characterized by a deep respect for the natural order and the preservation of their rich
-    cultural history. Temples dedicated to Enoreth are often found nestled within sacred groves,
+    cultural history. Temples dedicated to Anoreth are often found nestled within sacred groves,
     where rituals are performed to honor the cycles of nature and the enduring legacy of their
     ancestors. This spiritual connection to the past helps reinforce their identity and provides a
     sense of continuity with their forebears from Ulwyll.
   </v-card-text>
   <v-card-text>
-    Alongside their devotion to Enoreth, the Albian have developed an admiration for Agorus, the god
+    Alongside their devotion to Anoreth, the Albian have developed an admiration for Agorus, the god
     of knowledge and arcana. This dual worship reflects their pursuit of wisdom and understanding,
     as well as their appreciation for the arcane arts. The Albian have integrated the worship of
     Agorus into their cultural practices, valuing scholarship and intellectual growth as pathways to
     divine insight. Libraries and arcane sanctuaries are common in Albian cities, serving as centers
-    for learning and magical study. This combination of ancient reverence for Enoreth and the
+    for learning and magical study. This combination of ancient reverence for Anoreth and the
     pursuit of arcane knowledge through Agorus sets the Albian elves apart from their kin,
     highlighting their unique blend of tradition and intellectual curiosity.
   </v-card-text>

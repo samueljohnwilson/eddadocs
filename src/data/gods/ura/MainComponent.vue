@@ -40,7 +40,7 @@
   <v-card-text>
     Worship of Ura is most prominent among two disparate groups: the elves of Neywyll and the human
     tribes of the north. The elves, renowned for their deep connection to the natural world,
-    traditionally worshipped Enoreth, the Great Weaver. However, the worship of Ura as the goddess
+    traditionally worshipped Anoreth, the Great Weaver. However, the worship of Ura as the goddess
     of fertility, beauty, and nature has been steadily gaining ground, albeit not without
     controversy. In Neywyll, debates over tradition versus the new veneration of Ura are common, yet
     an increasing number of elves find solace and inspiration in her teachings. They cultivate

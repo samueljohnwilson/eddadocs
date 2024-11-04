@@ -3,7 +3,7 @@
     <v-card-subtitle> Overview </v-card-subtitle>
     <v-card-text>
       The elves are the most ancient race in Edda, tracing their lineage back to the ancient Illyum.
-      Enoreth created the <strong>Illyum</strong>, the first sentient race, from the roots of
+      Anoreth created the <strong>Illyum</strong>, the first sentient race, from the roots of
       <strong>Ael, the First Tree</strong>. For millennia, the Illyum lived in harmony with the
       natural world in <strong>Ulwyll, the Old Forest</strong>. However, over time, both the Asier
       and the Malor jealously sought to compel the Illyum into their service. This gradual influence
@@ -14,15 +14,15 @@
       blessed, their descendants becoming the elves.
     </v-card-text>
     <v-card-text>
-      The Schism continued for nearly 1000 years, prompting Enoreth to intervene directly
-      for the first time. To restore balance to Ulwyll, Enoreth cast the Illyum away from the First
+      The Schism continued for nearly 1000 years, prompting Anoreth to intervene directly
+      for the first time. To restore balance to Ulwyll, Anoreth cast the Illyum away from the First
       Tree, forcing them into exile from their ancient home. The exiles traveled across the sea to
-      the west, arriving in Edda. Enoreth's intervention not only ended the prolonged war but also
+      the west, arriving in Edda. Anoreth's intervention not only ended the prolonged war but also
       reshaped the world's power dynamics. The orcs and elves spread across the realms of Edda,
       establishing their own societies and cultures. The Urdor, banished along with the other
       Illyum, roamed the lands, influencing events throughout the Second Age. The group of Illyum
       allowed to stay in Ulwyll remained vigilant protectors of the First Tree, ensuring that the
-      balance of Enoreth was maintained. This era of transformation and exile set the stage for the
+      balance of Anoreth was maintained. This era of transformation and exile set the stage for the
       events that would unfold in Edda, shaping the destinies of the orcs, elves, and other
       inhabitants of the world.
     </v-card-text>
@@ -37,17 +37,17 @@
     </v-card-text>
     <v-card-text>
       Upon arriving in Edda after their banishment from Ulwyll, the Old Forest, the Neydan felt a
-      great shame. They believed that they had lost the blessing of Enoreth and chose to travel far
+      great shame. They believed that they had lost the blessing of Anoreth and chose to travel far
       from the isle of Albia where the elves had landed. They journeyed west until they reached a
       land they called Neywyll, the Young Forest. There, they created a new life, living humbly to
-      atone for their perceived sins against the will of Enoreth. Eventually, long after men had
+      atone for their perceived sins against the will of Anoreth. Eventually, long after men had
       awakened, they grew close with the men of Wydmyn, even intermarrying with them. However, this
       bond was shattered with the Betrayal of Alaric during the Great War. Since then, the Neydan
       have retired from the world, living a reclusive existence deep in their forest, wary of
       outsiders and protective of their renewed connection to nature.
     </v-card-text>
     <v-card-text>
-      The Albian believe that Enoreth will one day forgive them and allow them to return to Ulwyll.
+      The Albian believe that Anoreth will one day forgive them and allow them to return to Ulwyll.
       Choosing to remain on the isle of Albia, they strive to live their lives as closely to the
       lives of their ancestors as possible. The Albian have a greater proficiency with magic than
       any other races in Edda, their culture high-minded and austere. They built towering cities of

@@ -6,9 +6,7 @@ import FadeImage from '@/components/FadeImage.vue';
   <v-card-subtitle>
     Alignment
   </v-card-subtitle>
-  <v-card-text>
-    Neutral
-  </v-card-text>
+  <img src="../../../assets/n.png" class="alignment-icon" />
   <v-card-text>
   </v-card-text>
   <v-card-subtitle>
@@ -27,15 +25,15 @@ import FadeImage from '@/components/FadeImage.vue';
     The universe<br />
   </v-card-text>
   <FadeImage
-    image="gods/enoreth-sidebar-1.webp"
-    imageTitle="Enoreth appears at the Godsdeath"
+    image="gods/anoreth-sidebar-1.webp"
+    imageTitle="Anoreth appears at the Godsdeath"
   />
   <FadeImage
-    image="gods/enoreth-sidebar-2.webp"
+    image="gods/anoreth-sidebar-2.webp"
     imageTitle="A druid"
   />
   <FadeImage
-    image="gods/enoreth-sidebar-3.webp"
+    image="gods/anoreth-sidebar-3.webp"
     imageTitle="Elementals of Astra"
   />
 </template>

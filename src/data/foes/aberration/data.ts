@@ -9,11 +9,11 @@ const data: BaseArticleData = {
   title: Foes.ABERRATION.toUpperCase(),
   quote: {
     text:
-      'In the light of dawn, we find our purpose. Trust in the First King, and let his will guide our actions towards righteousness.',
-    attribution: 'High Priest Elandor, keeper of the Eternal Flame',
+      'Some things dwell outside the stream of time. They are unknowable, perhaps even to the Urdor.',
+    attribution: 'From "Bestiaria Edda" in the library of the Acumenium',
   },
   image: {
-    url: 'foes/angel-main.webp',
+    url: 'foes/aberration-main.webp',
     title: 'A klagan, or hill giant',
   },
   content: MainComponent,

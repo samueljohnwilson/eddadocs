@@ -59,7 +59,7 @@
       Religion and spirituality play a significant role in human societies, with beliefs varying
       widely across different cultures. Most humans worship the Asier in some form, seeking guidance
       and protection from the divine, though some groups have forgone religion entirely. Few humans
-      are even aware of the existence of Enoreth, with the exception of druids and the like. This
+      are even aware of the existence of Anoreth, with the exception of druids and the like. This
       diversity of belief systems reflects the humans' adaptability and openness to different ideas.
       Though today, worship of the Malor is relegated to the shadows, there was a time when the
       hearts and minds of kings were corrupted by the Malor and men flew the banners of the dark

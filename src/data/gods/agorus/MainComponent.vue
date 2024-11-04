@@ -30,7 +30,7 @@
     boundless wisdom and power.
   </v-card-text>
   <v-card-text>
-    Since the Godsdeath, when Enoreth banished the Urdor from the mortal realm, Agorus has resided
+    Since the Godsdeath, when Anoreth banished the Urdor from the mortal realm, Agorus has resided
     in the celestial plane of Eya. Though his direct influence on the world has diminished, his
     legacy endures through the institutions of learning and the pursuit of wisdom that he inspired.
     In Eya, Agorus continues to watch over the mortal realm, guiding those who seek his wisdom

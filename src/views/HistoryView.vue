@@ -10,7 +10,7 @@ const history = {
       date: 'A time beyond reckoning',
       icon: 'time-trap.png',
       paragraphs: [
-        'In the beginning, there was only <strong>Enoreth, the Sum of All Things</strong>. This was an age before time.',
+        'In the beginning, there was only <strong>Anoreth, the Sum of All Things</strong>. This was an age before time.',
       ],
     },
     {
@@ -19,7 +19,7 @@ const history = {
       date: 'Millenia ago',
       icon: 'wind-hole.png',
       paragraphs: [
-        `To fill the world with life, <strong>Enoreth</strong> separated three parts from
+        `To fill the world with life, <strong>Anoreth</strong> separated three parts from
         itself; each parts was then split in two. From the first part were
         born <strong>Othar, The Oldfather</strong>, and <strong>Malak, The Lord of Lies</strong>. From the second
         part came <strong>Cerunnos, The Arbiter</strong>, and <strong>Ulat Banor, The Maelstrom</strong>. From
@@ -36,7 +36,7 @@ const history = {
       date: '1 First Age',
       icon: 'holy-oak.png',
       paragraphs: [
-        `<strong>Enoreth</strong> itself created the first sentient race, the <strong>Illyum</strong>, born
+        `<strong>Anoreth</strong> itself created the first sentient race, the <strong>Illyum</strong>, born
         from the roots of <strong>Ael, the First Tree</strong>. Living among animals in
         <strong>Ulwyll, the Old Forest</strong>, the Illyum remained in balance with the
         natural world for millennia.`,
@@ -66,7 +66,7 @@ const history = {
       date: '42,004 First Age',
       icon: 'galleon.png',
       paragraphs: [
-        `Though Enoreth had always refrained from direct involvement in the
+        `Though Anoreth had always refrained from direct involvement in the
         affairs of the world, the war raged for too long; it finally
         intervened to restore balance to Ulwyll. The Illyum were cast away
         from the First Tree, forced into exile from their ancient home, and
@@ -79,7 +79,7 @@ const history = {
         Ulwyll and would wander the western lands throughout the Second Age.
         Though nearly all of the Illyum were cast away from the First Tree,
         a small group was selected from among them to remain in Ulwyll. They
-        were sworn to uphold the balance of Enoreth and to protect the First
+        were sworn to uphold the balance of Anoreth and to protect the First
         Tree from outside forces, both evil and good.`,
       ],
     },

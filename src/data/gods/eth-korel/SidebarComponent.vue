@@ -6,16 +6,14 @@ import FadeImage from '@/components/FadeImage.vue';
   <v-card-subtitle>
     Alignment
   </v-card-subtitle>
-  <v-card-text>
-    Lawful Good
-  </v-card-text>
+  <img src="../../../assets/le.png" class="alignment-icon" />
   <v-card-text>
   </v-card-text>
   <v-card-subtitle>
     Known As
   </v-card-subtitle>
   <v-card-text>
-    The First King<br />
+    The Duskfall<br />
     The Father<br />
     The Lawgiver<br />
   </v-card-text>

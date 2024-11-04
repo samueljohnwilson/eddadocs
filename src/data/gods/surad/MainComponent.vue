@@ -3,7 +3,7 @@
   <v-card-text>
     Throughout the annals of history, <strong>Surad, the First King</strong>, has stood as a beacon
     of righteousness and protection, revered by mortals and deities alike for his unwavering wisdom
-    and benevolence. As the first creation of <RouterLink to="/gods/enoreth">Enoreth</RouterLink>,
+    and benevolence. As the first creation of <RouterLink to="/gods/anoreth">Anoreth</RouterLink>,
     Surad's divine presence shaped the early destinies of humans and dwarves, guiding them with
     paternal care after their creation by Ura, the Dawnbringer. From the dawn of their existence,
     tales of Surad's divine shepherding have echoed through the ages, offering solace and guidance
@@ -19,7 +19,7 @@
     encroaching shadows.
   </v-card-text>
   <v-card-text>
-    However, since the Godsdeath, when Enoreth banished the Urdor from the mortal realm, Surad's
+    However, since the Godsdeath, when Anoreth banished the Urdor from the mortal realm, Surad's
     divine influence has waned, his presence no longer evident in the affairs of mortals. With the
     rest of the Urdor, he was cast away from the mortal plane. Despite his absence, as the ages pass
     and civilizations rise and fall, Surad remains a figure of reverence and admiration.

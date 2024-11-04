@@ -36,7 +36,7 @@
     </v-card-text>
     <v-card-text>
       Blessed with the elvish insight into the natural world, ethlyn possess a keen understanding of
-      Enoreth's mysteries. This unique perspective allows them to live in harmony with nature,
+      Anoreth's mysteries. This unique perspective allows them to live in harmony with nature,
       drawing from the wisdom passed down by their elven ancestors. While those who dwell among
       humans have often adopted the worship of the Asier, the half-elves of Wydmyn continue to
       revere the natural world in a manner akin to the elves, fostering a spiritual connection that

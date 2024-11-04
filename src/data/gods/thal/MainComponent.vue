@@ -62,7 +62,7 @@
   </v-card-text>
   <v-card-subtitle> The Sentinels </v-card-subtitle>
   <v-card-text>
-    The form of the planes is governed by astral shards, enormous crystals created by Enoreth at the
+    The form of the planes is governed by astral shards, enormous crystals created by Anoreth at the
     dawn of the universe. These ancient and powerful relics are the keystones of cosmic order, each
     shard resonating with the primal energy that maintains the stability and structure of the
     planes. The Sentinels are a race of metallic constructs imbued with life by Thal. Each is
@@ -75,6 +75,6 @@
     shards to restore balance and mend the fabric of reality. The shards themselves are not only
     tools but also sources of immense energy, capable of influencing the very essence of the cosmos.
     The Sentinels, through their deep connection to these shards, can channel this energy,
-    performing feats matched only by the power of Enoreth.
+    performing feats matched only by the power of Anoreth.
   </v-card-text>
 </template>
