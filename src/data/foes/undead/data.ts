@@ -13,7 +13,7 @@ const data: BaseArticleData = {
     attribution: 'High Priest Elandor, keeper of the Eternal Flame',
   },
   image: {
-    url: 'foes/angel-main.webp',
+    url: 'foes/undead-main.webp',
     title: 'A klagan, or hill giant',
   },
   content: MainComponent,

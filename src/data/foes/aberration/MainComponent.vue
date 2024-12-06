@@ -1,7 +1,7 @@
 <template>
   <v-card-subtitle> Overview </v-card-subtitle>
   <v-card-text>
-    Aberrations in Edda are beings that defy the natural order, existing outside the scope of
+    Aberrations are beings that defy the natural order, existing outside the scope of
     Anoreth's creation. These creatures are often characterized by their nightmarish forms and alien
     mindsets, which make them utterly incomprehensible to mortal beings. Some aberrations are
     eternally ancient and mysterious entities, predating even the creation of the planes themselves.

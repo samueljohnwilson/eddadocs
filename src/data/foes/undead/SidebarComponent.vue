@@ -4,15 +4,15 @@ import FadeImage from '@/components/FadeImage.vue';
 
 <template>
   <FadeImage
-    image="foes/angel-sidebar-1.webp"
-    imageTitle="A hrind, or frost giant"
+    image="foes/undead-sidebar-1.webp"
+    imageTitle="A black knight"
   />
   <FadeImage
-    image="foes/angel-sidebar-2.webp"
-    imageTitle="A rungir, or stone giant"
+    image="foes/undead-sidebar-2.webp"
+    imageTitle="A vampyr"
   />
   <FadeImage
-    image="foes/angel-sidebar-3.webp"
-    imageTitle="A thrym, or storm giant"
+    image="foes/undead-sidebar-3.webp"
+    imageTitle="A banshee"
   />
 </template>
