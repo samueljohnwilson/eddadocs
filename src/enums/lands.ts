@@ -9,7 +9,6 @@ export enum Lands {
   NEYWYLL = 'neywyll',
   QUAT = 'quat',
   RAJAPUN = 'rajapun',
-  ULWYLL = 'ulwyll',
   UNTERLUND = 'unterlund',
   WYDMYN = 'wydmyn',
 };
