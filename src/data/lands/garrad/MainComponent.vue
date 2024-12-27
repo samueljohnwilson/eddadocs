@@ -11,14 +11,23 @@
     are essential for survival.
   </v-card-text>
   <v-card-text>
-    To the south, the landscape of Garrad changes dramatically as the steppes give way to the
-    coastal region known as the Hundred Isles. This area consists of a chain of dozens of islands,
-    each with its own distinct culture, yet sharing similarities in social structure, martial
-    traditions, and spiritual beliefs. The culture of the Hundred Isles is reminiscent of a feudal
-    society, with powerful warlords and noble families vying for dominance over the islands. The
-    people of the Hundred Isles are skilled sailors and warriors, and their naval fleets are known
-    to be some of the most formidable in Edda. Their society is hierarchical and governed by a code
-    of honor that dictates both personal conduct and military strategy.
+    Above all else, the Dal are horsemen, and their bond with their steeds is legendary. From a
+    young age, Dal children learn to ride, and by adulthood, they are as comfortable on horseback as
+    they are on their own feet. Their horses are not merely tools of war or transportation but are
+    seen as partners, revered and cared for with almost familial devotion. The Dal's mastery of
+    mounted combat is unmatched, and their swift, coordinated cavalry attacks have made them a
+    formidable force in Garrad and beyond.
+  </v-card-text>
+  <v-card-text>
+    Far to the south, the Laoma people make their home, nestled within the thick coastal forests
+    where the Dal horsemen do not venture. The Laoma are a resilient and resourceful people,
+    descendants of those who once roamed the steppes alongside the Dal. Centuries ago, the plains
+    were shared, but as the Dal expanded their influence and perfected their cavalry tactics, the
+    Laoma were gradually driven southward. Their displacement forced them to adapt, and in the
+    shadow of the towering trees, they built a new way of life. Today, the Laoma thrive in their
+    forested realm, living in harmony with the land and its creatures. They are skilled hunters,
+    gatherers, and fishers, drawing from the rich resources of the coastal forests and the nearby
+    sea.
   </v-card-text>
   <v-card-text>
     Garrad has long been ruled by a unique system of dual emperors, each representing the distinct

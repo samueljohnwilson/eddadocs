@@ -3,41 +3,16 @@ import FadeImage from '@/components/FadeImage.vue';
 </script>
 
 <template>
-  <v-card-subtitle>
-    Alignment
-  </v-card-subtitle>
-  <v-card-text>
-    Lawful Good
-  </v-card-text>
-  <v-card-text>
-  </v-card-text>
-  <v-card-subtitle>
-    Known As
-  </v-card-subtitle>
-  <v-card-text>
-    The First King<br />
-    The Father<br />
-    The Lawgiver<br />
-  </v-card-text>
-  <v-card-subtitle>
-    Associations
-  </v-card-subtitle>
-  <v-card-text>
-    Justice<br />
-    Order<br />
-    Agriculture<br />
-    Craftsmen<br />
-  </v-card-text>
   <FadeImage
     image="lands/bjordlund-sidebar-1.webp"
-    imageTitle="One of the Gates of Agorus"
+    imageTitle="A Bjord seafarer"
   />
   <FadeImage
     image="lands/bjordlund-sidebar-2.webp"
-    imageTitle="A student at the Acumenium"
+    imageTitle="A Bjord raid into Unterlund"
   />
   <FadeImage
     image="lands/bjordlund-sidebar-3.webp"
-    imageTitle="A Strix"
+    imageTitle="Seals in the Still Sea"
   />
 </template>

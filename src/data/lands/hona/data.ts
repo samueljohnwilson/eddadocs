@@ -5,16 +5,16 @@ import MainComponent from './MainComponent.vue';
 import SidebarComponent from './SidebarComponent.vue';
 
 const data: BaseArticleData = {
-  id: Lands.GARRAD,
-  title: Lands.GARRAD.toUpperCase(),
+  id: Lands.HONA,
+  title: Lands.HONA.toUpperCase(),
   quote: {
     text:
-      'Watch your tongue, boy. You may chase down a stallion that has escaped the herd, but not a word that has escaped your lips.',
-    attribution: 'Batu Sarnai, Dal warchief',
+      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
+    attribution: 'Sir Lunder, magistrate of the Even Hand',
   },
   image: {
-    url: 'lands/garrad-main.webp',
-    title: 'The plains of Garrad',
+    url: 'lands/hona-main.webp',
+    title: 'An avatar of Agorus',
   },
   content: MainComponent,
   sidebar: SidebarComponent,

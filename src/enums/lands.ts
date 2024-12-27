@@ -1,14 +1,16 @@
 export enum Lands {
   ALBIA = 'albia',
+  AWATUK = 'awatuk',
   BJORDLUND = 'bjordlund',
-  EMURAI = 'emurai',
   GARRAD = 'garrad',
   HETHESKEIN = 'hetheskein',
+  HONA = 'hona',
   ITHRA = 'ithra',
   JUTLUND = 'jutlund',
   NEYWYLL = 'neywyll',
   QUAT = 'quat',
   RAJAPUN = 'rajapun',
+  SEMAI = 'semai',
   UNTERLUND = 'unterlund',
   WYDMYN = 'wydmyn',
 };
