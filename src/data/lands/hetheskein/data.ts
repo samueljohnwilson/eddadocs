@@ -8,13 +8,12 @@ const data: BaseArticleData = {
   id: Lands.HETHESKEIN,
   title: Lands.HETHESKEIN.toUpperCase(),
   quote: {
-    text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+    text: 'The far north belongs to the dwarves. No others are hard enough to hold it.',
+    attribution: 'Igrad III, King of Bjordlund',
   },
   image: {
     url: 'lands/hetheskein-main.webp',
-    title: 'An avatar of Agorus',
+    title: 'Mount Hethe',
   },
   content: MainComponent,
   sidebar: SidebarComponent,

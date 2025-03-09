@@ -5,15 +5,16 @@ import MainComponent from './MainComponent.vue';
 import SidebarComponent from './SidebarComponent.vue';
 
 const data: BaseArticleData = {
-  id: Lands.AWATUK,
-  title: Lands.AWATUK.toUpperCase(),
+  id: Lands.SEMAI,
+  title: Lands.SEMAI.toUpperCase(),
   quote: {
-    text: 'We do not know your kings. We know only the land and sea.',
-    attribution: 'Uiwak, Awatuk chieftain',
+    text:
+      'Semai is ascendant. Their good fortune has them convinced that they rule Edda.',
+    attribution: 'Eowich Yurd, Untish elderman',
   },
   image: {
-    url: 'lands/awatuk-main.webp',
-    title: 'Sunrise on the Awatukan coast',
+    url: 'lands/semai-main.webp',
+    title: 'A Semaian city in the Japari Desert',
   },
   content: MainComponent,
   sidebar: SidebarComponent,

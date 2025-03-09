@@ -9,8 +9,8 @@ const data: BaseArticleData = {
   title: Lands.QUAT.toUpperCase(),
   quote: {
     text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+      'From our ship, we saw only verdant jungle. Inland, we found cities the rival of Highdroth.',
+    attribution: 'Excerpt from the captain\'s log of the Untish ship "Mistral"',
   },
   image: {
     url: 'lands/quat-main.webp',

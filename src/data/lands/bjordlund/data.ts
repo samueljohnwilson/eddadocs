@@ -8,13 +8,12 @@ const data: BaseArticleData = {
   id: Lands.BJORDLUND,
   title: Lands.BJORDLUND.toUpperCase(),
   quote: {
-    text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+    text: 'Die smiling',
+    attribution: 'Bjord saying',
   },
   image: {
     url: 'lands/bjordlund-main.webp',
-    title: 'An avatar of Agorus',
+    title: 'A Bjord village',
   },
   content: MainComponent,
   sidebar: SidebarComponent,

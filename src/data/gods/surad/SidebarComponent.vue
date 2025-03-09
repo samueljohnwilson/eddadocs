@@ -22,9 +22,9 @@ import FadeImage from '@/components/FadeImage.vue';
   </v-card-subtitle>
   <v-card-text>
     Justice<br />
-    Order<br />
     Agriculture<br />
     Craftsmen<br />
+    Peace<br />
   </v-card-text>
   <FadeImage
     image="gods/surad-sidebar-1.webp"

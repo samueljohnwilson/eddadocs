@@ -8,13 +8,12 @@ const data: BaseArticleData = {
   id: Lands.JUTLUND,
   title: Lands.JUTLUND.toUpperCase(),
   quote: {
-    text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+    text: 'The Jut claim to be the first people of the world. Perhaps they are. They seem as beasts to me.',
+    attribution: 'Brother Olaf, missionary of the Even Hand',
   },
   image: {
     url: 'lands/jutlund-main.webp',
-    title: 'An avatar of Agorus',
+    title: 'The Jut Woods',
   },
   content: MainComponent,
   sidebar: SidebarComponent,

@@ -1,24 +1,23 @@
-import { Lands } from '@/enums/lands';
-import type { BaseArticleData } from '@/types';
-import LandsDescription from '../LandsDescription.vue';
-import MainComponent from './MainComponent.vue';
-import SidebarComponent from './SidebarComponent.vue';
+import { Lands } from '@/enums/lands'
+import type { BaseArticleData } from '@/types'
+import LandsDescription from '../LandsDescription.vue'
+import MainComponent from './MainComponent.vue'
+import SidebarComponent from './SidebarComponent.vue'
 
 const data: BaseArticleData = {
   id: Lands.ITHRA,
   title: Lands.ITHRA.toUpperCase(),
   quote: {
-    text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+    text: 'Ithra is a rose growing from the barren desert. But it is not without its thorns.',
+    attribution: 'Oyer Marn, Untish merchant'
   },
   image: {
     url: 'lands/ithra-main.webp',
-    title: 'An avatar of Agorus',
+    title: 'The city of El-Khara',
   },
   content: MainComponent,
   sidebar: SidebarComponent,
-  groupDescription: LandsDescription,
-};
+  groupDescription: LandsDescription
+}
 
-export default data;
+export default data

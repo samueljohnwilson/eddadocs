@@ -8,13 +8,12 @@ const data: BaseArticleData = {
   id: Lands.ALBIA,
   title: Lands.ALBIA.toUpperCase(),
   quote: {
-    text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+    text: 'We await the call',
+    attribution: 'Motto of the Albian realm, translated',
   },
   image: {
     url: 'lands/albia-main.webp',
-    title: 'An avatar of Agorus',
+    title: 'The Great Chambers in Eyre',
   },
   content: MainComponent,
   sidebar: SidebarComponent,

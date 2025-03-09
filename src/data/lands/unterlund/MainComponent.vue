@@ -6,7 +6,7 @@
     Ostramyn, alongside Jutlund and Bjordlund. Over time, Unterlund emerged as an independent
     entity, gradually establishing itself as the most prosperous and populous country in Edda. Its
     success is largely due to its fertile lands, abundant resources, and strategic position as a
-    crossroads for trade and cultural exchange. Unterlund's capital, Hidroth, is a bustling hub of
+    crossroads for trade and cultural exchange. Unterlund's capital, Highdroth, is a bustling hub of
     commerce, where merchants, artisans, and scholars converge to share ideas and goods from across
     the continent.
   </v-card-text>
@@ -55,7 +55,7 @@
   <v-card-subtitle> Religion </v-card-subtitle>
   <v-card-text>
     Religion plays a central role in Unterlund's identity. Almost all Untish people worship Surad,
-    with the state only sanctioning religious activities and holidays in his name. Hidroth, the
+    with the state only sanctioning religious activities and holidays in his name. Highdroth, the
     capital, serves as the center of religious life in Unterlund and is home to the primary
     religious sects, including the state religion, the Church of the Middle Path. Many of
     Unterlund's religious orders are evangelical, and it is not uncommon to find missionaries

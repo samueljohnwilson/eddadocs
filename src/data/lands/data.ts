@@ -11,6 +11,7 @@ import jutlund from './jutlund/data'
 import neywyll from './neywyll/data'
 import quat from './quat/data'
 import rajapun from './rajapun/data'
+import semai from './semai/data'
 import unterlund from './unterlund/data'
 import wydmyn from './wydmyn/data'
 
@@ -26,6 +27,7 @@ const data: Record<Lands, BaseArticleData> = {
   [Lands.NEYWYLL]: neywyll,
   [Lands.QUAT]: quat,
   [Lands.RAJAPUN]: rajapun,
+  [Lands.SEMAI]: semai,
   [Lands.UNTERLUND]: unterlund,
   [Lands.WYDMYN]: wydmyn
 }

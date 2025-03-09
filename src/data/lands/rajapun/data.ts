@@ -8,13 +8,12 @@ const data: BaseArticleData = {
   id: Lands.RAJAPUN,
   title: Lands.RAJAPUN.toUpperCase(),
   quote: {
-    text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+    text: 'The island is still poisoned by the plague of Akura. But for the dwarves, it is a paradise.',
+    attribution: 'Yamwha Bija, Ithran scholar',
   },
   image: {
     url: 'lands/rajapun-main.webp',
-    title: 'An avatar of Agorus',
+    title: 'A beach on Daya Rajapun',
   },
   content: MainComponent,
   sidebar: SidebarComponent,

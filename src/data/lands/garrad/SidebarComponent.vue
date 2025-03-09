@@ -13,6 +13,6 @@ import FadeImage from '@/components/FadeImage.vue';
   />
   <FadeImage
     image="lands/garrad-sidebar-3.webp"
-    imageTitle="A Laoma man"
+    imageTitle="A Laoman man"
   />
 </template>

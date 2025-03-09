@@ -8,13 +8,12 @@ const data: BaseArticleData = {
   id: Lands.HONA,
   title: Lands.HONA.toUpperCase(),
   quote: {
-    text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+    text: 'Hona has the longest memory of the nations.',
+    attribution: 'Kan Bak, Honan historian',
   },
   image: {
     url: 'lands/hona-main.webp',
-    title: 'An avatar of Agorus',
+    title: 'A village in the foothills of the Aka Mountains',
   },
   content: MainComponent,
   sidebar: SidebarComponent,

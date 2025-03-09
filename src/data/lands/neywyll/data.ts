@@ -8,13 +8,12 @@ const data: BaseArticleData = {
   id: Lands.NEYWYLL,
   title: Lands.NEYWYLL.toUpperCase(),
   quote: {
-    text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+    text: 'The woods of Neywyll are deep beyond reckoning. The Neydan think that the gods cannot see them there.',
+    attribution: 'Galanduil, Albian elder',
   },
   image: {
     url: 'lands/neywyll-main.webp',
-    title: 'An avatar of Agorus',
+    title: 'A valley in Neywyll',
   },
   content: MainComponent,
   sidebar: SidebarComponent,

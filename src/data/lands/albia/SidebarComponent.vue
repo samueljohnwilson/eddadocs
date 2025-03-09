@@ -13,6 +13,6 @@ import FadeImage from '@/components/FadeImage.vue';
   />
   <FadeImage
     image="lands/albia-sidebar-3.webp"
-    imageTitle="A library"
+    imageTitle="The library of Erondor"
   />
 </template>
