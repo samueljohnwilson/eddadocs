@@ -65,7 +65,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="fade-image">
+  <div class="fade-img-container">
     <!-- Adds transitions to images -->
     <!-- See https://animate.style/ -->
     <transition
@@ -77,6 +77,7 @@ onUnmounted(() => {
       <v-img
         style="cursor: pointer"
         cover
+        class="fade-img"
         :src="getAsset(image)"
         :key="image"
         :lazy-src="blackBackground"
@@ -85,12 +86,12 @@ onUnmounted(() => {
         @click=showLightbox
       />
     </transition>
-    <p
-      v-if="imageTitle"
-      style="color: grey"
-      v-html="imageTitle"
-    ></p>
   </div>
+  <p
+    v-if="imageTitle"
+    style="color: grey"
+    v-html="imageTitle"
+  ></p>
   <VueEasyLightbox
     :visible="isLightboxVisible"
     :imgs="getAsset(image)"
@@ -105,8 +106,29 @@ onUnmounted(() => {
   --animate-duration: 1s;
 }
 
+.fade-img-container {
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+}
+
+.fade-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1.0s ease-in-out;
+}
+
+.fade-img-container:hover .fade-img {
+  transform: scale(1.1);
+}
+
 /* Don't want to show the vue-easy-lightbox toolbar */
 .vel-toolbar {
   display: none !important;
+}
+
+.vel-img-wrapper {
+  cursor: default !important;
 }
 </style>

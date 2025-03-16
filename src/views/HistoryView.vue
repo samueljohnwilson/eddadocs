@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import NavBar from '@/components/NavBar.vue';
 import TimelineArticle from '@/components/TimelineArticle.vue';
 
 const history = {
@@ -152,5 +153,6 @@ const history = {
 </script>
 
 <template>
+  <NavBar title="HISTORY" />
   <TimelineArticle :events="history.events"/>
 </template>

@@ -15,6 +15,6 @@ defineProps({
 </script>
 
 <template>
-  <NavBar :navElements="Object.values(Races)" :parentPath="Routes.RACES"/>
+  <NavBar title="RACES" :navElements="Object.values(Races)" :parentPath="Routes.RACES"/>
   <WikiPage :activeArticle="activeRace"/>
 </template>

@@ -1,38 +1,46 @@
 <script setup lang="ts">
-import 'animate.css';
-import { RouterLink, RouterView } from 'vue-router'
-import logo from '@/assets/logo.png';
-import ReturnToTopButton from '@/components/ReturnToTopButton.vue';
-import { Routes } from './enums/routes';
+import 'animate.css'
+import { ref } from 'vue'
+import { RouterView } from 'vue-router'
+import { Routes } from './enums/routes'
+
+const drawer = ref(false)
 </script>
 
 <template>
   <v-app>
     <v-main>
-      <RouterLink to="/">
-        <img :src="logo" class="logo" alt="logo" />
-      </RouterLink>
-      <v-container fluid>
-        <v-row class="navbar">
-          <RouterLink
-            v-for="route in Object.values(Routes)"
-            :to="`/${route}`"
-            :key="route"
-          >
-            {{ route.toUpperCase() }}
-          </RouterLink>
-        </v-row>
-        <v-row>
-          <v-container class="main">
-            <RouterView />
-          </v-container>
-        </v-row>
-        <ReturnToTopButton />
+      <div class="menu-btn">
+        <v-btn size="x-large" variant="text" color="secondary" icon @click="drawer = !drawer">
+          <FontAwesomeIcon icon="bars" size="xl"/>
+        </v-btn>
+      </div>
+      <div class="scroll-btn">
+        <a v-scroll-to="'#app'">
+          <v-btn variant="outlined" color="secondary" icon>
+            <FontAwesomeIcon icon="arrow-up" />
+          </v-btn>
+        </a>
+      </div>
+      <v-container class="main">
+        <RouterView />
       </v-container>
     </v-main>
+    <v-navigation-drawer v-model="drawer" app temporary>
+      <v-list>
+        <v-list-item
+          v-for="route in Object.values(Routes)"
+          :key="route"
+          :to="`/${route}`"
+          @click="drawer = false"
+          active-class="active-router-link"
+        >
+          {{ route.toUpperCase() }}
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
   </v-app>
 </template>
-
 <style>
 html,
 body {
@@ -48,7 +56,6 @@ body {
 
 .main {
   max-width: 90%;
-  margin: 0 96px;
 }
 
 .v-img {
@@ -71,27 +78,25 @@ body {
   padding: 0 0 0.5rem;
 }
 
-.navbar {
-  padding: 1rem;
-  font-weight: bold;
-  justify-content: center;
-  
-  & a {
-    font-size: 1.25rem;
-    padding: 0 0.5rem 0;
-    text-decoration: none;
-    color: rgb(var(--v-theme-white));
-
-    &.router-link-active {
-      color: rgb(var(--v-theme-secondary));
-    }
-  }
+.active-router-link {
+  color: rgb(var(--v-theme-secondary)) !important;
 }
 
-.logo {
+.menu-btn {
   position: fixed;
-  top: 0px;
-  left: 16px;
-  width: 96px;
+  top: 0.5rem;
+  left: 1rem;
+  z-index: 1000;
+}
+
+.scroll-btn {
+  position: fixed;
+  bottom: 1rem;
+  left: 1.5rem;
+  z-index: 1000;
+
+  & button {
+    border-width: 2px;   
+  }
 }
 </style>

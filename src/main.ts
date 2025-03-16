@@ -1,6 +1,7 @@
 import 'vuetify/styles';
 import 'vue-easy-lightbox/dist/external-css/vue-easy-lightbox.css'
 import { library } from '@fortawesome/fontawesome-svg-core';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { createPinia } from 'pinia';
@@ -41,7 +42,7 @@ const vuetify = createVuetify({
   },
 });
 
-library.add(faArrowUp);
+library.add(faBars, faArrowUp);
 
 createApp(App)
   .use(createPinia())

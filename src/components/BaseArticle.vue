@@ -13,7 +13,7 @@ defineProps({
 </script>
 
 <template>
-  <v-container fluid>
+  <v-container fluid class="base-article-body">
     <v-row>
       <!-- Hide the group description on mobile -->
       <v-col
@@ -79,17 +79,19 @@ defineProps({
 </template>
 
 <style>
-.group-description {
-  & p {
-    padding-bottom: 1rem;
-  }
-  & a {
-    text-decoration: none;
-    color: rgb(var(--v-theme-secondary));
-  }
+.base-article-body {
+  padding: 0
 }
 
-.sidebar .fade-image {
+.base-article-body a {
+  color: rgb(var(--v-theme-secondary));
+}
+
+.base-article-body a:visited {
+  color: rgb(var(--v-theme-secondary));
+}
+
+.sidebar p {
   padding-bottom: 1rem;
 }  
 </style>
