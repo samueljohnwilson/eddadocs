@@ -21,6 +21,7 @@ const routeData: Record<Routes, RouteRecordRaw[]> = {
   [Routes.MAPS]: maps,
   [Routes.FOES]: foes,
   [Routes.HISTORY]: [historyRoute],
+  [Routes.HOME]: [homeRoute],
 };
 const routeFactory = (route: Routes, redirect: RouteRecordRaw[]): RouteRecordRaw => ({
   path: `/${route}`,

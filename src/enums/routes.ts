@@ -5,4 +5,5 @@ export enum Routes {
   FOES = 'foes',
   MAPS = 'maps',
   HISTORY = 'history',
+  HOME = 'home',
 };

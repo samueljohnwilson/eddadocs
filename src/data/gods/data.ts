@@ -6,6 +6,7 @@ import bargon from './bargon/data';
 import bayah from './bayah/data';
 import dosha from './dosha/data';
 import ethKorel from './eth-korel/data';
+import golin from './golin/data';
 import malak from './malak/data';
 import po from './po/data';
 import surad from './surad/data';
@@ -20,6 +21,7 @@ const data: Record<Gods, BaseArticleData> = {
   [Gods.BAYAH]: bayah,
   [Gods.DOSHA]: dosha,
   [Gods.ETH_KOREL]: ethKorel,
+  [Gods.GOLIN]: golin,
   [Gods.MALAK]: malak,
   [Gods.PO]: po,
   [Gods.SURAD]: surad,

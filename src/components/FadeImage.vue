@@ -82,7 +82,6 @@ onUnmounted(() => {
         :key="image"
         :lazy-src="blackBackground"
         :class="className"
-        :eager=true
         @click=showLightbox
       />
     </transition>
