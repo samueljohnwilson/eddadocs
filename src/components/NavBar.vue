@@ -43,10 +43,10 @@ defineProps({
   color: white;
   font-size: 1.2rem;
   margin-right: 1rem;
+}
 
-  &.router-link-active {
-    color: rgb(var(--v-theme-secondary));
-  }
+.navbar a.router-link-active {
+  color: rgb(var(--v-theme-secondary));
 }
 
 .navbar a::after {
