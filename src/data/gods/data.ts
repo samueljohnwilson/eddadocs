@@ -22,12 +22,16 @@ const data: Record<Gods, BaseArticleData> = {
   [Gods.DOSHA]: dosha,
   [Gods.ETH_KOREL]: ethKorel,
   [Gods.GOLIN]: golin,
+  [Gods.LAMOSH]: golin,
   [Gods.MALAK]: malak,
+  [Gods.NOGLOTH]: golin,
+  [Gods.OTHAR]: golin,
   [Gods.PO]: po,
   [Gods.SURAD]: surad,
   [Gods.THAL]: thal,
   [Gods.ULAT]: ulat,
   [Gods.URA]: ura,
+  [Gods.VALEYA]: golin,
 };
 
 export default data;
