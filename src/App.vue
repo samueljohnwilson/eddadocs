@@ -94,9 +94,9 @@ body {
   bottom: 1rem;
   left: 1.5rem;
   z-index: 1000;
+}
 
-  & button {
-    border-width: 2px;   
-  }
+.scroll-btn button {
+  border-width: 2px;   
 }
 </style>
