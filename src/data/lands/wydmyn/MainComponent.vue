@@ -34,8 +34,8 @@
     their commitment to safeguarding the elves from further harm.
   </v-card-text>
   <v-card-text>
-    After the Great War and the betrayal that fractured the once-strong bond between the Wydmyan and
-    the elves of Neywyll, the Wydmyan people found themselves at a crossroads. A deep divide emerged
+    After the Great War and the betrayal that fractured the once-strong bond between the Wydmian and
+    the elves of Neywyll, the Wydmian people found themselves at a crossroads. A deep divide emerged
     among them. Most of the Wydish chose to remain true to their elvish allies, honoring their
     ancient bonds by protecting the elves of Neywyll from the outside world. Instead of rebuilding
     their cities and returning to their former way of life, they chose to remain nomadic, wandering

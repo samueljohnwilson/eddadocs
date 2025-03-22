@@ -6,7 +6,7 @@ export enum Gods {
   DOSHA = 'dosha', // LN - wealth
   ETH_KOREL = 'eth-korel', // LE - death
   GOLIN = 'golin', // NG - hunting, harvest, feast, festivity
-  LAMOSH = 'lamosh', // CE - madness
+  LAMNASH = 'lamnash', // CE - madness
   MALAK = 'malak', // NE - deception
   NOGLOTH = 'nogloth', // NE - darkness, night
   OTHAR = 'othar', // CN - war

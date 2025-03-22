@@ -18,15 +18,15 @@ import FadeImage from '@/components/FadeImage.vue';
     Celebration<br />
   </v-card-text>
   <FadeImage
-    image="gods/golin-sidebar-1.webp"
+    image="gods/lamnash-sidebar-1.webp"
     imageTitle="A Wydmian hunter"
   />
   <FadeImage
-    image="gods/golin-sidebar-2.webp"
+    image="gods/lamnash-sidebar-2.webp"
     imageTitle="Prayers to Golin before the hunt"
   />
   <FadeImage
-    image="gods/golin-sidebar-3.webp"
+    image="gods/lamnash-sidebar-3.webp"
     imageTitle="One of Golin's beasts"
   />
 </template>

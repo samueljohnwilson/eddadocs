@@ -4,12 +4,6 @@ import FadeImage from '@/components/FadeImage.vue';
 
 <template>
   <v-card-subtitle>
-    Alignment
-  </v-card-subtitle>
-  <img src="../../../assets/ne.png" class="alignment-icon" />
-  <v-card-text>
-  </v-card-text>
-  <v-card-subtitle>
     Known As
   </v-card-subtitle>
   <v-card-text>

@@ -7,6 +7,7 @@ import bayah from './bayah/data';
 import dosha from './dosha/data';
 import ethKorel from './eth-korel/data';
 import golin from './golin/data';
+import lamnash from './lamnash/data';
 import malak from './malak/data';
 import po from './po/data';
 import surad from './surad/data';
@@ -22,7 +23,7 @@ const data: Record<Gods, BaseArticleData> = {
   [Gods.DOSHA]: dosha,
   [Gods.ETH_KOREL]: ethKorel,
   [Gods.GOLIN]: golin,
-  [Gods.LAMOSH]: golin,
+  [Gods.LAMNASH]: lamnash,
   [Gods.MALAK]: malak,
   [Gods.NOGLOTH]: golin,
   [Gods.OTHAR]: golin,
