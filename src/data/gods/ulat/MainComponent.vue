@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     <strong>Ulat, the Maelstrom</strong>, is the god of destruction, embodying the raw and unbridled
     forces of chaos and annihilation. Unlike the more calculated malevolence of his brother Malak,

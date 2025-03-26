@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     Aberrations are beings that defy the natural order, existing outside the scope of
     Anoreth's creation. These creatures are often characterized by their nightmarish forms and alien

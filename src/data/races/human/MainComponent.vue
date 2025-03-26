@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card-subtitle> Overview </v-card-subtitle>
+    <v-card-subtitle> OVERVIEW </v-card-subtitle>
     <v-card-text>
       The men of Edda are a diverse race and they have come to inhabit much of the continent. There
       are four kingdoms of men: Bjordlund, Unterlund, Garrad, and Ithra. They are divided among two

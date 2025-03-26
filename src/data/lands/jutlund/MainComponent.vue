@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     Jutlund is a rugged and untamed land, composed primarily of vast expanses of tundra. This
     landscape shapes the lives of its inhabitants, the Juts, who live in in tune with the cycles of

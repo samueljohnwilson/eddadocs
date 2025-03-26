@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     The nation of Wydmyn lies in a rugged and mountainous region, bordered by the vast realms of
     Unterlund to the north and the mysterious expanse of Neywyll to the west. This challenging

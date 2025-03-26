@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     Demons are beings of pure evil, created by the Malor to serve their dark purposes and spread
     malevolence throughout the planes of existence. They embody corruption, deceit, and chaos,

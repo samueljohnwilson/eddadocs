@@ -1,80 +1,58 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
-    <strong>Golin, the Hunstman</strong>, wields the untamed spirit of the wilds, a figure both
-    revered and feared by those who live close to nature. He is depicted as a towering, rugged
-    figure, clad in furs, his eyes gleaming with primal wisdom. He does not sit a throne, nor attend
-    to a temple, apart from the boundless wilderness, where his presence is felt in the whisper of
-    wind through the trees, the crack of a branch underfoot, and the deep, resonant calls of unseen
-    beasts. To Golin, civilization is but a fleeting construct—true freedom lies in the embrace of
-    the wild, where the strong and the swift thrive, and the slow and careless fall behind.
+    <strong>Lamnosh, the Unraveller,</strong> is the god of madness and chaos. He is the creeping
+    voice in the dark, the flickering shadow at the edge of sight, the fevered dreams that claw at
+    the mind. Where other gods shape the world through power and dominion, Lamnosh works in subtler,
+    more insidious ways. He does not need armies, for his touch is felt in the quiet erosion of
+    sanity, the whisper that makes a man doubt his own thoughts, the laughter that rings hollow in
+    the face of horror. He is chaos given voice, disorder given form, and to hear his call is to
+    stand upon the precipice of madness.
   </v-card-text>
   <v-card-text>
-    Though Golin claims dominion over the wilds, he does not seek to tame or shape it—he embodies
-    its raw and unpredictable essence. He is the patron of hunters and wanderers, of those who live
-    by their wits and skill, honoring the balance between predator and prey. To Golin, the hunt is
-    not merely about survival but about respect: the hunter must never take more than needed, must
-    give thanks for the life taken, and must ensure the land is not stripped bare. Those who hunt
-    wastefully, or who kill for vanity rather than necessity, earn his wrath.
+    Unlike some gods, Lamnosh does not welcome worship in the traditional sense. His influence seeps
+    into the world like a plague, infecting the minds of the weak and the desperate. He delights in
+    breaking the minds of the wise and unraveling the convictions of the devout. Those who hear his
+    whispers often do not even know they serve him, mistaking their delusions for divine truth,
+    their nightmares for prophecy. Cults dedicated to Lamnosh rise and fall like fever
+    dreams—sometimes burning brightly in acts of shocking violence, other times lurking in the
+    shadows, their members whispering secrets that unravel the fabric of sanity.
   </v-card-text>
   <v-card-text>
-    Golin is also a god of revelry and wild celebration. He teaches that life, though often harsh,
-    should be savored. Feasts are held in his name, where the bounty of the hunt is shared among kin
-    and clan, and stories are sung beneath open skies. It is said that on certain nights, under the
-    full moon, Golin himself joins the wild revels, appearing in the form of a great stag or a
-    spectral hunter leading a divine procession of fey spirits—the Wild Hunt. Those who witness it
-    may be blessed with great fortune, or swept away to run with Golin's pack until dawn.
+    Lamnosh's touch is especially dangerous when his madness festers in the minds of scholars,
+    priests, and rulers alike. A single corrupted mind can spread chaos like wildfire, toppling
+    empires and reducing great civilizations to ruin. Yet his influence is not limited to mortals—he
+    whispers even to the gods, sowing discord among them, twisting intentions, and blurring the line
+    between wisdom and folly. Some say that even the greatest among the divine have, at times, heard
+    the voice of Lamnosh and shuddered at its implications.
   </v-card-text>
   <v-card-text>
-    His followers are as untamed as their god, a mix of hunters, rangers, and free spirits who
-    reject the constraints of settled life. Many are wanderers who feel more at home beneath a
-    canopy of stars than under a roof, and some are warriors who fight not for conquest, but to
-    protect the wild places from encroaching civilization. Druids and shamans invoke his name to
-    bless the hunt, while warriors seeking strength in battle may offer a portion of their meal to
-    him before combat, believing that Golin grants his favor to those who live boldly and without
-    fear.
-  </v-card-text>
-  <v-card-text>
-    Despite his chaotic nature, Golin is not without wisdom. He understands that nature is both
-    cruel and kind, that life is meant to be tested but also cherished. He values the bonds of
-    kinship and the traditions of those who live off the land, and he despises those who seek to
-    dominate nature rather than live in harmony with it. He is a guardian of balance—not through
-    rigid law, but through the unspoken, eternal rules of the wild.
+    Though many would call him a god of destruction, Lamnosh does not seek ruin for its own sake. He
+    does not crave power or dominion over others. Rather, he exists as the embodiment of unmaking,
+    the force that breaks apart the structures mortals and gods alike have built. To him, madness is
+    not a flaw but a truth—the world itself is a joke, a fragile illusion held together by the
+    delusions of the sane. To see reality for what it truly is, one must abandon reason and embrace
+    the whispering chaos that lies beneath.
   </v-card-text>
   <v-card-subtitle> Worhippers </v-card-subtitle>
   <v-card-text>
-    Golin's followers are as untamed as the god they worship, embracing the freedom of the
-    wilderness and rejecting the rigid structures of settled life. The half-elves of Wydmyn, hold
-    Golin in special reverence. Their nomadic way of life aligns with his teachings, and they see
-    the hunt not only as a means of survival but as a sacred duty, a way to honor the land that
-    sustains them. Among the Wydmian, Golin is invoked before every hunt, and their hunters often
-    carry charms shaped like antlers or fangs, believing these will grant them the swiftness and
-    cunning of the Huntsman. Though their world has been shaped by war and hardship, they remain
-    steadfast in their respect for the natural order, defending their lands with the ferocity of a
-    wolf protecting its den.
-  </v-card-text>
-  <v-card-text>
-    In the frozen north, the tundra dwarves of Hetheskein are also counted among Golin's most ardent
-    followers. Unlike their mountain-dwelling kin, the tundra dwarves live without kings or rigid
-    hierarchies, preferring the freedom of the open land, where survival is dictated by skill and
-    cooperation rather than law and decree. Though they acknowledge Surad as their ancestral patron,
-    many among them look to Golin as the embodiment of the wild strength they rely on to endure the
-    brutal tundra. They move in loose-knit tribes, following the great herds and seeking shelter in
-    glacial caves, their lives dictated by the rhythm of the land rather than the edicts of a ruler.
-    These dwarves hold great feasts in Golin's name after every successful hunt, where nothing is
-    wasted, and the entire tribe shares in the bounty. Though mountain dwarves often regard them as
-    crude and undisciplined, the tundra dwarves take pride in their way of life, believing that they
-    alone have remained true to the gods' intent—living free, without walls to bind them.
+    The most fervent followers of Lamnosh are rarely aware of their allegiance—they are those whose
+    minds have been broken beyond repair. Some are prophets of insanity, speaking in riddles that
+    sometimes—terrifyingly—come true. Others are wanderers, drawn to places where madness festers,
+    spreading his influence without knowing why. Those few cults dedicated to Lamnosh are often
+    small and short-lived due to the chaos they sow and the madness they embrace.
   </v-card-text>
   <v-card-subtitle> Vassals </v-card-subtitle>
   <v-card-text>
-    Golin commands no army of celestial beings, nor does he keep an orderly court. Instead, he is
-    surrounded by a host of beasts of myth and legend, creatures that defy civilization's attempts
-    to name or control them. These spirits take many forms: a towering stag with antlers of oak, a
-    great grizzled bear that speaks the common tongue, or a giant hawk that soars above the clouds.
-    They are said to be Golin's messengers, appearing to guide those he favors—or to warn those who
-    have trespassed against him. Some whisper that certain mortal hunters, those who have proven
-    their worth in life, are chosen to run with Golin's pack in death, their spirits forever bound
-    to the endless wilderness.
+    The gibberers are the writhing spawn of Lamnosh, birthed from the nightmares of the
+    deranged and the fractures in reality itself. These amorphous horrors slither and ooze, their
+    glistening, ever-shifting flesh studded with malformed mouths that babble in a thousand
+    discordant tongues, each voice a fragment of lost sanity. To hear their whispers is to invite
+    madness—coherent thought unravels, reason dissolves, and reality distorts into a waking
+    nightmare. The gibberers do not hunt in the traditional sense; they seep into the world's hidden
+    cracks, drawn to places of despair and suffering, where their incessant murmuring seeps into the
+    minds of the living, warping them into lunatic disciples of chaos. Those who stare too long into
+    the depths of their quivering mass risk being devoured—not just in body, but in mind, their
+    consciousness absorbed into the endless cacophony of madness.
   </v-card-text>
 </template>

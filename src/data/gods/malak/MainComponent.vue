@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     <strong>Malak, the Lord of Lies</strong>, is a deity whose very essence is intertwined with
     deception, betrayal, and selfishness. His influence permeates the darkest corners of the mortal
@@ -56,7 +56,7 @@
     well-earned, for his influence continues to shape the fate of the world in ways both seen and
     unseen.
   </v-card-text>
-  <v-card-subtitle> Worshippers </v-card-subtitle>
+  <v-card-subtitle> WORSHIPPERS </v-card-subtitle>
   <v-card-text>
     There are few organized groups devoted to Malak, due to the self-serving nature of his
     disciples. Most that follow Malak do so as individuals, seeking influence from the dark lord in

@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     Unterlund, a nation situated in the western reaches of Edda, stands as a testament to both the
     resilience and ambition of its people. Historically, it was part of the larger realm known as

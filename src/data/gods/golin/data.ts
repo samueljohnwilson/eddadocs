@@ -8,8 +8,8 @@ const data: BaseArticleData = {
   id: Gods.GOLIN,
   title: Gods.GOLIN.toUpperCase(),
   quote: {
-    text: 'The ink on a contract keeps blood from the blade.',
-    attribution: 'Semaian saying',
+    text: 'Be not tamed.',
+    attribution: 'Oath to Golin',
   },
   image: {
     url: 'gods/golin-main.webp',

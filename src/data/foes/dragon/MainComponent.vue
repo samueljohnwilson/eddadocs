@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     Dragons are among the most ancient and powerful beings ever to exist. Created by Anoreth
     during the First Age, these magnificent creatures were designed to embody the very essence of

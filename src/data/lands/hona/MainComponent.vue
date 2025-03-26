@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     Bjordlund is a rugged and formidable country, nestled between the fertile lands of Unterlund to
     the south and the Jutlund to the east. The geography of Bjordlund is a mix of dense pine

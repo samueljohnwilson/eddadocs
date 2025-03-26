@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card-subtitle> Overview </v-card-subtitle>
+    <v-card-subtitle> OVERVIEW </v-card-subtitle>
     <v-card-text>
       Among the furthest depths of Neywyll, the firbolg dwell as ancient guardians of the forest. To
       the men of Edda, the elves are figures of legend, but to the elves themselves, the firbolg are

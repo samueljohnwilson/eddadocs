@@ -4,7 +4,7 @@ import FadeImage from '@/components/FadeImage.vue';
 
 <template>
   <v-card-subtitle>
-    Known As
+    KNOWN AS
   </v-card-subtitle>
   <v-card-text>
     Surad (Elvish)<br />
@@ -14,7 +14,7 @@ import FadeImage from '@/components/FadeImage.vue';
     The Arbiter
   </v-card-text>
   <v-card-subtitle>
-    Associations
+    ASSOCIATIONS
   </v-card-subtitle>
   <v-card-text>
     Justice<br />

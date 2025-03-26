@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     <strong>Agorus, the All-Seer</strong>, is a deity revered for his boundless wisdom and insight.
     As the second of the Asier to be created, alongside his brother Malak, Agorus has long been
@@ -47,7 +47,7 @@
     of Agorus, the All-Seer, continues to shine as a guiding light for those who seek to understand
     the deeper truths of existence.
   </v-card-text>
-  <v-card-subtitle> Worshippers </v-card-subtitle>
+  <v-card-subtitle> WORSHIPPERS </v-card-subtitle>
   <v-card-text>
     In the arid expanses of the desert realm of Ithra, the Farsirs, an esteemed order of mages,
     dedicate their lives to the worship and teachings of Agorus, the All-Seer. Renowned for their

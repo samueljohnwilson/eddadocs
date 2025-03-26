@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card-subtitle> Overview </v-card-subtitle>
+    <v-card-subtitle> OVERVIEW </v-card-subtitle>
     <v-card-text>
       Halflings are a small and nimble race known for their love of peace and simple pleasures. They
       primarily inhabit the rolling hills and fertile valleys of the Unterlund, though they do live

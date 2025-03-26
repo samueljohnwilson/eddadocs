@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     <string>Thal, the Last Judge</string>, stands as the epitome of order, objectivity, and reason among the gods of
     Edda. He is neither swayed by benevolence nor malevolence but remains steadfastly committed to
@@ -38,7 +38,7 @@
     preserved. This cosmic responsibility highlights his commitment to the principles of law and
     reason, transcending the mortal realm to influence the very fabric of reality.
   </v-card-text>
-  <v-card-subtitle> Worshippers </v-card-subtitle>
+  <v-card-subtitle> WORSHIPPERS </v-card-subtitle>
   <v-card-text>
     Among Thal's most devoted followers are the Argenguard, an ancient order of mercenaries
     dedicated to upholding his principles. The Argenguard is renowned for their strict adherence to

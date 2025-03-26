@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     Anoreth, the Great Weaver, is the primordial force that existed before the dawn of time, the
     essence from which all creation sprang forth. In the ancient tongues of Edda, Anoreth is revered
@@ -53,7 +53,7 @@
     to the mystical arts can sense the presence of Anoreth in the world around them, drawing upon
     its infinite wisdom and power to shape the world and commune with the divine.
   </v-card-text>
-  <v-card-subtitle> Worshippers </v-card-subtitle>
+  <v-card-subtitle> WORSHIPPERS </v-card-subtitle>
   <v-card-text>
     In Edda, only a select few revere Anoreth, as most cultures have long forgotten the ancient
     creator. Temples dedicated to the Great Weaver are rare and hidden from the eyes of most,

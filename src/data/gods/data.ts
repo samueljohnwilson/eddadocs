@@ -9,6 +9,8 @@ import ethKorel from './eth-korel/data';
 import golin from './golin/data';
 import lamnash from './lamnash/data';
 import malak from './malak/data';
+import nogloth from './nogloth/data';
+import othar from './othar/data';
 import po from './po/data';
 import surad from './surad/data';
 import thal from './thal/data';
@@ -25,8 +27,8 @@ const data: Record<Gods, BaseArticleData> = {
   [Gods.GOLIN]: golin,
   [Gods.LAMNASH]: lamnash,
   [Gods.MALAK]: malak,
-  [Gods.NOGLOTH]: golin,
-  [Gods.OTHAR]: golin,
+  [Gods.NOGLOTH]: nogloth,
+  [Gods.OTHAR]: othar,
   [Gods.PO]: po,
   [Gods.SURAD]: surad,
   [Gods.THAL]: thal,

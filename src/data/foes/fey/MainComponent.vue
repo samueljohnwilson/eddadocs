@@ -1,6 +1,6 @@
 <template>
   <v-card-subtitle>
-    Overview
+    OVERVIEW
   </v-card-subtitle>
   <v-card-text>
     Surad and his brother, Ulat, were the second of the Urdor to be brought

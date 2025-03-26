@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     <strong>Golin, the Hunstman</strong>, wields the untamed spirit of the wilds, a figure both
     revered and feared by those who live close to nature. He is depicted as a towering, rugged

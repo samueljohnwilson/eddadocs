@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card-subtitle> Overview </v-card-subtitle>
+    <v-card-subtitle> OVERVIEW </v-card-subtitle>
     <v-card-text>
       The elves are the most ancient race in Edda, tracing their lineage back to the ancient Illyum.
       Anoreth created the <strong>Illyum</strong>, the first sentient race, from the roots of

@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     Orcs are a grotesque manifestation of the ancient Illyum race, now twisted and deformed by the
     malevolent influence of darkness. Their forms are hunched and sinewy, bearing the scars of ages

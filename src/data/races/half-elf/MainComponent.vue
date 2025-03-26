@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card-subtitle> Overview </v-card-subtitle>
+    <v-card-subtitle> OVERVIEW </v-card-subtitle>
     <v-card-text>
       The half-elves, or ethlyn in Elvish, originated in the early part of the Second Age, when the
       men of Wydmyn formed close ties to the elves of Neywyll. The human race was still new to the

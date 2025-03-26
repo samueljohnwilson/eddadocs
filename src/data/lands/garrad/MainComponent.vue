@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     Garrad is a vast and diverse land, largely characterized by the windswept steppes that stretch
     across most of its territory. The Dal people of the northern and central steppes are nomadic

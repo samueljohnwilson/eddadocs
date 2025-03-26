@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-card-subtitle>
-      Overview
+      OVERVIEW
     </v-card-subtitle>
     <v-card-text>
       The dwarves inhabit Hethskein, the northernmost reach of Edda. There are

@@ -4,14 +4,14 @@ import FadeImage from '@/components/FadeImage.vue';
 
 <template>
   <v-card-subtitle>
-    Known As
+    KNOWN AS
   </v-card-subtitle>
   <v-card-text>
     The Lord of Chains<br />
     The Black Warden<br />
   </v-card-text>
   <v-card-subtitle>
-    Associations
+    ASSOCIATIONS
   </v-card-subtitle>
   <v-card-text>
     Punishment<br />

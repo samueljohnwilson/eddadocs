@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     The kodo are a formidable race of lizards from the tropical island of Rajapun. Once mere beasts,
     the kodo have gradually evolved over millennia, developing primitive societies and rudimentary

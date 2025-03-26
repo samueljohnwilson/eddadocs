@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     <strong>Bayah, the Hearthmother</strong>, is the gentle yet steadfast guardian of home and
     hearth. She is revered by farmers, herdsmen, and all who cultivate the land or tend to the

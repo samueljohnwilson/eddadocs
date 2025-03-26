@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     The land of Semai is a thriving and influential power, its wealth and influence stretching
     across land and sea. Situated along fertile river valleys and vast deserts, Semai has long been

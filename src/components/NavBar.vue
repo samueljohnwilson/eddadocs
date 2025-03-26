@@ -34,7 +34,6 @@ defineProps({
 <style scoped>
 .navbar {
   padding: 0.75rem;
-  font-weight: bold;
 }
 
 .navbar a {

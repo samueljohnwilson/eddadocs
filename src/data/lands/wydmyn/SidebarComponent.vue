@@ -12,7 +12,7 @@ import FadeImage from '@/components/FadeImage.vue';
   <v-card-text>
   </v-card-text>
   <v-card-subtitle>
-    Known As
+    KNOWN AS
   </v-card-subtitle>
   <v-card-text>
     The First King<br />
@@ -20,7 +20,7 @@ import FadeImage from '@/components/FadeImage.vue';
     The Lawgiver<br />
   </v-card-text>
   <v-card-subtitle>
-    Associations
+    ASSOCIATIONS
   </v-card-subtitle>
   <v-card-text>
     Justice<br />

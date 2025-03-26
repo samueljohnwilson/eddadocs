@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     <strong>Dosha, the Gilded Hand</strong>, is the god of wealth, commerce, and prosperity. He is
     the patron of merchants, bankers, and those who seek fortune through trade and cunning. His

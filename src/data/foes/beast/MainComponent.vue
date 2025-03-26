@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     The wild beasts of Edda reflect the land's vast diversity, ranging from the familiar to the
     awe-inspiring. In most regions, the forests and plains are home to deer, boars, wolves, bears,

@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     Celestials are beings created by the collective will of the Asier, the benevolent gods who
     embody justice, wisdom, and creation. These radiant beings were formed from the pure essence of

@@ -4,7 +4,7 @@ import FadeImage from '@/components/FadeImage.vue';
 
 <template>
   <v-card-subtitle>
-    Known As
+    KNOWN AS
   </v-card-subtitle>
   <v-card-text>
     The All-Seer<br />
@@ -12,7 +12,7 @@ import FadeImage from '@/components/FadeImage.vue';
     The Watching One<br />
   </v-card-text>
   <v-card-subtitle>
-    Associations
+    ASSOCIATIONS
   </v-card-subtitle>
   <v-card-text>
     Knowledge<br />

@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     Po, the Tempest, is a deity of chaos and unpredictability. She is a force of wild energy,
     embodying the ever-changing and capricious nature of the cosmos. Po is often depicted wreathed
@@ -45,7 +45,7 @@
     storms, or weaving illusions with effortless grace. Like Po, they revel in chaos and
     unpredictability, seeing it as a source of inspiration and vitality.
   </v-card-text>
-  <v-card-subtitle> Worshippers </v-card-subtitle>
+  <v-card-subtitle> WORSHIPPERS </v-card-subtitle>
   <v-card-text>
     By definition, the followers of Po tend not to be organized in the traditional sense. Instead,
     they worship her in their own ways, often through acts of spontaneity, creativity, and

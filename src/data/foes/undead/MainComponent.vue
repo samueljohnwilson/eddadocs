@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     Undead creatures in Edda are remnants of the Malor's dark influence during the Great War. In
     that tumultuous time, the Malor raised vast armies of the undead to wage war against the Asier

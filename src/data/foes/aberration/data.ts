@@ -10,7 +10,7 @@ const data: BaseArticleData = {
   quote: {
     text:
       'Some things dwell outside the stream of time. They are unknowable, perhaps even to the Urdor.',
-    attribution: 'From "Bestiaria Edda" in the library of the Acumenium',
+    attribution: 'From "Bestiaria Edda"',
   },
   image: {
     url: 'foes/aberration-main.webp',

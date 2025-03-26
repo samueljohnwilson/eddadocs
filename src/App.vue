@@ -45,13 +45,18 @@ const drawer = ref(false)
 html,
 body {
   font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
   margin: 0;
+}
+
+h1 {
+  font-weight: 400;
 }
 
 .v-main {
   background-color: rgb(var(--v-theme-primary));
   color: rgb(var(--v-theme-white));
-  font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
 .main {
@@ -63,8 +68,9 @@ body {
 }
 
 .v-card-subtitle {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   padding: 0 0 0.5rem;
+  opacity: 1.0;
 }
 
 .v-card-title {
@@ -75,7 +81,7 @@ body {
 .v-card-text {
   font-size: 1rem;
   line-height: 1.5rem !important;
-  padding: 0 0 0.5rem;
+  padding: 0 0 1rem;
 }
 
 .active-router-link {

@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     In the sprawling realms of Edda, trolls manifest in various forms, adapting to the diverse
     landscapes they inhabit. Forest trolls, with their moss-covered skin and affinity for dense

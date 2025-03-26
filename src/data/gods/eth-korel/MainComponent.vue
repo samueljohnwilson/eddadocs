@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     <strong>Eth-Korel, the Duskfall</strong>, is a figure of malevolence and darkness whose presence
     casts a shadow across the planes of existence. She is a queen of evil, her dominion extending
@@ -41,7 +41,7 @@
     into her web with promises of power and forbidden knowledge. Many have been lured to her side,
     their souls ensnared by her dark enchantments, doomed to serve her for eternity.
   </v-card-text>
-  <v-card-subtitle> Worshippers </v-card-subtitle>
+  <v-card-subtitle> WORSHIPPERS </v-card-subtitle>
   <v-card-text>
     Followers of the Malor cannot form religions openly in most regions of Edda. Accordingly,
     Eth-Korel is worshipped in shadows, by cultists who seek to harness her dark power for their own

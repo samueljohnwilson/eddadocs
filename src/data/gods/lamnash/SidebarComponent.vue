@@ -4,29 +4,30 @@ import FadeImage from '@/components/FadeImage.vue';
 
 <template>
   <v-card-subtitle>
-    Known As
+    KNOWN AS
   </v-card-subtitle>
   <v-card-text>
-    The Hunstman<br />
+    The Unraveller<br />
+    The Dark Whisper<br />
+    The Mad God<br />
   </v-card-text>
   <v-card-subtitle>
-    Associations
+    ASSOCIATIONS
   </v-card-subtitle>
   <v-card-text>
-    Wilderness<br />
-    Hunting<br />
-    Celebration<br />
+    Madness<br />
+    Chaos<br />
   </v-card-text>
   <FadeImage
     image="gods/lamnash-sidebar-1.webp"
-    imageTitle="A Wydmian hunter"
+    imageTitle="Moric, the Mad"
   />
   <FadeImage
     image="gods/lamnash-sidebar-2.webp"
-    imageTitle="Prayers to Golin before the hunt"
+    imageTitle="A man touched by Lamnash"
   />
   <FadeImage
     image="gods/lamnash-sidebar-3.webp"
-    imageTitle="One of Golin's beasts"
+    imageTitle="A gibberer"
   />
 </template>

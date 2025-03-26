@@ -8,8 +8,8 @@ const data: BaseArticleData = {
   id: Gods.LAMNASH,
   title: Gods.LAMNASH.toUpperCase(),
   quote: {
-    text: 'The ink on a contract keeps blood from the blade.',
-    attribution: 'Semaian saying',
+    text: 'Lamnosh whispers in a voice that was once your own.',
+    attribution: 'From "Damnations and Maledictions"',
   },
   image: {
     url: 'gods/lamnash-main.webp',

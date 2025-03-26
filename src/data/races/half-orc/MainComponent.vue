@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-card-subtitle> Overview </v-card-subtitle>
+    <v-card-subtitle> OVERVIEW </v-card-subtitle>
     <v-card-text>
       Half-orcs inhabit a world where they are constantly reminded of their dual heritage, one that
       casts a long shadow over their existence. Born from the often-violent encounters between orc

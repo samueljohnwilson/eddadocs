@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     <strong>Bargon, the Lord of Chains</strong>, is the god of oppression, punishment, and absolute
     order. He is the iron hand that enforces submission, the unyielding force that crushes

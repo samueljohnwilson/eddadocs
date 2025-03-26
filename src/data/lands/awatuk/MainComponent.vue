@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     Albia is a verdant island nation, steeped in ancient history and natural beauty. It is the first
     land where the elves set foot after their exile from Ulwyll, marking the beginning of the Second

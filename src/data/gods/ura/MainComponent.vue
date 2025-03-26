@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     <strong>Ura, the Dawnbringer</strong>, is a deity revered for her creative power, nurturing
     spirit, and deep connection to fertility, agriculture, and nature. When she first arrived in
@@ -36,7 +36,7 @@
     they cultivate, Ura's legacy as the Dawnbringer and goddess of fertility lives on, a perpetual
     reminder of the life and light she bestowed upon Edda.
   </v-card-text>
-  <v-card-subtitle> Worshippers </v-card-subtitle>
+  <v-card-subtitle> WORSHIPPERS </v-card-subtitle>
   <v-card-text>
     Worship of Ura is most prominent among two disparate groups: the elves of Neywyll and the human
     tribes of the north. The elves, renowned for their deep connection to the natural world,

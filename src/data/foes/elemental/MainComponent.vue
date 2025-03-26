@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     Elementals are beings of pure cosmic energy, inhabiting Astra, the primordial plane from which
     all other planes draw their essence. Created at the dawn of time by Anoreth, these beings are

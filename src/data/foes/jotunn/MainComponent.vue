@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     In the mythic lands of Edda, races of giants, known collectively as jotunn, roam the vast and
     varied landscapes, each type reflective to its unique environment. These colossal beings are

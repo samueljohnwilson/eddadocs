@@ -1,5 +1,5 @@
 <template>
-  <v-card-subtitle> Overview </v-card-subtitle>
+  <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
     Throughout the annals of history, <strong>Surad, the First King</strong>, has stood as a beacon
     of righteousness and protection, revered by mortals and deities alike for his unwavering wisdom
@@ -24,7 +24,7 @@
     rest of the Urdor, he was cast away from the mortal plane. Despite his absence, as the ages pass
     and civilizations rise and fall, Surad remains a figure of reverence and admiration.
   </v-card-text>
-  <v-card-subtitle> Worshippers </v-card-subtitle>
+  <v-card-subtitle> WORSHIPPERS </v-card-subtitle>
   <v-card-text>
     In realms across the lands, devoted followers of Surad have established religious orders
     dedicated to venerating the First King and upholding his teachings. Among these faithful, Surad
