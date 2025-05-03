@@ -7,26 +7,28 @@ import FadeImage from '@/components/FadeImage.vue';
     KNOWN AS
   </v-card-subtitle>
   <v-card-text>
-    The Ebon Blight<br />
+    The Red God<br />
+    The Blood God<br />
   </v-card-text>
   <v-card-subtitle>
     ASSOCIATIONS
   </v-card-subtitle>
   <v-card-text>
-    Disease<br />
-    Decay<br />
-    Poison<br />
+    War<br />
+    Rage<br />
+    Conflict<br />
+    Adventure<br />
   </v-card-text>
   <FadeImage
-    image="gods/nogloth-sidebar-1.webp"
-    imageTitle="Moric, the Mad"
+    image="gods/othar-sidebar-1.webp"
+    imageTitle="Soldiers battle"
   />
   <FadeImage
-    image="gods/nogloth-sidebar-2.webp"
-    imageTitle="A man touched by Lamnash"
+    image="gods/othar-sidebar-2.webp"
+    imageTitle="A berserker rages"
   />
   <FadeImage
-    image="gods/nogloth-sidebar-3.webp"
-    imageTitle="A vireth"
+    image="gods/othar-sidebar-3.webp"
+    imageTitle="A reaver stands over the battlefield"
   />
 </template>

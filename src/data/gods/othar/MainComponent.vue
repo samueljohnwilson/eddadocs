@@ -59,16 +59,13 @@
   </v-card-text>
   <v-card-subtitle> VASSALS </v-card-subtitle>
   <v-card-text>
-    Nogloth's plague demons, known as vireth, are grotesque horrors of filth and decay, shambling
-    masses of rotting flesh and seething pestilence. Their bloated, diseased forms constantly ooze
-    black bile, and their breath alone is enough to wither crops and sicken the strong. Wherever
-    they tread, the ground festers, birthing swarms of vermin and clouds of choking miasma. The
-    vireth do not fight with brute strength but with insidious inevitability, their claws festering
-    with infections that no mortal healer can cure. Some take the form of leprous giants, their
-    bodies riddled with gaping sores that spray noxious pus when wounded, while others are little
-    more than writhing colonies of plague-ridden insects, shifting between humanoid and swarming
-    forms as they descend upon their victims. When unleashed upon the mortal world, the vireth are
-    not merely killers—they are living blights, walking pandemics that ensure suffering long after
-    the battle is won.
+    Othar's divine servants, known as the reavers, are the relentless enforcers of his chaotic will,
+    embodying the fury and brutality of war itself. These divine warriors, clad in battered armor
+    and wielding weapons etched with the scars of a thousand battles, exist solely for conflict.
+    They are born of blood and iron, emerging from the chaos of battle to serve as Othar's
+    champions. They are not bound by the constraints of mortality, existing in a state between life
+    and death. Though they serve no master but Othar, they are bound to his endless struggle, compelled
+    by an insatiable hunger for bloodshed and the belief that only through conflict can true
+    strength be found.
   </v-card-text>
 </template>
