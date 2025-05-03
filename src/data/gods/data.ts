@@ -16,6 +16,7 @@ import surad from './surad/data';
 import thal from './thal/data';
 import ulat from './ulat/data';
 import ura from './ura/data';
+import valeya from './valeya/data';
 
 const data: Record<Gods, BaseArticleData> = {
   [Gods.AGORUS]: agorus,
@@ -34,7 +35,7 @@ const data: Record<Gods, BaseArticleData> = {
   [Gods.THAL]: thal,
   [Gods.ULAT]: ulat,
   [Gods.URA]: ura,
-  [Gods.VALEYA]: golin,
+  [Gods.VALEYA]: valeya,
 };
 
 export default data;
