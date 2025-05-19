@@ -28,6 +28,6 @@ import FadeImage from '@/components/FadeImage.vue';
   />
   <FadeImage
     image="gods/anoreth-sidebar-3.webp"
-    imageTitle="Elementals of Astra"
+    imageTitle="A mage drawing from the Great Weave"
   />
 </template>

@@ -14,7 +14,7 @@ const data: BaseArticleData = {
   },
   image: {
     url: 'gods/anoreth-main.webp',
-    title: 'Anoreth',
+    title: 'The Astral Plane',
   },
   content: MainComponent,
   sidebar: SidebarComponent,
