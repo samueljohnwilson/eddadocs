@@ -51,7 +51,7 @@
     these days are blessed with good fortune, while those who turn others away may find their stores
     spoiled or their livestock barren in the seasons to come.
   </v-card-text>
-  <v-card-subtitle> Worhippers </v-card-subtitle>
+  <v-card-subtitle> WORSHIPPERS </v-card-subtitle>
   <v-card-text>
     Bayah's followers are many, ranging from humble farmers to skilled artisans who work with the
     fruits of the land—millers, brewers, cheesemakers, and potters. Even rulers and warlords respect

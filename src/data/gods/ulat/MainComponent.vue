@@ -63,4 +63,12 @@
     departure marked the end of the Great War, but the legacy of his devastation continues to shape
     the world to this day.
   </v-card-text>
+  <v-card-subtitle> WORSHIPPERS </v-card-subtitle>
+  <v-card-text>
+    The followers of Ulat are often those who seek to understand the deeper mysteries of existence and the cycle of life and death. Many are healers, philosophers, and those who work closely with the transition between life and death.
+  </v-card-text>
+  <v-card-subtitle> VASSALS </v-card-subtitle>
+  <v-card-text>
+    Ulat's primary vassals are the Keepers of the Veil, mysterious entities that help guide souls through their final journey. These beings maintain the balance between the realms of the living and the dead.
+  </v-card-text>
 </template>

@@ -65,4 +65,8 @@
     Paragons endures as a symbol of hope and an unwavering reminder of the power of good to triumph
     over darkness.
   </v-card-text>
+  <v-card-subtitle> VASSALS </v-card-subtitle>
+  <v-card-text>
+    The most prominent vassals of Surad are the Storm Heralds, powerful elemental beings that command the winds and rain. These entities serve as intermediaries between Surad and mortals, often appearing during significant weather events to deliver messages or warnings.
+  </v-card-text>
 </template>

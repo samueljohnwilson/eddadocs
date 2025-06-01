@@ -40,7 +40,7 @@
   </v-card-text>
   <v-card-text>
     In contemporary times, Agorus is venerated by a diverse array of followers, from scholars and
-    scientists to explorers and mystics. His symbols, the open eye and the celestial map, are common
+    magi to explorers and mystics. His symbols, the open eye and the celestial map, are common
     motifs in libraries, universities, and observatories. Festivals dedicated to Agorus celebrate
     the quest for knowledge and the sharing of wisdom, with lectures, debates, and displays of
     discovery and innovation. Despite the challenges and changes the world has faced, the influence
@@ -49,28 +49,31 @@
   </v-card-text>
   <v-card-subtitle> WORSHIPPERS </v-card-subtitle>
   <v-card-text>
-    In the arid expanses of the desert realm of Ithra, the Farsirs, an esteemed order of mages,
-    dedicate their lives to the worship and teachings of Agorus, the All-Seer. Renowned for their
-    profound wisdom and mastery of divination, the Farsirs harness the arcane energies of the desert
-    to peer into the past, present, and future. Their secluded citadel, the Acumenium, is the center
-    of magical knowledge in Edda. This prestigious institution is home to the Farsirs, an order of
-    mages who are renowned for their unparalleled skill in divination and prophecy. The Farsirs tap
-    into the arcane energies of the cosmos to unveil hidden truths and foresee future events, using
-    their knowledge to guide the leaders and people of Edda. Only twelve students are accepted into
-    the Acumenium each year, and those who graduate become revered seers and advisors, sought after
-    by rulers and scholars alike.
+    Agorus' followers include magi, scholars, and mystics. They are the ones who seek to understand
+    the deeper truths of existence. Ithra is home to many of Agorus' most ardent followers. In the
+    arid expanses of the desert realm, the Farsirs, an esteemed order of mages, dedicate their lives
+    to the worship and teachings of the All-Seer. Renowned for their profound wisdom and mastery of
+    divination, the Farsirs harness the arcane energies of the desert to peer into the past,
+    present, and future. Their secluded citadel, the Acumenium, is the center of magical knowledge
+    in Edda. This prestigious institution is renowned for its student's unparalleled skill in
+    divination and prophecy. The Farsirs tap into the arcane energies of the cosmos to unveil hidden
+    truths and foresee future events, using their knowledge to guide Ithra's leaders and the people
+    of Edda—when they choose to listen. Only 24 students are accepted into the Acumenium each
+    year, and those who graduate become revered seers and advisors, sought after by rulers and
+    scholars alike.
   </v-card-text>
-  <v-card-subtitle> Strix </v-card-subtitle>
+  <v-card-subtitle> VASSALS </v-card-subtitle>
   <v-card-text>
-    The strix, a race of majestic celestial owls, are deeply intertwined with the worship of Agorus.
-    These ethereal creatures are said to be the embodiment of Agorus' wisdom and vigilance,
-    appearing on the mortal plane as messengers and guardians of knowledge. With feathers that
-    shimmer like starlight and eyes that reflect the cosmos, the strix are both awe-inspiring and
-    enigmatic. Long ago, they would grace the night skies above temples and sanctuaries dedicated to
-    Agorus, their haunting calls resonating like an ancient, sacred chant. Scholars and sages
-    believe that the strix possess the ability to see beyond the veil of reality, offering guidance
-    and insight to those deemed worthy. Encountering a strix is considered a profound omen,
-    signaling that Agorus himself is watching over and bestowing his celestial wisdom upon the
-    fortunate recipient.
+    Agorus' vassals are varied, but they all share a deep connection to the pursuit of knowledge and
+    understanding. The most notable of his vassals are the strix, a race of celestial beings that
+    take the form of owls. The strix are deeply intertwined with the worship of Agorus. These
+    ethereal creatures are said to be the embodiment of Agorus' wisdom and vigilance, appearing on
+    the mortal plane as messengers and guardians of knowledge. With feathers that shimmer like
+    starlight and eyes that reflect the cosmos, the strix are both awe-inspiring and enigmatic. Long
+    ago, they would grace the night skies above temples and sanctuaries dedicated to Agorus, their
+    haunting calls resonating like an ancient, sacred chant. Scholars and sages believe that the
+    strix possess the ability to see beyond the veil of reality, offering guidance and insight to
+    those deemed worthy. Encountering a strix is considered a profound omen, signaling that Agorus
+    himself is watching over and bestowing his celestial wisdom upon the fortunate recipient.
   </v-card-text>
 </template>
