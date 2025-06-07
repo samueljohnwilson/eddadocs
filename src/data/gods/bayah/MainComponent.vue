@@ -1,7 +1,7 @@
 <template>
   <v-card-subtitle> OVERVIEW </v-card-subtitle>
   <v-card-text>
-    <strong>Bayah, the Hearthmother</strong>, is the gentle yet steadfast guardian of home and
+    <strong>Bayah, the Hearthkeeper</strong>, is the gentle yet steadfast guardian of home and
     hearth. She is revered by farmers, herdsmen, and all who cultivate the land or tend to the
     warmth of the home. She represents not only the bounty of the fields but also the bonds of
     kinship, the comfort of a well-tended fire, and the strength found in community. Though she is a
@@ -18,7 +18,7 @@
     cooperation of soil, rain, and toil.
   </v-card-text>
   <v-card-text>
-    The Hearthmother's influence extends beyond the fields and into the the home. She is invoked
+    The Hearthkeeper's influence extends beyond the fields and into the the home. She is invoked
     over the first fire in a new dwelling, and many households maintain small altars to her, adorned
     with fresh bread, dried herbs, or simple tokens of gratitude. She watches over families,
     ensuring that love and warmth endure even in the harshest of times. Though she does not meddle
@@ -36,7 +36,7 @@
   <v-card-text>
     During the Great War, Bayah's blessings became the lifeblood of the armies of righteousness,
     sustaining them in their darkest hours. As battlefields burned and farmlands were trampled under
-    the weight of war, it was the Hearthmother's touch that ensured the harvest did not fail
+    the weight of war, it was the Hearthkeeper's touch that ensured the harvest did not fail
     entirely, that grain stores held longer than they should, and that the bread in soldiers' packs
     remained unblemished by mold. In besieged cities, where starvation loomed, prayers to Bayah saw
     roots and wild herbs flourish in hidden places, and livestock bear young despite the strain of

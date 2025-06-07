@@ -7,8 +7,7 @@ import FadeImage from '@/components/FadeImage.vue';
     KNOWN AS
   </v-card-subtitle>
   <v-card-text>
-    The Hearthmother<br />
-    The Mother of Mothers<br />
+    The Hearthkeeper<br />
   </v-card-text>
   <v-card-subtitle>
     ASSOCIATIONS

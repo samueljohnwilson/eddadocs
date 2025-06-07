@@ -23,7 +23,7 @@ import FadeImage from '@/components/FadeImage.vue';
     Craftsmen<br />
   </v-card-text>
   <FadeImage
-    image="gods/ulat-sidebar-1.png"
+    image="gods/ulat-sidebar-1.webp"
     imageTitle="The Scourging of Ithra"
   />
   <FadeImage

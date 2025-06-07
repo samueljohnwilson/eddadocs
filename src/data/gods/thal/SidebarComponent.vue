@@ -7,9 +7,7 @@ import FadeImage from '@/components/FadeImage.vue';
     KNOWN AS
   </v-card-subtitle>
   <v-card-text>
-    The First King<br />
-    The Father<br />
-    The Lawgiver<br />
+    The Blind God<br />
   </v-card-text>
   <v-card-subtitle>
     ASSOCIATIONS
