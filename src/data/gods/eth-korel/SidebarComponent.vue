@@ -8,21 +8,20 @@ import FadeImage from '@/components/FadeImage.vue';
   </v-card-subtitle>
   <v-card-text>
     The Duskfall<br />
-    The Father<br />
-    The Lawgiver<br />
+    The Grave Queen<br />
   </v-card-text>
   <v-card-subtitle>
     ASSOCIATIONS
   </v-card-subtitle>
   <v-card-text>
-    Justice<br />
+    Death<br />
     Order<br />
-    Agriculture<br />
-    Craftsmen<br />
+    The Dead<br />
+    Finality<br />
   </v-card-text>
   <FadeImage
     image="gods/eth-korel-sidebar-1.webp"
-    imageTitle="The Gate of Ursh"
+    imageTitle="The Damned risen from the grave"
   />
   <FadeImage
     image="gods/eth-korel-sidebar-2.webp"
