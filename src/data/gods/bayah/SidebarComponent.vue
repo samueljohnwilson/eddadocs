@@ -15,18 +15,19 @@ import FadeImage from '@/components/FadeImage.vue';
   <v-card-text>
     Home<br />
     Agriculture<br />
-    Crafting<br />
+    Growth<br />
+    Renewal<br />
   </v-card-text>
   <FadeImage
     image="gods/bayah-sidebar-1.webp"
-    imageTitle="A kitchen shrine"
+    imageTitle="Ancient forest"
   />
   <FadeImage
     image="gods/bayah-sidebar-2.webp"
-    imageTitle="A priestess of Bayah blessing a feast"
+    imageTitle="Harvest festival"
   />
   <FadeImage
     image="gods/bayah-sidebar-3.webp"
-    imageTitle="A brounie"
+    imageTitle="Sacred grove"
   />
 </template>

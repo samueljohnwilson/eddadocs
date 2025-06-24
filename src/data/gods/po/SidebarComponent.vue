@@ -7,16 +7,18 @@ import FadeImage from '@/components/FadeImage.vue';
     KNOWN AS
   </v-card-subtitle>
   <v-card-text>
-    The First King<br />
-    The Father<br />
-    The Lawgiver<br />
+    The Tempest<br />
+    The Everstorm<br />
   </v-card-text>
   <v-card-subtitle>
     ASSOCIATIONS
   </v-card-subtitle>
   <v-card-text>
     Weather<br />
-    Wind<br />
+    Chaos<br />
+    Sea<br />
+    Oceans<br />
+    Storms<br />
   </v-card-text>
   <FadeImage
     image="gods/po-sidebar-1.webp"

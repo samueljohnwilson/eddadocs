@@ -8,8 +8,8 @@ const data: BaseArticleData = {
   id: Gods.OTHAR,
   title: Gods.OTHAR.toUpperCase(),
   quote: {
-    text: 'He waits in the cough, in the wound, in the rot—as patient as the grave.',
-    attribution: 'Father Rennet, Order of the Blessed Sun',
+    text: 'Othar\'s blade knows no mercy, only victory.',
+    attribution: 'Battle cry of the Red Legion',
   },
   image: {
     url: 'gods/othar-main.webp',

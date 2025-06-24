@@ -13,9 +13,9 @@ import FadeImage from '@/components/FadeImage.vue';
     ASSOCIATIONS
   </v-card-subtitle>
   <v-card-text>
-    Wilderness<br />
     Hunting<br />
-    Celebration<br />
+    Harvest<br />
+    Travel<br />
   </v-card-text>
   <FadeImage
     image="gods/golin-sidebar-1.webp"

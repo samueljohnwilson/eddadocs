@@ -8,9 +8,8 @@ const data: BaseArticleData = {
   id: Gods.URA,
   title: Gods.URA.toUpperCase(),
   quote: {
-    text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+    text: 'In beauty, we find the spark of creation.',
+    attribution: 'Ura\'s First Teaching',
   },
   image: {
     url: 'gods/ura-main.webp',

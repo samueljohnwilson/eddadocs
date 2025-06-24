@@ -8,9 +8,8 @@ const data: BaseArticleData = {
   id: Gods.PO,
   title: Gods.PO.toUpperCase(),
   quote: {
-    text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+    text: 'The storm cares not for the plans of men.',
+    attribution: 'Ancient sailor\'s proverb',
   },
   image: {
     url: 'gods/po-main.webp',

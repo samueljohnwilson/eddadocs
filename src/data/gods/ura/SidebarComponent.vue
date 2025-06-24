@@ -17,10 +17,11 @@ import FadeImage from '@/components/FadeImage.vue';
     ASSOCIATIONS
   </v-card-subtitle>
   <v-card-text>
-    Justice<br />
-    Order<br />
-    Agriculture<br />
-    Craftsmen<br />
+    Creation<br />
+    Beauty<br />
+    Fertility<br />
+    Music<br />
+    Arts<br />
   </v-card-text>
   <FadeImage
     image="gods/ura-sidebar-1.webp"

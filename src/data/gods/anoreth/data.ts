@@ -8,9 +8,8 @@ const data: BaseArticleData = {
   id: Gods.ANORETH,
   title: Gods.ANORETH.toUpperCase(),
   quote: {
-    text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+    text: 'From the void, she wove the tapestry of existence.',
+    attribution: 'The First Scrolls',
   },
   image: {
     url: 'gods/anoreth-main.webp',

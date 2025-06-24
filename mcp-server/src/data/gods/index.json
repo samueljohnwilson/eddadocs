@@ -1,0 +1,188 @@
+{
+  "gods": {
+    "anoreth": {
+      "id": "anoreth",
+      "name": "Anoreth",
+      "title": "The Great Weaver",
+      "alignment": "N",
+      "domains": ["creation", "primordial"],
+      "file": "anoreth.md"
+    },
+    "agorus": {
+      "id": "agorus",
+      "name": "Agorus",
+      "title": "The All-Seer",
+      "alignment": "NG",
+      "domains": ["knowledge", "magic", "wisdom", "philosophy"],
+      "file": "agorus.md"
+    },
+    "bargon": {
+      "id": "bargon",
+      "name": "Bargon",
+      "title": "The Lord of Chains",
+      "alignment": "LE",
+      "domains": ["oppression", "punishment"],
+      "file": "bargon.md"
+    },
+    "bayah": {
+      "id": "bayah",
+      "name": "Bayah",
+      "title": "The Hearthkeeper",
+      "alignment": "CG",
+      "domains": ["home", "agriculture"],
+      "file": "bayah.md"
+    },
+    "dosha": {
+      "id": "dosha",
+      "name": "Dosha",
+      "title": "The Merchant Lord",
+      "alignment": "LN",
+      "domains": ["wealth"],
+      "file": "dosha.md"
+    },
+    "eth-korel": {
+      "id": "eth-korel",
+      "name": "Eth-Korel",
+      "title": "The Duskfall",
+      "alignment": "LE",
+      "domains": ["death"],
+      "file": "eth-korel.md"
+    },
+    "golin": {
+      "id": "golin",
+      "name": "Golin",
+      "title": "The Hunter",
+      "alignment": "NG",
+      "domains": ["hunting", "harvest", "travel"],
+      "file": "golin.md"
+    },
+    "lamnash": {
+      "id": "lamnash",
+      "name": "Lamnash",
+      "title": "The Mad One",
+      "alignment": "CE",
+      "domains": ["madness"],
+      "file": "lamnash.md"
+    },
+    "malak": {
+      "id": "malak",
+      "name": "Malak",
+      "title": "The Lord of Lies",
+      "alignment": "NE",
+      "domains": ["deception"],
+      "file": "malak.md"
+    },
+    "nogloth": {
+      "id": "nogloth",
+      "name": "Nogloth",
+      "title": "The Ebon Blight",
+      "alignment": "NE",
+      "domains": ["disease"],
+      "file": "nogloth.md"
+    },
+    "othar": {
+      "id": "othar",
+      "name": "Othar",
+      "title": "The Red God",
+      "alignment": "CN",
+      "domains": ["war"],
+      "file": "othar.md"
+    },
+    "po": {
+      "id": "po",
+      "name": "Po",
+      "title": "The Tempest",
+      "alignment": "CN",
+      "domains": ["weather", "chaos", "sea", "oceans"],
+      "file": "po.md"
+    },
+    "surad": {
+      "id": "surad",
+      "name": "Surad",
+      "title": "The First King",
+      "alignment": "LG",
+      "domains": ["justice", "peace", "agriculture", "craftsmen"],
+      "file": "surad.md"
+    },
+    "thal": {
+      "id": "thal",
+      "name": "Thal",
+      "title": "The Last Judge",
+      "alignment": "LN",
+      "domains": ["order"],
+      "file": "thal.md"
+    },
+    "ulat": {
+      "id": "ulat",
+      "name": "Ulat",
+      "title": "The Maelstrom",
+      "alignment": "CE",
+      "domains": ["destruction"],
+      "file": "ulat.md"
+    },
+    "ura": {
+      "id": "ura",
+      "name": "Ura",
+      "title": "The Dawnbringer",
+      "alignment": "CG",
+      "domains": ["creation", "beauty", "fertility", "music", "arts"],
+      "file": "ura.md"
+    },
+    "valeya": {
+      "id": "valeya",
+      "name": "Valeya",
+      "title": "The Light",
+      "alignment": "LG",
+      "domains": ["light", "healing", "protection"],
+      "file": "valeya.md"
+    }
+  },
+  "alignments": {
+    "LG": ["surad", "valeya"],
+    "NG": ["agorus", "golin"],
+    "CG": ["bayah", "ura"],
+    "LN": ["dosha", "thal"],
+    "N": ["anoreth"],
+    "CN": ["othar", "po"],
+    "LE": ["bargon", "eth-korel"],
+    "NE": ["malak", "nogloth"],
+    "CE": ["lamnash", "ulat"]
+  },
+  "domains": {
+    "knowledge": ["agorus"],
+    "magic": ["agorus"],
+    "wisdom": ["agorus"],
+    "philosophy": ["agorus"],
+    "creation": ["anoreth", "ura"],
+    "primordial": ["anoreth"],
+    "oppression": ["bargon"],
+    "punishment": ["bargon"],
+    "home": ["bayah"],
+    "agriculture": ["bayah"],
+    "wealth": ["dosha"],
+    "death": ["eth-korel"],
+    "hunting": ["golin"],
+    "harvest": ["golin"],
+    "travel": ["golin"],
+    "madness": ["lamnash"],
+    "deception": ["malak"],
+    "disease": ["nogloth"],
+    "war": ["othar"],
+    "weather": ["po"],
+    "chaos": ["po"],
+    "sea": ["po"],
+    "oceans": ["po"],
+    "justice": ["surad"],
+    "peace": ["surad"],
+    "craftsmen": ["surad"],
+    "order": ["thal"],
+    "destruction": ["ulat"],
+    "beauty": ["ura"],
+    "fertility": ["ura"],
+    "music": ["ura"],
+    "arts": ["ura"],
+    "light": ["valeya"],
+    "healing": ["valeya"],
+    "protection": ["valeya"]
+  }
+} 

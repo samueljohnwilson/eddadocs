@@ -8,9 +8,8 @@ const data: BaseArticleData = {
   id: Gods.ETH_KOREL,
   title: Gods.ETH_KOREL.toUpperCase(),
   quote: {
-    text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+    text: 'He waits in the cough, in the wound, in the rot—as patient as the grave.',
+    attribution: 'Father Rennet, Order of the Blessed Sun',
   },
   image: {
     url: 'gods/eth-korel-main.webp',

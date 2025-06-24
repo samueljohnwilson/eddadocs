@@ -9,8 +9,8 @@ const data: BaseArticleData = {
   title: Gods.MALAK.toUpperCase(),
   quote: {
     text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
-    attribution: 'Sir Lunder, magistrate of the Even Hand',
+      'Trust no one, for even the most loyal heart can be turned by the right whisper.',
+    attribution: 'Unknown assassin of the Oth-Malak',
   },
   image: {
     url: 'gods/malak-main.webp',

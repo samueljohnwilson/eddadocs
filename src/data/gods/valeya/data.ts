@@ -8,8 +8,8 @@ const data: BaseArticleData = {
   id: Gods.VALEYA,
   title: Gods.VALEYA.toUpperCase(),
   quote: {
-    text: 'He waits in the cough, in the wound, in the rot—as patient as the grave.',
-    attribution: 'Father Rennet, Order of the Blessed Sun',
+    text: 'In the darkest night, Valeya\'s light guides the lost home.',
+    attribution: 'Common prayer to Valeya',
   },
   image: {
     url: 'gods/valeya-main.webp',

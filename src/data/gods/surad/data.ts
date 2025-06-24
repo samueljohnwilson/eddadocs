@@ -8,8 +8,7 @@ const data: BaseArticleData = {
   id: Gods.SURAD,
   title: Gods.SURAD.toUpperCase(),
   quote: {
-    text:
-      'As spring follows winter, so justice follows evil. We must put our faith in the the First King, and act as the agents of his judgement.',
+    text: 'As spring follows winter, so justice follows evil. We must put our faith in the First King, and act as the agents of his judgement.',
     attribution: 'Sir Lunder, magistrate of the Even Hand',
   },
   image: {

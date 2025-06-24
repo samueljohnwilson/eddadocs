@@ -18,6 +18,8 @@ import FadeImage from '@/components/FadeImage.vue';
     Knowledge<br />
     Magic<br />
     Truth<br />
+    Wisdom<br />
+    Philosophy<br />
   </v-card-text>
   <FadeImage
     image="gods/agorus-sidebar-1.webp"
