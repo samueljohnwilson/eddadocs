@@ -8,9 +8,7 @@ aliases: [The Dawnbringer, The Creator, The Muse]
 associations: [Creation, Beauty, Fertility, Music, Arts]
 ---
 
-# Ura
-
-## Overview {#overview}
+## OVERVIEW
 
 **Ura, the Dawnbringer**, is a deity revered for her creative power, nurturing spirit, and deep connection to fertility, agriculture, and nature. When she first arrived in Edda, she saw a land brimming with potential, a canvas waiting for the brushstrokes of life. With her divine touch, Ura brought forth the mortal races, each uniquely crafted to thrive in the diverse landscapes of Edda.
 
@@ -28,13 +26,13 @@ Ura's influence extends beyond the creation of races to the very essence of life
 
 Since the Godsdeath, when [Anoreth](/gods/anoreth) banished the **Urdor** from the mortal realm, Ura's direct influence has diminished, but her legacy endures through the races she created and the beauty they continue to bring into the world. The mortal races of Edda carry within them the spark of Ura's creative spirit, and through their art, music, and culture, they honor the Dawnbringer's vision of a world filled with beauty and wonder.
 
-## Worshippers {#worshippers}
+## WORSHIPPERS
 
 Ura's followers are diverse, encompassing artists, musicians, farmers, and all those who seek to create and nurture. In the realm of [Neywyll](/lands/neywyll), the elves hold Ura in particularly high regard, seeing her as the source of their connection to nature and magic. The elven druids, known as the Greenwardens, are devoted followers of Ura, dedicating their lives to preserving the natural world and maintaining the balance between civilization and wilderness.
 
 The Greenwardens are renowned for their deep understanding of the natural world and their ability to communicate with plants and animals. They serve as guardians of the ancient forests and mystical groves, ensuring that the beauty and magic of these sacred places are preserved for future generations. Their rituals often involve music and dance, reflecting Ura's love of the arts and her connection to the creative spirit.
 
-## Vassals {#vassals}
+## VASSALS
 
 The dryads are a race of tree spirits that serve as Ura's most devoted vassals. These ethereal beings are deeply connected to the forests and groves of Edda, their forms taking the shape of beautiful women with bark-like skin and leaves for hair. Dryads are the guardians of the natural world, protecting the ancient trees and mystical groves that serve as Ura's sacred places. They possess the ability to communicate with plants and animals, using their connection to nature to maintain the balance between civilization and wilderness.
 

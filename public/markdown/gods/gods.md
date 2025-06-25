@@ -1,4 +1,3 @@
-# The Gods of Edda
 
 The gods of Edda, created by Anoreth the Sum of All Things. Each god embodies specific domains and responsibilities within the intricate web of existence.
 

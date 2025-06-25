@@ -17,6 +17,22 @@ export interface BaseArticleData {
   groupDescription?: Component;
 }
 
+export interface BaseMarkdownArticleData {
+  id: string;
+  image?: {
+    url: string;
+    title: string;
+  };
+  title: string;
+  quote?: {
+    text: string;
+    attribution: string;
+  };
+  sidebar?: Component;
+  groupDescription?: Component;
+  markdownPath: string; // Path to the markdown file
+}
+
 export interface MapMarker {
   name: string;
   coords: [number, number];

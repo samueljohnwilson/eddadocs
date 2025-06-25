@@ -8,9 +8,8 @@ aliases: [The Hunter, The Green Lord, The Horned One]
 associations: [Hunting, Harvest, Feast, Festivity, Travel]
 ---
 
-# Golin
 
-## Overview {#overview}
+## UOVERVIEW
 
 Golin, the Hunter, is a revered deity celebrated for his connection to the wild and his role in providing sustenance and joy to mortals. As one of the **Asier**, Golin embodies the primal spirit of the hunt and the abundance of the harvest. His followers see him as the patron of hunters, travelers, and all who celebrate life's pleasures. Temples dedicated to Golin are often built in wild places—forest clearings, mountain passes, or near ancient hunting grounds—where his followers can feel close to the natural world he represents.
 
@@ -22,13 +21,13 @@ Since the Godsdeath, when [[Anoreth]] banished the **Urdor** from the mortal rea
 
 In contemporary times, Golin is venerated by hunters, travelers, farmers, and all who value the wild and the simple pleasures of life. His symbols—the hunting horn, the antlered crown, the sheaf of wheat, and the winding road—are common in hunting lodges, taverns, and places where travelers gather throughout Edda. Festivals dedicated to Golin celebrate the hunt, the harvest, and the joy of community. Despite the passage of time and the changes in the world, Golin's wild spirit continues to inspire those who remember his teachings.
 
-## Worshippers {#worshippers}
+## UWORSHIPPERS
 
 Golin's followers include hunters, travelers, farmers, and all who value the wild and the simple pleasures of life. They are the ones who venture into the wilderness and bring back bounty for their communities. The rural communities and hunting lodges of Edda are home to many of Golin's most devoted followers.
 
 In the wild places of Edda, the Rangers of Golin, an order of hunters and guides, dedicate their lives to the worship and teachings of the Hunter. These skilled individuals are renowned for their hunting abilities, their knowledge of the wilderness, and their ability to guide others safely through dangerous lands. They live in communities centered around hunting lodges and waystations, where they teach others the arts of hunting, tracking, and survival. The Rangers are particularly known for their ability to communicate with animals and to call upon Golin's blessing for successful hunts and safe travels. They travel throughout the land, offering their services as guides and hunters and helping to maintain the sacred bond between people and the wild.
 
-## Vassals {#vassals}
+## UVASSALS
 
 Golin's vassals are creatures of the wild and the hunt, embodying his primal and nurturing nature.
 

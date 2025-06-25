@@ -8,9 +8,7 @@ aliases: [The All-Seer, The Great Sage, The Watching One]
 associations: [Knowledge, Magic, Truth]
 ---
 
-# Agorus
-
-## Overview {#overview}
+## OVERVIEW
 
 **Agorus, the All-Seer**, is a deity revered for his boundless wisdom and insight. As the second of the **Asier** to be created, alongside his brother [Malak](/gods/malak), Agorus has long been associated with knowledge and foresight. His followers believe that he possesses the ability to perceive all truths, both hidden and apparent, and to unravel the mysteries of the universe. Temples dedicated to Agorus are adorned with symbols of eyes and celestial maps, representing his omniscient gaze and the expanse of his knowledge. Scholars, sages, and seekers of truth flock to these sanctuaries, hoping to glean some of the divine insight that Agorus bestows upon his faithful.
 
@@ -22,10 +20,10 @@ Since the Godsdeath, when [Anoreth](/gods/anoreth) banished the **Urdor** from t
 
 In contemporary times, Agorus is venerated by a diverse array of followers, from scholars and magi to explorers and mystics. His symbols, the open eye and the celestial map, are common motifs in libraries, universities, and observatories. Festivals dedicated to Agorus celebrate the quest for knowledge and the sharing of wisdom, with lectures, debates, and displays of discovery and innovation. Despite the challenges and changes the world has faced, the influence of Agorus, the All-Seer, continues to shine as a guiding light for those who seek to understand the deeper truths of existence.
 
-## Worshippers {#worshippers}
+## WORSHIPPERS
 
 Agorus' followers include magi, scholars, and mystics. They are the ones who seek to understand the deeper truths of existence. [Ithra](/lands/ithra) is home to many of Agorus' most ardent followers. In the arid expanses of the desert realm, the Farsirs, an esteemed order of mages, dedicate their lives to the worship and teachings of the All-Seer. Renowned for their profound wisdom and mastery of divination, the Farsirs harness the arcane energies of the desert to peer into the past, present, and future. Their secluded citadel, the Acumenium, is the center of magical knowledge in Edda. This prestigious institution is renowned for its student's unparalleled skill in divination and prophecy. The Farsirs tap into the arcane energies of the cosmos to unveil hidden truths and foresee future events, using their knowledge to guide Ithra's leaders and the people of Edda—when they choose to listen. Only 24 students are accepted into the Acumenium each year, and those who graduate become revered seers and advisors, sought after by rulers and scholars alike.
 
-## Vassals {#vassals}
+## VASSALS
 
 Agorus' vassals are varied, but they all share a deep connection to the pursuit of knowledge and understanding. The most notable of his vassals are the strix, a race of celestial beings that take the form of owls. The strix are deeply intertwined with the worship of Agorus. These ethereal creatures are said to be the embodiment of Agorus' wisdom and vigilance, appearing on the mortal plane as messengers and guardians of knowledge. With feathers that shimmer like starlight and eyes that reflect the cosmos, the strix are both awe-inspiring and enigmatic. Long ago, they would grace the night skies above temples and sanctuaries dedicated to Agorus, their haunting calls resonating like an ancient, sacred chant. Scholars and sages believe that the strix possess the ability to see beyond the veil of reality, offering guidance and insight to those deemed worthy. Encountering a strix is considered a profound omen, signaling that Agorus himself is watching over and bestowing his celestial wisdom upon the fortunate recipient. 

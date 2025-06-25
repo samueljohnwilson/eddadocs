@@ -8,9 +8,8 @@ aliases: [The Last Judge, The Arbiter, The Lawgiver]
 associations: [Order, Law, Justice, Balance]
 ---
 
-# Thal
 
-## Overview {#overview}
+## UOVERVIEW
 
 **Thal, the Last Judge**, stands as the epitome of order, objectivity, and reason among the gods of Edda. He is neither swayed by benevolence nor malevolence but remains steadfastly committed to maintaining balance and impartiality. Thal's presence is often depicted as a towering figure clad in armor inscribed with intricate symbols of law and justice, wielding a staff that radiates an aura of calm authority. He is revered by those who seek clarity and fairness in a world often beset by chaos and uncertainty.
 
@@ -24,13 +23,13 @@ In the mortal realm, Thal's influence is felt through the institutions of law an
 
 Since the Godsdeath, when [Anoreth](/gods/anoreth) banished the **Urdor** from the mortal realm, Thal's direct influence has diminished, but his legacy endures through the laws and principles that he helped establish. The institutions of justice and order that he inspired continue to function, guided by the wisdom and principles that he imparted to mortals. Though he may no longer walk among them, Thal's presence is felt in every court of law, every council chamber, and every place where justice is sought and order is maintained.
 
-## Worshippers {#worshippers}
+## UWORSHIPPERS
 
 Thal's followers are those who value order, justice, and the rule of law above all else. Judges, lawyers, and law enforcement officials often pay homage to the Last Judge, seeking his guidance in their pursuit of justice. In the realm of [Unterlund](/lands/unterlund), the Even Hand, a religious order dedicated to upholding the law and ensuring fair treatment for all citizens, venerates Thal as their patron deity. The members of this order, comprised of judges, soldiers, paladins, and scholars, strive to maintain balance and harmony within the realm, dispensing judgment with wisdom and compassion.
 
 The Even Hand's influence extends beyond the borders of Unterlund, as their reputation for fairness and impartiality has spread throughout the lands of Edda. They are often called upon to mediate disputes between nations and to provide guidance in matters of law and governance. Their commitment to Thal's principles of order and justice has earned them the respect and admiration of rulers and commoners alike.
 
-## Vassals {#vassals}
+## UVASSALS
 
 The Sentinels are a race of celestial beings that serve as Thal's eyes and ears in the mortal realm. These imposing figures, clad in armor that gleams with divine light, are the embodiment of order and vigilance. They are tasked with observing the affairs of mortals, ensuring that the laws and principles established by Thal are upheld and respected. The Sentinels are not interventionist by nature, preferring to observe and report rather than act directly, but their presence alone is often enough to remind mortals of the importance of order and justice.
 

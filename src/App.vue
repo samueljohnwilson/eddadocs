@@ -43,7 +43,7 @@ const drawer = ref(false)
 </template>
 <style>
 html,
-body {
+body, h2 {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -68,6 +68,12 @@ h1 {
 }
 
 .v-card-subtitle {
+  font-size: 1.5rem;
+  padding: 0 0 0.5rem;
+  opacity: 1.0;
+}
+
+h2 {
   font-size: 1.5rem;
   padding: 0 0 0.5rem;
   opacity: 1.0;
