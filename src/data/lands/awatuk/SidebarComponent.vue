@@ -13,6 +13,6 @@ import FadeImage from '@/components/FadeImage.vue';
   />
   <FadeImage
     image="lands/awatuk-sidebar-3.webp"
-    imageTitle="A katjiktuk"
+    imageTitle="A katjik"
   />
 </template>

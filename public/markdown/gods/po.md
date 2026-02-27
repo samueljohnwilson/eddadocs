@@ -9,7 +9,7 @@ associations: [Weather, Chaos, Sea, Oceans, Storms]
 ---
 
 
-## UOVERVIEW
+## OVERVIEW
 
 Po, the Tempest, is a deity of chaos and unpredictability. She is a force of wild energy, embodying the ever-changing and capricious nature of the cosmos. Po is often depicted wreathed in swirling winds and crackling lightning, her laughter echoing across the skies like thunder. She holds sway over the turbulent forces of nature, her whims shaping the winds, rains, and storms that sweep across the mortal realm. She delights in stirring up chaos, reveling in unpredictability and the raw power of the elements.
 

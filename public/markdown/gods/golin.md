@@ -9,7 +9,7 @@ associations: [Hunting, Harvest, Feast, Festivity, Travel]
 ---
 
 
-## UOVERVIEW
+## OVERVIEW
 
 Golin, the Hunter, is a revered deity celebrated for his connection to the wild and his role in providing sustenance and joy to mortals. As one of the **Asier**, Golin embodies the primal spirit of the hunt and the abundance of the harvest. His followers see him as the patron of hunters, travelers, and all who celebrate life's pleasures. Temples dedicated to Golin are often built in wild places—forest clearings, mountain passes, or near ancient hunting grounds—where his followers can feel close to the natural world he represents.
 

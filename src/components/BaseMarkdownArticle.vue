@@ -13,17 +13,17 @@
         <v-col :cols="$vuetify.display.mdAndUp ? 9 : 12">
           <v-card class="pa-6">
             <v-card-title>
-              {{ articleData?.title || articleId }}
+              {{ articleData.title }}
             </v-card-title>
             
-            <v-row v-if="articleData?.image" align="center" justify="center">
+            <v-row v-if="articleData.image" align="center" justify="center">
               <v-col :cols="$vuetify.display.smAndDown ? 12 : 8">
                 <FadeImage
                   :image="articleData.image.url"
                   :imageTitle="articleData.image.title"
                 />
               </v-col>
-              <v-col v-if="$vuetify.display.mdAndUp && articleData?.quote" cols="4">
+              <v-col v-if="$vuetify.display.mdAndUp && articleData.quote" cols="4">
                 <QuoteBlock
                   :attribution="articleData.quote.attribution"
                   :quote="articleData.quote.text"
@@ -31,7 +31,7 @@
               </v-col>
             </v-row>
             
-            <v-row v-if="$vuetify.display.smAndDown && articleData?.quote">
+            <v-row v-if="$vuetify.display.smAndDown && articleData.quote">
               <v-col cols="12">
                 <QuoteBlock
                   :attribution="articleData.quote.attribution"
@@ -41,24 +41,19 @@
             </v-row>
             
             <v-row>
-              <v-col :cols="!articleData?.sidebar || $vuetify.display.smAndDown ? 12 : 8">
+              <v-col :cols="!articleData.sidebar || $vuetify.display.smAndDown ? 12 : 8">
                 <MarkdownRenderer 
                   v-if="markdownContent"
                   :content="markdownContent" 
                   :file-path="markdownFilePath"
                 />
-                <div v-else class="text-center pa-8">
-                  <v-alert type="warning">
-                    Content not found for {{ articleId }}
-                  </v-alert>
-                </div>
               </v-col>
               <!-- 
                 On desktop, if the sidebar exists, show it to the right of the content.
                 On mobile, show it below the content.
                -->
               <v-col
-                v-if="articleData?.sidebar"
+                v-if="articleData.sidebar"
                 :cols="$vuetify.display.smAndDown ? 12 : 4"
               >
                 <v-card elevation="0" class="sidebar">
@@ -79,15 +74,15 @@ import { type PropType } from 'vue'
 import FadeImage from '@/components/FadeImage.vue'
 import MarkdownRenderer from '@/components/MarkdownRenderer.vue'
 import QuoteBlock from '@/components/QuoteBlock.vue'
-import { type BaseMarkdownArticleData } from '@/types'
+import { type BaseArticleData } from '@/types'
 
 const props = defineProps({
-  articleData: {
-    type: Object as PropType<BaseMarkdownArticleData>,
+  viewName: {
+    type: String,
     required: true,
   },
-  articleId: {
-    type: String,
+  articleData: {
+    type: Object as PropType<BaseArticleData>,
     required: true,
   },
 })
@@ -96,17 +91,18 @@ const props = defineProps({
 const markdownContent = ref('')
 
 // Computed
+const articleId = computed(() => props.articleData?.id)
+
 const markdownFilePath = computed(() => {
-  return props.articleData?.markdownPath || `/markdown/${props.articleId}.md`
+  return `/markdown/${props.viewName}/${articleId.value}.md`
 })
 
 const loadContent = async () => {
-  if (!props.articleId) {
+  if (!articleId.value) {
     return
   }
   
   try {
-    // Try to load the markdown file
     const response = await fetch(markdownFilePath.value)
     if (response.ok) {
       const content = await response.text()
@@ -120,16 +116,16 @@ const loadContent = async () => {
   }
 }
 
-// Watch for articleId changes
-watch(() => props.articleId, () => {
-  if (props.articleId) {
+// Watch for articleData changes
+watch(articleId, () => {
+  if (articleId.value) {
     loadContent()
   }
 })
 
 // Load content on mount
 onMounted(() => {
-  if (props.articleId) {
+  if (articleId.value) {
     loadContent()
   }
 })

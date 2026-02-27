@@ -9,7 +9,7 @@ associations: [War, Battle, Courage, Honor]
 ---
 
 
-## UOVERVIEW
+## OVERVIEW
 
 Othar, the Red God, is a fierce deity revered and feared for his mastery of war and his embodiment of martial prowess. As one of the **Feymar**, Othar represents the raw power of conflict and the honor that can be found in battle. His followers see him as the patron of warriors, the judge of martial skill, and the bringer of both glory and death. Temples dedicated to Othar are often built in strategic locations—hilltops overlooking battlefields, passes that control trade routes, or near ancient sites of great conflicts—where his power can be felt most strongly.
 

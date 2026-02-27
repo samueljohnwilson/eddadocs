@@ -9,7 +9,7 @@ associations: [Order, Law, Justice, Balance]
 ---
 
 
-## UOVERVIEW
+## OVERVIEW
 
 **Thal, the Last Judge**, stands as the epitome of order, objectivity, and reason among the gods of Edda. He is neither swayed by benevolence nor malevolence but remains steadfastly committed to maintaining balance and impartiality. Thal's presence is often depicted as a towering figure clad in armor inscribed with intricate symbols of law and justice, wielding a staff that radiates an aura of calm authority. He is revered by those who seek clarity and fairness in a world often beset by chaos and uncertainty.
 
